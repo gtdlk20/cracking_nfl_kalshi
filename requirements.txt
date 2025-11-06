@@ -1,5 +1,6 @@
+cryptography
+numpy
+pandas
 python-dotenv
 requests
-cryptography
-pandas
-numpy
+scikit-learn

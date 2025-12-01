@@ -1,13 +1,14 @@
 import pandas as pd
 from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import StandardScaler
 from transformers.DateTimeTransformer import DateTimeTransformer
 from transformers.FFillImputer import FFillImputer
-from utils.constants import KALSHI_DATA_DAY, KALSHI_DATA_HOUR
+from utils.constants import KALSHI_DATA_DAY, KALSHI_DATA_HOUR, KALSHI_DATETIME_COLS
 
-class KalshiDataProcessor:
+class KalshiDataProcessor():
     """Processor for loading and processing Kalshi NFL candlestick data."""
 
-    def __init__(self, time_res: str = 'day', datetime_cols=['end_period_ts'], ffill_cols=None):
+    def __init__(self, time_res: str = 'day', datetime_cols=KALSHI_DATETIME_COLS, ffill_cols=None):
         if time_res == 'day':
             self.data_path = KALSHI_DATA_DAY
         elif time_res == 'hour':
@@ -18,7 +19,8 @@ class KalshiDataProcessor:
     
         self.pipeline = Pipeline(steps=[
             ('datetime_transformer', DateTimeTransformer(self.datetime_cols)),
-            ("ffill_imputer", FFillImputer(columns=ffill_cols, axis=0, limit=None))
+            ("ffill_imputer", FFillImputer(columns=ffill_cols, axis=0, limit=None)),
+            ("standard_scaler", StandardScaler())
         ])
 
     def process(self, df: pd.DataFrame) -> pd.DataFrame:

@@ -1,77 +1,77 @@
-id,created_utc,score,upvote_ratio,num_comments,link_flair_text,text,populairity,sentiment
-1p5hi95,1763992101.0,182,0.99,35,,John Metchie III📈 ,6486.0,positive
-1p531lp,1763945036.0,326,0.95,71,,Xavier Gipson 😂 ,22298.0,positive
-1p4xs3u,1763931527.0,532,0.98,44,,10 Years! ,23461.0,neutral
-1p4tg1y,1763921111.0,128,0.97,27,,Facebook memories from 16 (!) years ago never ceases to ruin my day. What could’ve been with Favre… ,3476.0,negative
+id,created_utc,score,upvote_ratio,num_comments,link_flair_text,text,populairity,sentiment,vader_neg,vader_neu,vader_pos,vader_compound
+1p5hi95,1763992101.0,182,0.99,35,,John Metchie III📈 ,6486.0,positive,0.0,1.0,0.0,0.0
+1p531lp,1763945036.0,326,0.95,71,,Xavier Gipson 😂 ,22298.0,positive,0.0,1.0,0.0,0.0
+1p4xs3u,1763931527.0,532,0.98,44,,10 Years! ,23461.0,neutral,0.0,1.0,0.0,0.0
+1p4tg1y,1763921111.0,128,0.97,27,,Facebook memories from 16 (!) years ago never ceases to ruin my day. What could’ve been with Favre… ,3476.0,negative,0.0,0.835,0.165,0.521
 1p3dsbg,1763767558.0,353,0.93,128,,"Is it unethical to raise your kids to be Jets fans? I have two kids and I love them more than anything. Recently I've been thinking: should I get rid of all my Jets apparel and act like I don't root for any football team so they are free to go their own way? What is the ethical choice?
 
-After all, if you carried a hereditary disease that would cause your children nothing but misery for the rest of their lives, but you could press a button and simply not give it to them, wouldn't it be wrong to pass it along?",42349.0,neutral
-1p328ly,1763740461.0,495,0.98,80,,Only thing giving me hope this season is the potential for the Bills to miss the playoffs ,39293.0,negative
-1p2clvq,1763667074.0,108,0.94,11,,New York Jets Week 12 Matchup Doodle :) ,1218.0,positive
-1p185sn,1763560143.0,1222,0.98,70,,Lol ,85027.0,neutral
-1p0osoz,1763501936.0,130,0.9,37,,"So happy for quinnen williams His start yesterday exceeded expectations, and I wish him the best. Loved him as a player and a person for our team. I’m glad he’s finding success. I hate losing talent, but it’s also terrible watching our organization kill potential with some of these guys. ",4446.0,positive
-1p0fri9,1763481761.0,111,0.92,28,,Kris Boyd bullet lodged in lung with Jets star's shooter still at large ,2961.0,negative
-1p01yca,1763438196.0,585,0.99,79,,Seeing Quinnen cook in his Cowboys debut ,46332.0,positive
-1ozq81f,1763408785.0,122,0.99,37,,"[Tom Pelissero{ Veteran DT Khalen Saunders expected to sign with the Jets, per sources ",4590.0,neutral
-1ozlv99,1763399265.0,575,0.98,308,,BREAKING: Jets to bench Justin Fields in favor of Tyrod Taylor (Dianna Russini) ,174122.0,neutral
-1ozkxdk,1763397174.0,713,0.96,35,,about to break another record ,24641.0,neutral
-1ozda3r,1763376915.0,285,0.93,65,,We’re definitely trading for Shedeur in the offseason aren’t we ,17493.0,neutral
-1oywrdd,1763326166.0,129,0.99,16,,Kris Boyd's Friend Gives Update: NFL Star 'Fine' After Being 'Critical' and Shot Twice ,2171.0,negative
-1oyq2y6,1763310577.0,194,0.97,125,,"Jets Player,  Kris Boyd shot in midtown Manhattan ",23711.0,negative
-1oy9abw,1763257880.0,336,0.99,13,,Central ,4657.0,neutral
-1oxzw7q,1763233343.0,998,0.98,115,,Sell the Team!!!! ,113453.0,negative
-1oxk21t,1763186384.0,105,0.98,7,,Curtis Martin - New York Jets Highlights- THE BEST JET OF ALL TIME ,823.0,positive
-1ox4xhn,1763145999.0,198,0.96,86,,One positive from yesterday: AD Mitchell got open numerous times vs Gonzalez ,16537.0,positive
-1ox32nq,1763141895.0,568,0.94,185,,I think Aaron Glenn is actually showing real signs of improvement ,99309.0,positive
-1owzv3g,1763134856.0,582,0.98,50,,They might be right ,29088.0,neutral
-1owyoy3,1763132261.0,307,0.95,210,,Just a reminder for how bad 2023 Zach Wilson was for us ,61538.0,negative
-1owvc3y,1763123759.0,806,0.99,55,,Please make it stop ,44685.0,negative
-1owtv9q,1763119256.0,419,0.94,168,,"if you see this Justin, this could be your opportunity to turn your career around ",66562.0,positive
-1owta72,1763117274.0,131,0.94,29,,Better than -10 net yards I guess. ,3694.0,neutral
+After all, if you carried a hereditary disease that would cause your children nothing but misery for the rest of their lives, but you could press a button and simply not give it to them, wouldn't it be wrong to pass it along?",42349.0,neutral,0.02,0.822,0.158,0.9315
+1p328ly,1763740461.0,495,0.98,80,,Only thing giving me hope this season is the potential for the Bills to miss the playoffs ,39293.0,negative,0.077,0.67,0.254,0.5719
+1p2clvq,1763667074.0,108,0.94,11,,New York Jets Week 12 Matchup Doodle :) ,1218.0,positive,0.0,0.7,0.3,0.4588
+1p185sn,1763560143.0,1222,0.98,70,,Lol ,85027.0,neutral,0.0,0.0,1.0,0.4215
+1p0osoz,1763501936.0,130,0.9,37,,"So happy for quinnen williams His start yesterday exceeded expectations, and I wish him the best. Loved him as a player and a person for our team. I’m glad he’s finding success. I hate losing talent, but it’s also terrible watching our organization kill potential with some of these guys. ",4446.0,positive,0.227,0.534,0.239,-0.4945
+1p0fri9,1763481761.0,111,0.92,28,,Kris Boyd bullet lodged in lung with Jets star's shooter still at large ,2961.0,negative,0.0,1.0,0.0,0.0
+1p01yca,1763438196.0,585,0.99,79,,Seeing Quinnen cook in his Cowboys debut ,46332.0,positive,0.0,1.0,0.0,0.0
+1ozq81f,1763408785.0,122,0.99,37,,"[Tom Pelissero{ Veteran DT Khalen Saunders expected to sign with the Jets, per sources ",4590.0,neutral,0.0,1.0,0.0,0.0
+1ozlv99,1763399265.0,575,0.98,308,,BREAKING: Jets to bench Justin Fields in favor of Tyrod Taylor (Dianna Russini) ,174122.0,neutral,0.0,0.816,0.184,0.4019
+1ozkxdk,1763397174.0,713,0.96,35,,about to break another record ,24641.0,neutral,0.0,1.0,0.0,0.0
+1ozda3r,1763376915.0,285,0.93,65,,We’re definitely trading for Shedeur in the offseason aren’t we ,17493.0,neutral,0.0,0.769,0.231,0.4019
+1oywrdd,1763326166.0,129,0.99,16,,Kris Boyd's Friend Gives Update: NFL Star 'Fine' After Being 'Critical' and Shot Twice ,2171.0,negative,0.0,0.802,0.198,0.4939
+1oyq2y6,1763310577.0,194,0.97,125,,"Jets Player,  Kris Boyd shot in midtown Manhattan ",23711.0,negative,0.0,1.0,0.0,0.0
+1oy9abw,1763257880.0,336,0.99,13,,Central ,4657.0,neutral,0.0,1.0,0.0,0.0
+1oxzw7q,1763233343.0,998,0.98,115,,Sell the Team!!!! ,113453.0,negative,0.0,1.0,0.0,0.0
+1oxk21t,1763186384.0,105,0.98,7,,Curtis Martin - New York Jets Highlights- THE BEST JET OF ALL TIME ,823.0,positive,0.0,0.69,0.31,0.7125
+1ox4xhn,1763145999.0,198,0.96,86,,One positive from yesterday: AD Mitchell got open numerous times vs Gonzalez ,16537.0,positive,0.0,0.753,0.247,0.5574
+1ox32nq,1763141895.0,568,0.94,185,,I think Aaron Glenn is actually showing real signs of improvement ,99309.0,positive,0.0,0.75,0.25,0.4588
+1owzv3g,1763134856.0,582,0.98,50,,They might be right ,29088.0,neutral,0.0,1.0,0.0,0.0
+1owyoy3,1763132261.0,307,0.95,210,,Just a reminder for how bad 2023 Zach Wilson was for us ,61538.0,negative,0.259,0.741,0.0,-0.5423
+1owvc3y,1763123759.0,806,0.99,55,,Please make it stop ,44685.0,negative,0.338,0.308,0.354,0.0258
+1owtv9q,1763119256.0,419,0.94,168,,"if you see this Justin, this could be your opportunity to turn your career around ",66562.0,positive,0.0,0.833,0.167,0.4215
+1owta72,1763117274.0,131,0.94,29,,Better than -10 net yards I guess. ,3694.0,neutral,0.0,0.633,0.367,0.4404
 1owmjbz,1763093178.0,146,0.85,142,,"Time to start Cook 8 losses the season is over.  Fields looks like he is playing to be a backup somewhere who won't throw picks.  Yeah the situation is bleak to start Brady Cook but at this point if you want me to watch at least let him throw for 55 yards because he isn't known at all.  
 
 It's crazy that I am saying this again but I would rather watch the scout team QB than this shit.  If he ends up being some freak success story at least maybe we can beat the Bills and ruin their season if by some slim chance he is a freak.
 
-He likely isn't but Tyrod won't make it through a game and Fields is miserable to watch.",17746.0,negative
-1owdls7,1763069383.0,160,0.99,72,,"Jets WR Garrett Wilson (knee) placed on injured reserve, out at least four games. ",11563.0,neutral
-1owa177,1763061155.0,127,0.95,16,,New York Jets Week 11 Gameday Doodle (TNF) ,2051.0,neutral
-1ow8oni,1763058170.0,196,0.9,103,,Ty Simpson will be here soon ,18346.0,neutral
-1ovsbic,1763009851.0,1886,0.97,344,,Woody Johnson is potentially referenced multiple times in the recent Epstein email releases. ,631150.0,neutral
-1ovbbrn,1762968155.0,134,0.68,47,,life a Jets fan ,4374.0,neutral
-1ov7ykp,1762960783.0,166,0.97,44,,Ducks for cover. Stephens is a steal ,7246.0,positive
-1outpua,1762915935.0,131,0.74,134,,"As if wearing this teams logo wasn’t bad enough, why would anybody buy this ",13087.0,negative
-1ouobbu,1762901676.0,124,0.98,15,,Will McDonald BULLIED the Browns | All-22 Film Breakdown ,1944.0,neutral
-1ounaoe,1762899237.0,209,0.94,68,,We???? ,13556.0,neutral
-1oun0ga,1762898572.0,380,0.98,33,,It be like that ,12662.0,neutral
-1otx6vx,1762826742.0,156,0.92,118,,People are saying Jordyn Tyson will somehow fix this. ,17079.0,neutral
-1otv1xw,1762820929.0,334,0.99,34,,The New York Jets haven’t lost a football game in 23 days Absolute cinema,11573.0,positive
-1otqzsi,1762811028.0,310,0.99,104,,Garrett Wilson Expected to miss 3-4 weeks from Knee Sprain ,32224.0,neutral
-1otkncx,1762797077.0,196,0.97,16,,Jetlife Baby!!! We run NY!!! ,3232.0,positive
+He likely isn't but Tyrod won't make it through a game and Fields is miserable to watch.",17746.0,negative,0.2,0.718,0.082,-0.9653
+1owdls7,1763069383.0,160,0.99,72,,"Jets WR Garrett Wilson (knee) placed on injured reserve, out at least four games. ",11563.0,neutral,0.172,0.828,0.0,-0.4019
+1owa177,1763061155.0,127,0.95,16,,New York Jets Week 11 Gameday Doodle (TNF) ,2051.0,neutral,0.0,1.0,0.0,0.0
+1ow8oni,1763058170.0,196,0.9,103,,Ty Simpson will be here soon ,18346.0,neutral,0.0,0.658,0.342,0.3818
+1ovsbic,1763009851.0,1886,0.97,344,,Woody Johnson is potentially referenced multiple times in the recent Epstein email releases. ,631150.0,neutral,0.0,1.0,0.0,0.0
+1ovbbrn,1762968155.0,134,0.68,47,,life a Jets fan ,4374.0,neutral,0.0,0.465,0.535,0.3182
+1ov7ykp,1762960783.0,166,0.97,44,,Ducks for cover. Stephens is a steal ,7246.0,positive,0.39,0.61,0.0,-0.4939
+1outpua,1762915935.0,131,0.74,134,,"As if wearing this teams logo wasn’t bad enough, why would anybody buy this ",13087.0,negative,0.212,0.788,0.0,-0.5423
+1ouobbu,1762901676.0,124,0.98,15,,Will McDonald BULLIED the Browns | All-22 Film Breakdown ,1944.0,neutral,0.408,0.592,0.0,-0.7034
+1ounaoe,1762899237.0,209,0.94,68,,We???? ,13556.0,neutral,0.0,1.0,0.0,0.0
+1oun0ga,1762898572.0,380,0.98,33,,It be like that ,12662.0,neutral,0.0,0.545,0.455,0.3612
+1otx6vx,1762826742.0,156,0.92,118,,People are saying Jordyn Tyson will somehow fix this. ,17079.0,neutral,0.0,1.0,0.0,0.0
+1otv1xw,1762820929.0,334,0.99,34,,The New York Jets haven’t lost a football game in 23 days Absolute cinema,11573.0,positive,0.161,0.839,0.0,-0.3182
+1otqzsi,1762811028.0,310,0.99,104,,Garrett Wilson Expected to miss 3-4 weeks from Knee Sprain ,32224.0,neutral,0.151,0.849,0.0,-0.1531
+1otkncx,1762797077.0,196,0.97,16,,Jetlife Baby!!! We run NY!!! ,3232.0,positive,0.0,1.0,0.0,0.0
 1otkmbh,1762797014.0,233,0.98,48,,"Robert Saleh had a better winning percentage then Brain Daboll Robert Saleh 20-36
 
-Brain Daboll 20-40-1",11189.0,neutral
-1otjuss,1762795350.0,445,0.98,171,,Justin Field’s Passing Chart from yesterday ,75009.0,neutral
+Brain Daboll 20-40-1",11189.0,neutral,0.0,0.674,0.326,0.743
+1otjuss,1762795350.0,445,0.98,171,,Justin Field’s Passing Chart from yesterday ,75009.0,neutral,0.0,1.0,0.0,0.0
 1otff32,1762785420.0,174,0.99,34,,"Jets are 14th in penalties/game The Jets currently rank 14th in penalties per game, at 6.7 per game.  In their last 3, they are 12th in the league averaging 5.3.  Last year, they finished 32nd with 8.1 per game.
 
-It's not perfect, but they are climbing towards being a top 10 team in terms of penalties.  That's all discipline and coaching.  They started about bad this year, but have only been improving.  Credit to Glenn and the coaching staff for addressing this issue as they said they would.",6029.0,positive
-1otfd2u,1762785286.0,294,0.99,54,,I feel like this has been quietly a massive upgrade ,16008.0,positive
-1otaw0z,1762772575.0,105,0.99,10,,Nick Mangold 🫡 ,1143.0,positive
-1ot88f6,1762762331.0,275,0.97,93,,Just when I thought I was out… ,25074.0,neutral
-1ot54ts,1762750995.0,372,0.95,27,,I can’t help but think he’s looking down so proud of them. ,9895.0,positive
-1ot37ew,1762744905.0,566,0.83,280,,People upset that the team won today because of draft order are miserable human beings. Miserable and out of touch.,132008.0,negative
-1ot0yta,1762738410.0,472,1.0,58,,Teams are now 225-1 since 1950 when holding an opponent to <175 yards and not turning the ball over ,27848.0,neutral
+It's not perfect, but they are climbing towards being a top 10 team in terms of penalties.  That's all discipline and coaching.  They started about bad this year, but have only been improving.  Credit to Glenn and the coaching staff for addressing this issue as they said they would.",6029.0,positive,0.069,0.836,0.095,0.3718
+1otfd2u,1762785286.0,294,0.99,54,,I feel like this has been quietly a massive upgrade ,16008.0,positive,0.0,0.737,0.263,0.3612
+1otaw0z,1762772575.0,105,0.99,10,,Nick Mangold 🫡 ,1143.0,positive,0.0,1.0,0.0,0.0
+1ot88f6,1762762331.0,275,0.97,93,,Just when I thought I was out… ,25074.0,neutral,0.0,1.0,0.0,0.0
+1ot54ts,1762750995.0,372,0.95,27,,I can’t help but think he’s looking down so proud of them. ,9895.0,positive,0.0,0.551,0.449,0.8093
+1ot37ew,1762744905.0,566,0.83,280,,People upset that the team won today because of draft order are miserable human beings. Miserable and out of touch.,132008.0,negative,0.314,0.557,0.129,-0.6486
+1ot0yta,1762738410.0,472,1.0,58,,Teams are now 225-1 since 1950 when holding an opponent to <175 yards and not turning the ball over ,27848.0,neutral,0.0,1.0,0.0,0.0
 1oswycb,1762727607.0,192,0.99,29,,"Per PFR: Will McDonald just the 3rd Jet with 4 sacks in 1 game https://www.sports-reference.com/stathead/tiny/489DG
 
 John Abraham in 2001
 Mark Gastineau 2x in 1983 and 1984
 
 
-Just a monster of a game for him. ",5702.0,neutral
-1osws0w,1762727176.0,113,0.83,47,,It’s the Jets way. ,4502.0,neutral
-1oswkcx,1762726651.0,333,0.99,38,,2-0 since our owner trashed our team ,12857.0,negative
+Just a monster of a game for him. ",5702.0,neutral,0.0,1.0,0.0,0.0
+1osws0w,1762727176.0,113,0.83,47,,It’s the Jets way. ,4502.0,neutral,0.0,1.0,0.0,0.0
+1oswkcx,1762726651.0,333,0.99,38,,2-0 since our owner trashed our team ,12857.0,negative,0.0,1.0,0.0,0.0
 1osvhab,1762724056.0,276,0.91,254,,"None of the three best QBs in the NFL were drafted with the No. 1 overall pick. **Jets win. Celebrate it.**  
-The last time I wanted to tank was for Trevor Lawrence, and at this point, I think it’s safe to say he wouldn’t have been the savior everyone hoped for. Sure, it’d be nice to have your pick of quarterback, but the way things are going, the front office might end up with their pick at QB anyway.",64046.0,positive
-1osuqgm,1762722277.0,1149,0.99,97,,10-7 Incoming? ,111476.0,neutral
+The last time I wanted to tank was for Trevor Lawrence, and at this point, I think it’s safe to say he wouldn’t have been the savior everyone hoped for. Sure, it’d be nice to have your pick of quarterback, but the way things are going, the front office might end up with their pick at QB anyway.",64046.0,positive,0.019,0.807,0.174,0.8765
+1osuqgm,1762722277.0,1149,0.99,97,,10-7 Incoming? ,111476.0,neutral,0.0,1.0,0.0,0.0
 1osuq0m,1762722249.0,112,0.99,585,,"Post Game Thread: Cleveland Browns at New York Jets #Cleveland Browns at New York Jets
 
 [ESPN Gamecast](https://www.espn.com/nfl/game/_/gameId/401772769/browns-jets)
@@ -139,77 +139,77 @@ Use [reddit-stream.com](https://reddit-stream.com/comments/auto) to get an autor
 
 ^This ^was ^created ^by ^a ^bot. ^For ^issues ^or ^suggestions ^please ^message ^nfl_gdt_bot.
 
-^Last ^updated: ^2025-11-09_16:34:31.506390-05:00",64976.0,neutral
-1osqu9m,1762713150.0,453,1.0,48,,[Highlight] Isaiah Williams returns a punt for the Jets' second special teams TD of the game ,22197.0,neutral
-1osqnkd,1762712712.0,372,0.99,36,,[Highlight] Kene Nwangwu returns the kick for a Jets TD ,13626.0,neutral
-1ospy88,1762711073.0,1075,1.0,27,,💚💚💚 ,30100.0,positive
-1oslp0y,1762700959.0,119,0.96,10,,New York Jets Week 10 Gameday Doodle! ,1257.0,neutral
-1osll2s,1762700683.0,332,0.86,93,,Seeing sauce on a winning team today ,26839.0,positive
+^Last ^updated: ^2025-11-09_16:34:31.506390-05:00",64976.0,neutral,0.0,1.0,0.0,0.0
+1osqu9m,1762713150.0,453,1.0,48,,[Highlight] Isaiah Williams returns a punt for the Jets' second special teams TD of the game ,22197.0,neutral,0.0,0.838,0.162,0.4019
+1osqnkd,1762712712.0,372,0.99,36,,[Highlight] Kene Nwangwu returns the kick for a Jets TD ,13626.0,neutral,0.0,1.0,0.0,0.0
+1ospy88,1762711073.0,1075,1.0,27,,💚💚💚 ,30100.0,positive,0.0,1.0,0.0,0.0
+1oslp0y,1762700959.0,119,0.96,10,,New York Jets Week 10 Gameday Doodle! ,1257.0,neutral,0.0,1.0,0.0,0.0
+1osll2s,1762700683.0,332,0.86,93,,Seeing sauce on a winning team today ,26839.0,positive,0.0,0.595,0.405,0.5267
 1os575l,1762648261.0,157,0.95,110,,"[Rapoport] Jets have no plans to fire HC Aaron Glenn despite 1-7 start, trading away Sauce Gardner and Quinnen Williams before deadline.
 
-He ""won't be judged during the 2025 season"" on Jets' record. ",16556.0,neutral
-1os3jjy,1762643719.0,108,0.83,160,,(Schefter) Greenberg and Schefter discuss the possibility of the Jets trading for Joe Burrow ,14432.0,neutral
-1os2hao,1762640939.0,297,0.96,36,,All of us watching PSU/Indiana today ,10549.0,neutral
-1oryjwn,1762631027.0,137,0.95,41,,Laveranues Coles - New Career ,5466.0,neutral
-1orusk9,1762621981.0,319,0.98,147,,Jets leadership at today’s Penn State vs Indiana game. ,46268.0,neutral
-1orjqju,1762588632.0,813,0.98,60,,HEARTWARMING: Sauce Gardner saves 2 kids from being Jets fans ,48601.0,positive
-1or9s6s,1762558041.0,273,0.97,52,,Sauce and Quinnen to the remaining Jets ,14035.0,neutral
-1or3non,1762543422.0,308,0.97,53,,Tough grid today ,16133.0,neutral
-1or1xpf,1762539547.0,129,0.97,56,,Fox Sports Parts Ways With NFL Analyst Mark Sanchez After Indianapolis Arrest ,7132.0,neutral
-1or0hnv,1762536287.0,417,0.94,117,,We’re toast ,46254.0,negative
-1oq5joy,1762451011.0,117,0.91,250,,"Since it’s Thursday and we have no confirmed starter,  if both are healthy who do you want to Start on Sunday? ",26724.0,neutral
-1opyb09,1762434117.0,729,0.98,117,,"I'm gonna miss Sauce, what a nice gesture ",84302.0,positive
-1opicu0,1762383943.0,590,0.89,140,,How I feel about this deadline… ,74039.0,neutral
-1ophr1c,1762382500.0,249,0.94,99,,"Justin Fields hasn't thrown an interception in 7 straight games, which is tied with Mark Sanchez for the longest streak by a Jets QB since at least 1970 ",23406.0,neutral
-1opgtr1,1762380380.0,149,0.96,188,,Jets Benching Quincy Williams ,27035.0,negative
-1opcns3,1762371113.0,238,0.94,153,,Rich Eisen: Jets’ History Inspires Little Confidence Team Will Get Its Latest Rebuild Right ,34453.0,negative
-1op5w59,1762356509.0,878,0.96,264,,"To every Jets fan, please spare your children from this team… ",223363.0,negative
-1op1h4x,1762345640.0,657,0.99,65,,appreciation post for our unsung hero ,42928.0,positive
-1oov89y,1762322697.0,430,0.96,49,,College players seeing the Jets have 4 first round picks in the next two drafts ,20640.0,neutral
-1oor6ej,1762310126.0,184,0.96,52,,Find out sauce is gone after buying his jersey ,9362.0,negative
-1ooqqv3,1762308917.0,397,0.92,99,,Trade all the firsts for BURROW ,36524.0,positive
-1ooo3qt,1762301823.0,215,0.97,14,,"No, Woody! Not like that! ",3128.0,neutral
-1oomu91,1762298573.0,385,0.97,17,,Breece watching Sauce and Quinnen get traded away ,6722.0,negative
-1ookxdd,1762294118.0,156,0.97,79,,The Jets have acquired CB Ja'Sir Taylor from the Los Angeles Chargers in exchange for a 2028 seventh-round pick. ,12106.0,neutral
-1ookjuy,1762293260.0,696,0.97,337,,Let Mougey Cook ,228191.0,positive
-1oojofo,1762291298.0,197,0.97,65,,"Hug your survivors, everyone. ",12612.0,positive
-1ooiy2c,1762289518.0,384,0.97,45,,"Woody, when we say ""Sell the Team"" this isn't what we meant... ",17134.0,neutral
-1ooi8sj,1762287852.0,316,0.99,66,,"Connor Hughes:Spoke to a team that called the #Jets recently about WR Garrett Wilson. With Sauce Gardner dealt, feeling around the NFL is anyone can be had. Not the case with Wilson. Conversations did not progress. He's untouchable. ",20960.0,neutral
-1oohe9f,1762285973.0,358,0.91,210,,Let him cook! ,68740.0,positive
+He ""won't be judged during the 2025 season"" on Jets' record. ",16556.0,neutral,0.129,0.871,0.0,-0.5574
+1os3jjy,1762643719.0,108,0.83,160,,(Schefter) Greenberg and Schefter discuss the possibility of the Jets trading for Joe Burrow ,14432.0,neutral,0.0,1.0,0.0,0.0
+1os2hao,1762640939.0,297,0.96,36,,All of us watching PSU/Indiana today ,10549.0,neutral,0.0,1.0,0.0,0.0
+1oryjwn,1762631027.0,137,0.95,41,,Laveranues Coles - New Career ,5466.0,neutral,0.0,1.0,0.0,0.0
+1orusk9,1762621981.0,319,0.98,147,,Jets leadership at today’s Penn State vs Indiana game. ,46268.0,neutral,0.0,1.0,0.0,0.0
+1orjqju,1762588632.0,813,0.98,60,,HEARTWARMING: Sauce Gardner saves 2 kids from being Jets fans ,48601.0,positive,0.0,0.676,0.324,0.5904
+1or9s6s,1762558041.0,273,0.97,52,,Sauce and Quinnen to the remaining Jets ,14035.0,neutral,0.0,1.0,0.0,0.0
+1or3non,1762543422.0,308,0.97,53,,Tough grid today ,16133.0,neutral,0.429,0.571,0.0,-0.128
+1or1xpf,1762539547.0,129,0.97,56,,Fox Sports Parts Ways With NFL Analyst Mark Sanchez After Indianapolis Arrest ,7132.0,neutral,0.179,0.821,0.0,-0.34
+1or0hnv,1762536287.0,417,0.94,117,,We’re toast ,46254.0,negative,0.0,1.0,0.0,0.0
+1oq5joy,1762451011.0,117,0.91,250,,"Since it’s Thursday and we have no confirmed starter,  if both are healthy who do you want to Start on Sunday? ",26724.0,neutral,0.091,0.744,0.165,0.2023
+1opyb09,1762434117.0,729,0.98,117,,"I'm gonna miss Sauce, what a nice gesture ",84302.0,positive,0.17,0.532,0.298,0.296
+1opicu0,1762383943.0,590,0.89,140,,How I feel about this deadline… ,74039.0,neutral,0.0,1.0,0.0,0.0
+1ophr1c,1762382500.0,249,0.94,99,,"Justin Fields hasn't thrown an interception in 7 straight games, which is tied with Mark Sanchez for the longest streak by a Jets QB since at least 1970 ",23406.0,neutral,0.0,0.929,0.071,0.2263
+1opgtr1,1762380380.0,149,0.96,188,,Jets Benching Quincy Williams ,27035.0,negative,0.0,1.0,0.0,0.0
+1opcns3,1762371113.0,238,0.94,153,,Rich Eisen: Jets’ History Inspires Little Confidence Team Will Get Its Latest Rebuild Right ,34453.0,negative,0.0,0.536,0.464,0.8593
+1op5w59,1762356509.0,878,0.96,264,,"To every Jets fan, please spare your children from this team… ",223363.0,negative,0.0,0.662,0.338,0.5574
+1op1h4x,1762345640.0,657,0.99,65,,appreciation post for our unsung hero ,42928.0,positive,0.0,0.367,0.633,0.7845
+1oov89y,1762322697.0,430,0.96,49,,College players seeing the Jets have 4 first round picks in the next two drafts ,20640.0,neutral,0.0,1.0,0.0,0.0
+1oor6ej,1762310126.0,184,0.96,52,,Find out sauce is gone after buying his jersey ,9362.0,negative,0.0,1.0,0.0,0.0
+1ooqqv3,1762308917.0,397,0.92,99,,Trade all the firsts for BURROW ,36524.0,positive,0.0,1.0,0.0,0.0
+1ooo3qt,1762301823.0,215,0.97,14,,"No, Woody! Not like that! ",3128.0,neutral,0.62,0.38,0.0,-0.5986
+1oomu91,1762298573.0,385,0.97,17,,Breece watching Sauce and Quinnen get traded away ,6722.0,negative,0.0,1.0,0.0,0.0
+1ookxdd,1762294118.0,156,0.97,79,,The Jets have acquired CB Ja'Sir Taylor from the Los Angeles Chargers in exchange for a 2028 seventh-round pick. ,12106.0,neutral,0.0,1.0,0.0,0.0
+1ookjuy,1762293260.0,696,0.97,337,,Let Mougey Cook ,228191.0,positive,0.0,1.0,0.0,0.0
+1oojofo,1762291298.0,197,0.97,65,,"Hug your survivors, everyone. ",12612.0,positive,0.0,0.492,0.508,0.4767
+1ooiy2c,1762289518.0,384,0.97,45,,"Woody, when we say ""Sell the Team"" this isn't what we meant... ",17134.0,neutral,0.0,1.0,0.0,0.0
+1ooi8sj,1762287852.0,316,0.99,66,,"Connor Hughes:Spoke to a team that called the #Jets recently about WR Garrett Wilson. With Sauce Gardner dealt, feeling around the NFL is anyone can be had. Not the case with Wilson. Conversations did not progress. He's untouchable. ",20960.0,neutral,0.06,0.901,0.039,-0.21
+1oohe9f,1762285973.0,358,0.91,210,,Let him cook! ,68740.0,positive,0.0,1.0,0.0,0.0
 1oohdfl,1762285922.0,133,0.94,107,,"[Schultz] Jets RB Breece Hall wants to be traded, I’m told. 
 
-A little over one hour until the deadline, but Breece “wants to be out.” ",13502.0,negative
-1ooglxi,1762284206.0,756,0.99,53,,"Bless you, thank you QW ",40416.0,positive
-1oogkrx,1762284138.0,920,0.99,73,,BIG Q APPRECIATION THREAD ,67399.0,positive
-1oogk5u,1762284099.0,1357,1.0,100,,Garrett Wilson walking into Jets practice Tomorrow ,137057.0,neutral
-1oogad0,1762283506.0,252,0.96,250,,Quinnen Williams traded to the Cowboys ,60722.0,negative
-1oog52m,1762283175.0,419,0.98,376,,"[Rappaport] The #Cowboys are trading for #Jets Pro Bowl DT Quinnen Williams, sending a first-round pick and more to NYJ, per The Insiders. ",154804.0,neutral
-1oofqvx,1762282331.0,134,0.98,35,,Win now! ,4728.0,positive
-1ooeg8l,1762279559.0,170,0.92,73,,Jets acquired Adonai Mitchell from the Colts in the Sauce deal. He looks like a perfect fit based on this highlight. ,11574.0,neutral
-1ooe3sz,1762278817.0,1447,0.95,304,,SAUCE GARDNER APPRECIATION THREAD ,419268.0,positive
-1ooe0t8,1762278633.0,132,0.95,143,,[Schefter] ESPN Sources: Colts are trading two first-round picks to the Jets for CB Sauce Gardner ,18058.0,neutral
-1ooe029,1762278590.0,199,0.97,214,,Adam Schefter: ESPN sources: Colts are trading two first-round picks to the Jets for CB Sauce Gardner. ,41501.0,neutral
-1oodxrc,1762278455.0,180,0.95,73,,Per recent news 😐,12654.0,neutral
-1oodwv4,1762278399.0,430,0.98,611,,[Rapaport] Sources: The #Jets are trading Sauce Gardner to the #Colts. Blockbuster. ,257897.0,neutral
-1onigx5,1762191864.0,179,0.97,96,,Jets HC Aaron Glenn declined to name a starting QB for Week 10’s game against the Browns. ,16842.0,neutral
-1ompvka,1762110486.0,581,0.98,24,Memes,They're going to make it 19 days without a loss ,14234.0,positive
-1oll0ra,1761994918.0,144,0.98,57,,Brandon Stephens has been a SURPRISE STAR for the New York Jets | I was wrong | All-22 Film Breakdown 🎥 ,8185.0,positive
-1oldoys,1761966636.0,338,0.97,23,,We’ve been here before! ,7869.0,neutral
-1olajtm,1761956582.0,154,0.9,26,,Decided to be Quincy Enunwa for Halloween. Despite looking exactly like him no one in San Francisco has understood the costume yet ,3742.0,neutral
-1olaje6,1761956545.0,114,0.97,6,,Fitz remembering his dear friend 💚 ,774.0,positive
-1ol1dn6,1761933021.0,121,0.95,13,,Happy Helloween fellow J-E-T-S fan!! ,1609.0,positive
-1okghoe,1761870561.0,341,0.9,36,,Most popular Jets Halloween costume this year! ,11355.0,positive
-1ojei7t,1761767074.0,345,0.99,174,,"TRADE: The Eagles are sending WR John Metchie and a 2027 sixth-round pick to the Jets for CB Michael Carter II and a 2027 seventh-round pick, sources say. ",59771.0,neutral
-1ojei4c,1761767068.0,138,0.98,89,,"[Schefter] Trade: Jets are sending CB Michael Carter and a 2027 7th-round pick to the Eagles in exchange for WR John Metchie and a 2027 sixth-round pick, per sources. ",12172.0,neutral
-1oj66kq,1761748457.0,517,0.98,223,,"[Highlight] Jordan Travis on Woody Johnson: “There were things said to me about my leg - just slick comments like, ‘You’re never gonna get healthy.’ Not ‘how are you feeling?’ Never that. It was always comments like that. And it kind of upset me… Kudos to Justin Fields.” ",113492.0,neutral
-1oj05nx,1761731089.0,163,0.95,35,,Worse than the Butt Fumble!! Football nostalgia...Saints Punter & Head Coach can't comprehend what they're witnessing ,5575.0,negative
-1oiifuc,1761678650.0,149,0.99,76,,Jets' 42-17 win vs. Packers in 2002. ,11358.0,neutral
+A little over one hour until the deadline, but Breece “wants to be out.” ",13502.0,negative,0.0,1.0,0.0,0.0
+1ooglxi,1762284206.0,756,0.99,53,,"Bless you, thank you QW ",40416.0,positive,0.0,0.361,0.639,0.6486
+1oogkrx,1762284138.0,920,0.99,73,,BIG Q APPRECIATION THREAD ,67399.0,positive,0.0,0.377,0.623,0.5106
+1oogk5u,1762284099.0,1357,1.0,100,,Garrett Wilson walking into Jets practice Tomorrow ,137057.0,neutral,0.0,1.0,0.0,0.0
+1oogad0,1762283506.0,252,0.96,250,,Quinnen Williams traded to the Cowboys ,60722.0,negative,0.0,1.0,0.0,0.0
+1oog52m,1762283175.0,419,0.98,376,,"[Rappaport] The #Cowboys are trading for #Jets Pro Bowl DT Quinnen Williams, sending a first-round pick and more to NYJ, per The Insiders. ",154804.0,neutral,0.0,1.0,0.0,0.0
+1oofqvx,1762282331.0,134,0.98,35,,Win now! ,4728.0,positive,0.0,0.196,0.804,0.6239
+1ooeg8l,1762279559.0,170,0.92,73,,Jets acquired Adonai Mitchell from the Colts in the Sauce deal. He looks like a perfect fit based on this highlight. ,11574.0,neutral,0.0,0.583,0.417,0.8873
+1ooe3sz,1762278817.0,1447,0.95,304,,SAUCE GARDNER APPRECIATION THREAD ,419268.0,positive,0.0,0.476,0.524,0.5106
+1ooe0t8,1762278633.0,132,0.95,143,,[Schefter] ESPN Sources: Colts are trading two first-round picks to the Jets for CB Sauce Gardner ,18058.0,neutral,0.0,1.0,0.0,0.0
+1ooe029,1762278590.0,199,0.97,214,,Adam Schefter: ESPN sources: Colts are trading two first-round picks to the Jets for CB Sauce Gardner. ,41501.0,neutral,0.0,1.0,0.0,0.0
+1oodxrc,1762278455.0,180,0.95,73,,Per recent news 😐,12654.0,neutral,0.0,1.0,0.0,0.0
+1oodwv4,1762278399.0,430,0.98,611,,[Rapaport] Sources: The #Jets are trading Sauce Gardner to the #Colts. Blockbuster. ,257897.0,neutral,0.0,0.738,0.262,0.5994
+1onigx5,1762191864.0,179,0.97,96,,Jets HC Aaron Glenn declined to name a starting QB for Week 10’s game against the Browns. ,16842.0,neutral,0.0,1.0,0.0,0.0
+1ompvka,1762110486.0,581,0.98,24,Memes,They're going to make it 19 days without a loss ,14234.0,positive,0.0,0.803,0.197,0.2411
+1oll0ra,1761994918.0,144,0.98,57,,Brandon Stephens has been a SURPRISE STAR for the New York Jets | I was wrong | All-22 Film Breakdown 🎥 ,8185.0,positive,0.156,0.702,0.142,-0.0688
+1oldoys,1761966636.0,338,0.97,23,,We’ve been here before! ,7869.0,neutral,0.0,1.0,0.0,0.0
+1olajtm,1761956582.0,154,0.9,26,,Decided to be Quincy Enunwa for Halloween. Despite looking exactly like him no one in San Francisco has understood the costume yet ,3742.0,neutral,0.177,0.823,0.0,-0.5122
+1olaje6,1761956545.0,114,0.97,6,,Fitz remembering his dear friend 💚 ,774.0,positive,0.0,0.341,0.659,0.7003
+1ol1dn6,1761933021.0,121,0.95,13,,Happy Helloween fellow J-E-T-S fan!! ,1609.0,positive,0.0,0.313,0.687,0.7639
+1okghoe,1761870561.0,341,0.9,36,,Most popular Jets Halloween costume this year! ,11355.0,positive,0.0,0.639,0.361,0.5244
+1ojei7t,1761767074.0,345,0.99,174,,"TRADE: The Eagles are sending WR John Metchie and a 2027 sixth-round pick to the Jets for CB Michael Carter II and a 2027 seventh-round pick, sources say. ",59771.0,neutral,0.0,1.0,0.0,0.0
+1ojei4c,1761767068.0,138,0.98,89,,"[Schefter] Trade: Jets are sending CB Michael Carter and a 2027 7th-round pick to the Eagles in exchange for WR John Metchie and a 2027 sixth-round pick, per sources. ",12172.0,neutral,0.0,1.0,0.0,0.0
+1oj66kq,1761748457.0,517,0.98,223,,"[Highlight] Jordan Travis on Woody Johnson: “There were things said to me about my leg - just slick comments like, ‘You’re never gonna get healthy.’ Not ‘how are you feeling?’ Never that. It was always comments like that. And it kind of upset me… Kudos to Justin Fields.” ",113492.0,neutral,0.053,0.793,0.153,0.6605
+1oj05nx,1761731089.0,163,0.95,35,,Worse than the Butt Fumble!! Football nostalgia...Saints Punter & Head Coach can't comprehend what they're witnessing ,5575.0,negative,0.208,0.792,0.0,-0.5696
+1oiifuc,1761678650.0,149,0.99,76,,Jets' 42-17 win vs. Packers in 2002. ,11358.0,neutral,0.0,0.612,0.388,0.5859
 1oii6sd,1761678070.0,368,0.99,122,,"(@JustinTFried) Brandon Stephens is the HIGHEST-graded CB in the Entire NFL by PFF since Week 4 (min. 150 snaps). His 82.2 grade ranks 1st amount 72 qualifiers over the last 5 weeks. 82.9 PFF coverage grade ranks 2nd. Remarkable turnaround for the #Jets big free agent signing. He’s balling. Brandon Stephens is the HIGHEST-graded CB in the entire NFL by PFF since Week 4 (min. 150 snaps).
 
 His 82.2 grade ranks 1st among 72 qualifiers over the last 5 weeks. 82.9 PFF coverage grade ranks 2nd.
 
-Remarkable turnaround for the #Jets big free agent signing. He’s balling.",44811.0,positive
-1oiftst,1761672774.0,487,0.99,26,,One of my all time favorite Nick moments! ,13018.0,positive
+Remarkable turnaround for the #Jets big free agent signing. He’s balling.",44811.0,positive,0.0,0.866,0.134,0.93
+1oiftst,1761672774.0,487,0.99,26,,One of my all time favorite Nick moments! ,13018.0,positive,0.0,0.68,0.32,0.5093
 1ohwlmd,1761614598.0,170,1.0,13,,"Petition to retire Nick Mangold's number With the information of the passing of one of our greatest player, Nick Mangold, I have set up a petition to retire his number- 74 - so that he will live in infamy for not only his incredible plays that pushed the NY Jets to be the best Defensive Line in the league, but for his love of the game. I remember meeting him at Summer Camp and he was the most appreciative and humble player, so excited to meet fans.
 
   
@@ -219,11 +219,11 @@ Please share with any of your JETS Fans friends or family.
 
 
 
-For those who will say that his number is being used- It is allowed to retire the number, even when currently being used. The player can continue to use it, but once he retires/leaves the team. The number is done.",2380.0,neutral
-1ohp4le,1761595902.0,273,0.95,102,,The Mendoza Bowl ,26713.0,neutral
-1ohnyjg,1761593276.0,1106,0.99,67,,Thank you Jets ,74456.0,positive
-1ohlvh3,1761588613.0,115,0.98,8,,Top Photos from Nick Mangold's Retirement Ceremony (RIP 74) ,1014.0,neutral
-1ohjinw,1761583440.0,187,0.96,30,,What I was thinking watching this happen ,5565.0,neutral
+For those who will say that his number is being used- It is allowed to retire the number, even when currently being used. The player can continue to use it, but once he retires/leaves the team. The number is done.",2380.0,neutral,0.0,0.743,0.257,0.9938
+1ohp4le,1761595902.0,273,0.95,102,,The Mendoza Bowl ,26713.0,neutral,0.0,1.0,0.0,0.0
+1ohnyjg,1761593276.0,1106,0.99,67,,Thank you Jets ,74456.0,positive,0.0,0.444,0.556,0.3612
+1ohlvh3,1761588613.0,115,0.98,8,,Top Photos from Nick Mangold's Retirement Ceremony (RIP 74) ,1014.0,neutral,0.0,0.816,0.184,0.2023
+1ohjinw,1761583440.0,187,0.96,30,,What I was thinking watching this happen ,5565.0,neutral,0.0,1.0,0.0,0.0
 1ohj17o,1761582363.0,274,0.99,12,,"Remembering 74 Living near Madison and being a Jets fan and season ticket holder means Nick Mangold was kinda always around.
 
 * In the Rex Ryan days, they'd get off the bus by the long walkway with the flags and we had a huge tailgate of 30-40 people on the corner right near it. They'd all walk by and he'd always say hi and shake hands or take pics with us. Once he even had a hot dog with us.
@@ -231,28 +231,28 @@ For those who will say that his number is being used- It is allowed to retire th
 * When I got his spicy BBQ sauce that had a tagline of ""a whole lot o' heat with a lil' sweet"" I put a picture on Instagram, tagged him, and captioned it ""I imagine this is what a hug from Nick Mangold is like"" and he responded ""it's true""
 * He was spotted around town like a regular guy, was active in the community, and just an all around awesome human.
 
-He'll be missed for sure. Thought my fellow Jets fans would appreciate some of the interactions/overlap I shared with him over the years.",3526.0,positive
-1ohhcnb,1761578610.0,207,0.88,131,,Great first win yesterday for The Jets. The team needs to support Justin Fields more. ,24045.0,positive
-1ohgssa,1761577381.0,326,0.88,197,,Stop Complaining about Draft Position and Enjoy the Win! ,56802.0,neutral
-1ohfsn8,1761575092.0,262,0.99,69,,MMQB ,18157.0,neutral
-1oh382q,1761532649.0,1416,1.0,156,,"""The problem is you, Woody. Maybe you look in the mirror... It starts at the top, and it trickles down. This is cowardly."" - Alex Smith goes off on Woody Johnson ",222312.0,negative
-1oh2nme,1761530951.0,107,1.0,3,,Proudly repped in Nashville tonight. We won it for Nick ,428.0,positive
-1oh0kos,1761524975.0,444,1.0,19,,Even the hockey world was shocked ,8880.0,neutral
-1ogz9t2,1761521319.0,735,0.99,164,,"[Highlight] Justin Fields after today’s win: “I'm going to get pretty vulnerable right here. This week I found myself in my closet crying on the ground, lying down. … I was praying over and over.” ",120062.0,neutral
-1ogxyrg,1761517839.0,278,1.0,37,,"[Zack Rosenblatt] Jarvis Brownlee on his stop to clinch the win: ""I’m a guy that makes plays. That’s what they brought me here for."" ",10564.0,positive
-1ogwcrl,1761513708.0,379,1.0,22,,Feels like this is worth reposting today - #74 ,8717.0,neutral
-1ogvdu6,1761511325.0,140,0.98,7,,P.S. I love you (clowns) ,1098.0,negative
-1ogvbhw,1761511162.0,264,0.98,23,,Aaron Glenn if we played the Bengals every week. ,6209.0,neutral
-1ogv1uq,1761510522.0,845,0.99,18,,"RIP Nick Mangold, NY Jets legend ",15894.0,neutral
-1ogv08s,1761510416.0,302,0.98,10,,Mangold surprises us one last time ,3256.0,positive
-1oguz9f,1761510353.0,296,1.0,32,,[Highlight] Breece Hall double clutches and throws touchdown to Mason Taylor to give Jets the lead ,9768.0,positive
-1oguupp,1761510053.0,260,0.93,30,,RIP Nick ,7496.0,neutral
-1oguqzr,1761509804.0,340,1.0,88,,"In the 4th Quarter, Breece Hall rushed for 2 TDs and threw for 1 TD ",30260.0,neutral
-1ogum1u,1761509466.0,182,0.95,12,,MIRACLES DO HAPPEN ,2248.0,positive
-1ogulmx,1761509441.0,296,0.94,41,,1-7 WOOOOOOO HOOOOO LETS GOOOO SUPERBOWL READY. THIS YEARS OUR YEAR...NEVER DOUBTED THEM FOR A SECOND. UNDEFEATED AS OF 2 MINUTES AGO ,11686.0,positive
-1ogull0,1761509437.0,1873,0.98,181,,OMG….it happened ,334068.0,positive
-1ogukim,1761509366.0,1718,0.99,27,,This one was for you big dog. RIP. Jet the fuck up. ,47623.0,positive
-1ogujzf,1761509330.0,568,0.99,8,,For Nick ,5061.0,neutral
+He'll be missed for sure. Thought my fellow Jets fans would appreciate some of the interactions/overlap I shared with him over the years.",3526.0,positive,0.018,0.811,0.171,0.9893
+1ohhcnb,1761578610.0,207,0.88,131,,Great first win yesterday for The Jets. The team needs to support Justin Fields more. ,24045.0,positive,0.0,0.531,0.469,0.891
+1ohgssa,1761577381.0,326,0.88,197,,Stop Complaining about Draft Position and Enjoy the Win! ,56802.0,neutral,0.246,0.307,0.448,0.6476
+1ohfsn8,1761575092.0,262,0.99,69,,MMQB ,18157.0,neutral,0.0,1.0,0.0,0.0
+1oh382q,1761532649.0,1416,1.0,156,,"""The problem is you, Woody. Maybe you look in the mirror... It starts at the top, and it trickles down. This is cowardly."" - Alex Smith goes off on Woody Johnson ",222312.0,negative,0.083,0.826,0.092,-0.1779
+1oh2nme,1761530951.0,107,1.0,3,,Proudly repped in Nashville tonight. We won it for Nick ,428.0,positive,0.0,0.523,0.477,0.8074
+1oh0kos,1761524975.0,444,1.0,19,,Even the hockey world was shocked ,8880.0,neutral,0.315,0.685,0.0,-0.3182
+1ogz9t2,1761521319.0,735,0.99,164,,"[Highlight] Justin Fields after today’s win: “I'm going to get pretty vulnerable right here. This week I found myself in my closet crying on the ground, lying down. … I was praying over and over.” ",120062.0,neutral,0.191,0.592,0.216,0.2732
+1ogxyrg,1761517839.0,278,1.0,37,,"[Zack Rosenblatt] Jarvis Brownlee on his stop to clinch the win: ""I’m a guy that makes plays. That’s what they brought me here for."" ",10564.0,positive,0.079,0.714,0.207,0.5574
+1ogwcrl,1761513708.0,379,1.0,22,,Feels like this is worth reposting today - #74 ,8717.0,neutral,0.0,0.577,0.423,0.5267
+1ogvdu6,1761511325.0,140,0.98,7,,P.S. I love you (clowns) ,1098.0,negative,0.0,0.417,0.583,0.6369
+1ogvbhw,1761511162.0,264,0.98,23,,Aaron Glenn if we played the Bengals every week. ,6209.0,neutral,0.0,0.769,0.231,0.34
+1ogv1uq,1761510522.0,845,0.99,18,,"RIP Nick Mangold, NY Jets legend ",15894.0,neutral,0.0,1.0,0.0,0.0
+1ogv08s,1761510416.0,302,0.98,10,,Mangold surprises us one last time ,3256.0,positive,0.0,0.725,0.275,0.2263
+1oguz9f,1761510353.0,296,1.0,32,,[Highlight] Breece Hall double clutches and throws touchdown to Mason Taylor to give Jets the lead ,9768.0,positive,0.0,1.0,0.0,0.0
+1oguupp,1761510053.0,260,0.93,30,,RIP Nick ,7496.0,neutral,0.0,1.0,0.0,0.0
+1oguqzr,1761509804.0,340,1.0,88,,"In the 4th Quarter, Breece Hall rushed for 2 TDs and threw for 1 TD ",30260.0,neutral,0.0,1.0,0.0,0.0
+1ogum1u,1761509466.0,182,0.95,12,,MIRACLES DO HAPPEN ,2248.0,positive,0.0,1.0,0.0,0.0
+1ogulmx,1761509441.0,296,0.94,41,,1-7 WOOOOOOO HOOOOO LETS GOOOO SUPERBOWL READY. THIS YEARS OUR YEAR...NEVER DOUBTED THEM FOR A SECOND. UNDEFEATED AS OF 2 MINUTES AGO ,11686.0,positive,0.118,0.748,0.134,0.1027
+1ogull0,1761509437.0,1873,0.98,181,,OMG….it happened ,334068.0,positive,0.0,1.0,0.0,0.0
+1ogukim,1761509366.0,1718,0.99,27,,This one was for you big dog. RIP. Jet the fuck up. ,47623.0,positive,0.241,0.759,0.0,-0.5423
+1ogujzf,1761509330.0,568,0.99,8,,For Nick ,5061.0,neutral,0.0,1.0,0.0,0.0
 1oguj42,1761509273.0,173,0.97,627,,"Post Game Thread: New York Jets at Cincinnati Bengals #New York Jets at Cincinnati Bengals
 
 [ESPN Gamecast](https://www.espn.com/nfl/game/_/gameId/401772758/jets-bengals)
@@ -324,111 +324,111 @@ Use [reddit-stream.com](https://reddit-stream.com/comments/auto) to get an autor
 
 ^This ^was ^created ^by ^a ^bot. ^For ^issues ^or ^suggestions ^please ^message ^nfl_gdt_bot.
 
-^Last ^updated: ^2025-10-26_16:38:13.205673-04:00",105385.0,neutral
-1oguiuc,1761509256.0,322,1.0,2,,"Thank you, 74 ",966.0,positive
-1oguieu,1761509228.0,3148,0.98,58,,"This one was for you Nick, rest easy. ",182017.0,positive
-1ogp2pg,1761496343.0,1262,0.98,77,,Win for 74 ,96467.0,positive
-1ognznq,1761493746.0,1545,0.97,355,,New York Jets: We are heartbroken to share the news of Nick Mangold’s sudden passing. ,533519.0,negative
-1ogg0e9,1761469850.0,302,0.9,41,,Halloween costume 2k25 ,11416.0,neutral
-1ogchqv,1761456290.0,306,0.98,94,,"New York Jets' owner Woody Johnson admits he's ""not a good owner in terms of winning"" ",28489.0,negative
-1ofwc4i,1761410856.0,259,0.95,177,,Justin Fields to start again for Jets with Tyrod Taylor ruled out with injury ,43797.0,neutral
-1ofeifo,1761353937.0,402,0.97,171,,Apparently James Dolan blocked this masterpiece ,67070.0,neutral
-1of4w07,1761329097.0,162,0.97,21,,New York Jets Week 8 Matchup Doodle :) ,3457.0,neutral
-1of4ev2,1761328016.0,384,0.96,27,,Closest thing to a Jets touchdown you’ll see all week. ,10322.0,negative
+^Last ^updated: ^2025-10-26_16:38:13.205673-04:00",105385.0,neutral,0.0,1.0,0.0,0.0
+1oguiuc,1761509256.0,322,1.0,2,,"Thank you, 74 ",966.0,positive,0.0,0.444,0.556,0.3612
+1oguieu,1761509228.0,3148,0.98,58,,"This one was for you Nick, rest easy. ",182017.0,positive,0.0,0.707,0.293,0.4404
+1ogp2pg,1761496343.0,1262,0.98,77,,Win for 74 ,96467.0,positive,0.0,0.345,0.655,0.5859
+1ognznq,1761493746.0,1545,0.97,355,,New York Jets: We are heartbroken to share the news of Nick Mangold’s sudden passing. ,533519.0,negative,0.221,0.667,0.113,-0.4767
+1ogg0e9,1761469850.0,302,0.9,41,,Halloween costume 2k25 ,11416.0,neutral,0.0,1.0,0.0,0.0
+1ogchqv,1761456290.0,306,0.98,94,,"New York Jets' owner Woody Johnson admits he's ""not a good owner in terms of winning"" ",28489.0,negative,0.12,0.6,0.28,0.4929
+1ofwc4i,1761410856.0,259,0.95,177,,Justin Fields to start again for Jets with Tyrod Taylor ruled out with injury ,43797.0,neutral,0.177,0.823,0.0,-0.4215
+1ofeifo,1761353937.0,402,0.97,171,,Apparently James Dolan blocked this masterpiece ,67070.0,neutral,0.191,0.364,0.444,0.5824
+1of4w07,1761329097.0,162,0.97,21,,New York Jets Week 8 Matchup Doodle :) ,3457.0,neutral,0.0,0.667,0.333,0.4588
+1of4ev2,1761328016.0,384,0.96,27,,Closest thing to a Jets touchdown you’ll see all week. ,10322.0,negative,0.0,1.0,0.0,0.0
 1of2gks,1761323528.0,113,0.94,162,,"[Highlight] Jets HC Aaron Glenn reiterated today that he's not revealing his starting QB for Sunday vs. the Bengals:
 
-""I don't want to. I don't know how many times I gotta answer that. It's not going to change."" ",17314.0,neutral
-1of1oa4,1761321713.0,282,0.99,123,,"Garrett Wilson and Sauce Gardner out, Aaron Glenn doesn't name starting QB ",34618.0,neutral
-1oehtvd,1761260212.0,114,0.97,55,,[Cimini] Jets edge rusher Jermaine Johnson doesn't expect to be traded ,6192.0,neutral
-1oeeoop,1761252362.0,163,0.96,113,,"[Highlight] Justin Fields on Jets owner Woody Johnson calling him out: ""It doesn't bother me. Of course, everybody knows I need to play better, we need to play better as a team. No matter how the offense does as a unit, I'm going to get the blame and I understand that."" ",17839.0,neutral
-1oedtrb,1761250393.0,189,0.93,262,,Do they not get that we’re targeting a QB in the first round of next draft? ,46228.0,neutral
-1oebh6u,1761244987.0,110,0.88,262,,What must Aaron Glenn show in the final 9 games to earn your confidence? ,25458.0,neutral
-1odqxh4,1761184191.0,920,0.98,71,,The Knicks officially got a win before the Jets ,64915.0,neutral
-1odjwfd,1761165681.0,164,0.97,21,,Damien Woody = super nice guy! ,3500.0,positive
-1odgm5x,1761158286.0,114,0.98,14,,Better than this GW-less receiving room. ,1676.0,negative
-1odg860,1761157421.0,330,0.91,118,,LET HIM COOK ,35736.0,positive
-1odevpf,1761154477.0,352,0.97,60,,what are the chances of us losing during the bye week ?? ,20828.0,neutral
-1odcr3a,1761149827.0,281,0.98,204,,"[Highlight] Jets HC Aaron Glenn says he doesn’t want to give the Bengals a competitive advantage, so he’s not revealing whether Justin Fields or Tyrod Taylor will start on Sunday. ",56453.0,neutral
-1odckls,1761149420.0,203,0.97,96,,That's Brady Cook Music ,19100.0,neutral
-1odc2ag,1761148314.0,123,0.98,19,,Quincy Williams has been designated to return from IR ,2411.0,neutral
-1ocxoje,1761103957.0,152,0.99,20,,Seen on FB Marketplace. Open for the caption. ,3160.0,neutral
-1ocpox5,1761082235.0,165,0.96,6,,Woody 😤 ,1109.0,negative
-1ocmg44,1761074879.0,158,0.78,97,,Gary Vee Please Save Us ,12078.0,negative
-1ocklv6,1761070800.0,296,0.94,364,,"[Highlight] Woody Johnson on Jets HC Aaron Glenn with Justin Fields at QB: “If you look at any head coach with a quarterback like that, you’re going to see similar results.” ",101558.0,negative
-1ock5ik,1761069810.0,357,0.97,134,,Tyrod named Starter. ,46749.0,neutral
-1ocha4q,1761063358.0,1288,0.98,240,,He’s the problem. He has ALWAYS been the problem. ,304200.0,negative
-1ocgzo2,1761062702.0,863,1.0,86,,One of us! One of us! ,75081.0,positive
-1ocgcjz,1761061256.0,125,0.94,62,,"Save your children, introduce them to something else ",7402.0,negative
-1obykvx,1761006406.0,179,0.92,109,,Loving this duo. ,18115.0,positive
-1obvufe,1760999193.0,115,0.88,127,,Fernando Mendoza ‘24 All-22 Film Breakdown | Is he the QB of the future?? 👀🎥 ,12954.0,neutral
-1oboytp,1760983205.0,417,0.97,27,,At this point The Nets will too ,11326.0,neutral
-1ob4yjy,1760917819.0,312,0.94,331,,Should Brady Cook start next week against the Bengals? ,97369.0,neutral
-1ob4jah,1760916650.0,171,0.89,52,,Sanchez jail time ,8066.0,negative
-1ob3kjg,1760914049.0,329,0.9,68,,It’s all this man’s fault ,20431.0,negative
-1ob354x,1760912901.0,125,0.72,58,,How it feels watching this year's rendition of the Jets ,5310.0,neutral
-1ob1ujx,1760909660.0,753,0.96,295,,The only way to uncurse this team is to finally get the the #1 pick. ,213972.0,neutral
-1ob19kt,1760908239.0,143,0.91,37,,What do I spy with my little eye? ,4945.0,neutral
-1ob0cco,1760906048.0,589,0.99,81,,I'm convinced we don't win a game this year ,47815.0,negative
-1oazs7m,1760904729.0,334,0.99,13,,Week 8 here we come ,4629.0,neutral
-1oazrxm,1760904711.0,1057,1.0,45,,0 TDs 0 Wins 7 Losses ,48622.0,negative
-1oar4ge,1760884328.0,644,0.98,100,,will Carolina put an end to the undefeated Jets ?? ,63743.0,neutral
-1oacvdl,1760836445.0,159,0.9,147,,Soon ,21179.0,neutral
-1oacs77,1760836171.0,484,0.96,51,,"Finally, New Ownership ",24161.0,positive
-1oa57ip,1760816447.0,189,0.91,27,,The only QB/HC duo that can save this team ,4816.0,positive
-1o9lw1v,1760759824.0,305,0.89,202,,A reminder to Rodgers fans ,55104.0,neutral
-1o9hlm6,1760746726.0,181,0.94,47,,Thoughts? ,8167.0,neutral
-1o8rbr0,1760673533.0,838,0.93,346,,"So, these guys aren't good enough for the Jets? ",270431.0,negative
-1o8nbzy,1760661835.0,752,0.99,19,,The worst kind! ,14890.0,negative
-1o8kcso,1760653829.0,394,0.98,111,,Justin has been on the two lowest Passing yards per game teams of the last 10 years. ,43245.0,neutral
-1o8dqis,1760638439.0,183,0.96,177,,"Jets' Justin Fields ready to be aggressive, feels like he's been 'too conservative' ",31271.0,positive
-1o8db2y,1760637504.0,200,0.98,24,,New York Jets Week 7 Matchup Doodle :) ,4900.0,positive
-1o7mlfh,1760560946.0,203,1.0,21,,Gameplan ,4466.0,neutral
-1o7ga6y,1760546833.0,234,0.99,166,,"[Rosenblatt] Garrett Wilson AND Josh Reynolds not practicing today. WR room if they can’t go on Sunday… Allen Lazard, Arian Smith, Tyler Johnson and Isaiah Williams ",38687.0,neutral
-1o6ul0f,1760482701.0,545,0.98,62,,All Brakes No Gas ,33648.0,negative
-1o6q408,1760472204.0,751,0.99,175,,Nick Mangold needs a kidney. ,130854.0,negative
-1o6ngpr,1760466252.0,210,0.97,23,,I just always feel for this guy as a Jets fan. ,4889.0,neutral
-1o6jx42,1760458549.0,267,0.95,44,,Not sure about the rest but the Jets is spot on. ,11414.0,neutral
-1o6i4w1,1760454609.0,418,0.97,142,,We need an offensive minded head coach who’s been to a Super Bowl ,57981.0,neutral
-1o6cpp7,1760440689.0,517,0.98,164,,Yet another star player being driven away ,83599.0,negative
-1o6cj12,1760440108.0,254,0.98,39,,"The Kendall Hinton-led Broncos, who lost all their QBs to Covid the week of their game in 2020, had 22 more passing yards than the Jets did on Sunday ",9957.0,negative
-1o61xoi,1760404116.0,340,0.99,70,,"With no Garrett Wilson, welcome to the sequel: ",23899.0,neutral
-1o61wnk,1760404037.0,271,0.85,171,,Get ahead of it and fire Glenn now ,39620.0,negative
-1o619rb,1760402265.0,208,0.97,38,,New gear dropped ,7869.0,neutral
-1o5y0jc,1760393671.0,244,0.98,185,,Breece Hall on Instagram: #Free20 ,44476.0,neutral
-1o5wv14,1760390926.0,251,0.99,104,,"[Cimini] WR Garrett Wilson underwent an MRI today and appears to have avoided a serious knee injury, per source, but it probably still means some down time. ",26091.0,neutral
-1o5scsr,1760381063.0,485,0.97,362,,Report: Multiple NY Jets Players Wanted Tyrod Taylor Over Justin Fields ,170773.0,neutral
-1o5qu99,1760377837.0,150,0.97,139,,"Aaron Glenn: Justin Fields ""took a step back"" in his fifth game ",20370.0,neutral
-1o53qww,1760310722.0,449,0.99,182,,You can’t crosspost text posts here. ,81345.0,neutral
-1o51t1t,1760305691.0,158,0.83,48,,"Make your voice heard, he can’t ignore all of us ",6426.0,positive
-1o51oyd,1760305406.0,133,0.82,135,,Soon.. ,14832.0,neutral
-1o50xub,1760303559.0,357,0.93,159,,The new Zach Wilson ,53122.0,neutral
-1o4zy00,1760301220.0,179,0.87,179,,As bad as Fields was... We have to address the other Elephant in the room. We need to aquire a #2 #3 and #4!!! ,28031.0,neutral
-1o4yp7q,1760298337.0,650,0.95,63,,BREAKING: Garrett Wilson reportedly unfollowed Woody Johnson on Instagram during halftime of today’s game ,39520.0,neutral
-1o4ylxz,1760298125.0,454,0.98,14,,Being a Jets fan is like rooting for the Generals at a Globetrotters game. ,6674.0,negative
-1o4w8x9,1760292669.0,455,1.0,201,,"[Rosenblatt] Garrett Wilson on the moment caught between him and Aaron Glenn going into halftime: “I just didn’t know exactly what the plan was. Once I figured it out, I was disappointed.” ",91910.0,neutral
-1o4vn5c,1760291303.0,315,0.99,46,,"I don’t understand, when I was a kid you guys sucked. Now I’m old and you guys still suck ",14657.0,negative
-1o4uwqk,1760289615.0,191,0.94,294,,[Highlight / Interview]: Aaron Glenn on if Justin Fields is going to be the QB next week: “What kind of question is that?” ,52964.0,neutral
-1o4upyv,1760289170.0,571,0.99,303,,[Hughes] Justin Fields will start next week. Aaron Glenn not considering a QB change at all. Said it’s not all on Fields. ,171848.0,neutral
-1o4ujxi,1760288786.0,386,0.98,27,,I’d give anything to share his optimistic outlook on the world ,10592.0,neutral
-1o4ufj0,1760288517.0,150,0.97,14,,No Heart ,2182.0,negative
-1o4uah9,1760288214.0,820,0.97,148,,I'm looking forward to 0-17. ,118515.0,negative
-1o4u4l5,1760287841.0,321,0.98,10,,J-E-T-S ,3460.0,neutral
-1o4u2dc,1760287705.0,122,0.99,5,,"Same sh*t, different country 🇬🇧 ",725.0,negative
-1o4tw78,1760287312.0,423,1.0,151,,This box score ,64296.0,neutral
-1o4tuoc,1760287216.0,317,0.99,26,,There’s comedy. There’s tragedy. And there’s the Jets. ,8473.0,neutral
-1o4tsdd,1760287070.0,1260,0.99,132,,Was there ever any doubt ,165904.0,neutral
-1o4osgx,1760274930.0,198,0.98,25,,When in Rome ,5045.0,neutral
-1o49u4p,1760224792.0,239,0.86,252,,I’ve seen enough. Fernando Mendoza needs to be a Jet. ,52002.0,positive
-1o3yb4t,1760196059.0,200,0.89,187,,Fire sale? ,33464.0,neutral
-1o39hpi,1760122234.0,281,0.98,41,,New York Jets London Matchup Doodle :) ,11566.0,positive
-1o35z8h,1760114373.0,380,0.98,127,,Breece Hall said “I want to be here. I want to be a New York Jet” when asked about any trade rumors surrounding him. ,47667.0,neutral
-1o2oyf1,1760063000.0,131,0.98,42,,Silver lining ,5520.0,neutral
-1o1r8dc,1759967571.0,274,0.94,247,,Jets' Breece Hall trade rumors are heating up amid team's 0-5 start ,63875.0,neutral
-1o1bfga,1759932318.0,238,0.98,50,,Herm Edwards’ ‘You PLAY to WIN the GAME!!! ,11895.0,neutral
-1o0wsgu,1759885133.0,569,0.95,40,,"Would have been more, but the judge took into account time already served. ",22163.0,neutral
-1o0rwt2,1759872617.0,302,0.99,60,,"Fun Fact: The New York Jets wear green and white primarily because owner Sonny Werblin, born on St. Patrick's Day, chose them for the team after purchasing the New York Titans and renaming them the Jets in 1963. ",18238.0,neutral
-1o0qj93,1759869516.0,312,0.99,15,,"In a game that always changes, one thing remains constant ",4942.0,neutral
-1o0pgez,1759867139.0,171,0.99,106,,[Moret] New York Jets say deleted texts show conspiracy to defame team president ,18114.0,negative
+""I don't want to. I don't know how many times I gotta answer that. It's not going to change."" ",17314.0,neutral,0.034,0.966,0.0,-0.0572
+1of1oa4,1761321713.0,282,0.99,123,,"Garrett Wilson and Sauce Gardner out, Aaron Glenn doesn't name starting QB ",34618.0,neutral,0.0,1.0,0.0,0.0
+1oehtvd,1761260212.0,114,0.97,55,,[Cimini] Jets edge rusher Jermaine Johnson doesn't expect to be traded ,6192.0,neutral,0.0,1.0,0.0,0.0
+1oeeoop,1761252362.0,163,0.96,113,,"[Highlight] Justin Fields on Jets owner Woody Johnson calling him out: ""It doesn't bother me. Of course, everybody knows I need to play better, we need to play better as a team. No matter how the offense does as a unit, I'm going to get the blame and I understand that."" ",17839.0,neutral,0.113,0.651,0.235,0.7299
+1oedtrb,1761250393.0,189,0.93,262,,Do they not get that we’re targeting a QB in the first round of next draft? ,46228.0,neutral,0.0,1.0,0.0,0.0
+1oebh6u,1761244987.0,110,0.88,262,,What must Aaron Glenn show in the final 9 games to earn your confidence? ,25458.0,neutral,0.0,0.784,0.216,0.5106
+1odqxh4,1761184191.0,920,0.98,71,,The Knicks officially got a win before the Jets ,64915.0,neutral,0.0,0.648,0.352,0.5859
+1odjwfd,1761165681.0,164,0.97,21,,Damien Woody = super nice guy! ,3500.0,positive,0.0,0.3,0.7,0.7901
+1odgm5x,1761158286.0,114,0.98,14,,Better than this GW-less receiving room. ,1676.0,negative,0.0,0.633,0.367,0.4404
+1odg860,1761157421.0,330,0.91,118,,LET HIM COOK ,35736.0,positive,0.0,1.0,0.0,0.0
+1odevpf,1761154477.0,352,0.97,60,,what are the chances of us losing during the bye week ?? ,20828.0,neutral,0.201,0.678,0.122,-0.2869
+1odcr3a,1761149827.0,281,0.98,204,,"[Highlight] Jets HC Aaron Glenn says he doesn’t want to give the Bengals a competitive advantage, so he’s not revealing whether Justin Fields or Tyrod Taylor will start on Sunday. ",56453.0,neutral,0.0,0.839,0.161,0.4588
+1odckls,1761149420.0,203,0.97,96,,That's Brady Cook Music ,19100.0,neutral,0.0,1.0,0.0,0.0
+1odc2ag,1761148314.0,123,0.98,19,,Quincy Williams has been designated to return from IR ,2411.0,neutral,0.0,1.0,0.0,0.0
+1ocxoje,1761103957.0,152,0.99,20,,Seen on FB Marketplace. Open for the caption. ,3160.0,neutral,0.0,1.0,0.0,0.0
+1ocpox5,1761082235.0,165,0.96,6,,Woody 😤 ,1109.0,negative,0.0,1.0,0.0,0.0
+1ocmg44,1761074879.0,158,0.78,97,,Gary Vee Please Save Us ,12078.0,negative,0.0,0.353,0.647,0.6705
+1ocklv6,1761070800.0,296,0.94,364,,"[Highlight] Woody Johnson on Jets HC Aaron Glenn with Justin Fields at QB: “If you look at any head coach with a quarterback like that, you’re going to see similar results.” ",101558.0,negative,0.0,0.921,0.079,0.3612
+1ock5ik,1761069810.0,357,0.97,134,,Tyrod named Starter. ,46749.0,neutral,0.0,1.0,0.0,0.0
+1ocha4q,1761063358.0,1288,0.98,240,,He’s the problem. He has ALWAYS been the problem. ,304200.0,negative,0.435,0.565,0.0,-0.6597
+1ocgzo2,1761062702.0,863,1.0,86,,One of us! One of us! ,75081.0,positive,0.0,1.0,0.0,0.0
+1ocgcjz,1761061256.0,125,0.94,62,,"Save your children, introduce them to something else ",7402.0,negative,0.0,0.686,0.314,0.4939
+1obykvx,1761006406.0,179,0.92,109,,Loving this duo. ,18115.0,positive,0.0,0.339,0.661,0.5994
+1obvufe,1760999193.0,115,0.88,127,,Fernando Mendoza ‘24 All-22 Film Breakdown | Is he the QB of the future?? 👀🎥 ,12954.0,neutral,0.0,1.0,0.0,0.0
+1oboytp,1760983205.0,417,0.97,27,,At this point The Nets will too ,11326.0,neutral,0.0,1.0,0.0,0.0
+1ob4yjy,1760917819.0,312,0.94,331,,Should Brady Cook start next week against the Bengals? ,97369.0,neutral,0.0,1.0,0.0,0.0
+1ob4jah,1760916650.0,171,0.89,52,,Sanchez jail time ,8066.0,negative,0.0,1.0,0.0,0.0
+1ob3kjg,1760914049.0,329,0.9,68,,It’s all this man’s fault ,20431.0,negative,0.403,0.597,0.0,-0.4019
+1ob354x,1760912901.0,125,0.72,58,,How it feels watching this year's rendition of the Jets ,5310.0,neutral,0.0,1.0,0.0,0.0
+1ob1ujx,1760909660.0,753,0.96,295,,The only way to uncurse this team is to finally get the the #1 pick. ,213972.0,neutral,0.0,1.0,0.0,0.0
+1ob19kt,1760908239.0,143,0.91,37,,What do I spy with my little eye? ,4945.0,neutral,0.0,1.0,0.0,0.0
+1ob0cco,1760906048.0,589,0.99,81,,I'm convinced we don't win a game this year ,47815.0,negative,0.261,0.51,0.229,-0.0956
+1oazs7m,1760904729.0,334,0.99,13,,Week 8 here we come ,4629.0,neutral,0.0,1.0,0.0,0.0
+1oazrxm,1760904711.0,1057,1.0,45,,0 TDs 0 Wins 7 Losses ,48622.0,negative,0.365,0.135,0.5,0.25
+1oar4ge,1760884328.0,644,0.98,100,,will Carolina put an end to the undefeated Jets ?? ,63743.0,neutral,0.0,1.0,0.0,0.0
+1oacvdl,1760836445.0,159,0.9,147,,Soon ,21179.0,neutral,0.0,1.0,0.0,0.0
+1oacs77,1760836171.0,484,0.96,51,,"Finally, New Ownership ",24161.0,positive,0.0,1.0,0.0,0.0
+1oa57ip,1760816447.0,189,0.91,27,,The only QB/HC duo that can save this team ,4816.0,positive,0.0,0.714,0.286,0.4939
+1o9lw1v,1760759824.0,305,0.89,202,,A reminder to Rodgers fans ,55104.0,neutral,0.0,1.0,0.0,0.0
+1o9hlm6,1760746726.0,181,0.94,47,,Thoughts? ,8167.0,neutral,0.0,1.0,0.0,0.0
+1o8rbr0,1760673533.0,838,0.93,346,,"So, these guys aren't good enough for the Jets? ",270431.0,negative,0.231,0.769,0.0,-0.3412
+1o8nbzy,1760661835.0,752,0.99,19,,The worst kind! ,14890.0,negative,0.5,0.114,0.387,-0.2481
+1o8kcso,1760653829.0,394,0.98,111,,Justin has been on the two lowest Passing yards per game teams of the last 10 years. ,43245.0,neutral,0.14,0.86,0.0,-0.3818
+1o8dqis,1760638439.0,183,0.96,177,,"Jets' Justin Fields ready to be aggressive, feels like he's been 'too conservative' ",31271.0,positive,0.096,0.602,0.301,0.5267
+1o8db2y,1760637504.0,200,0.98,24,,New York Jets Week 7 Matchup Doodle :) ,4900.0,positive,0.0,0.667,0.333,0.4588
+1o7mlfh,1760560946.0,203,1.0,21,,Gameplan ,4466.0,neutral,0.0,1.0,0.0,0.0
+1o7ga6y,1760546833.0,234,0.99,166,,"[Rosenblatt] Garrett Wilson AND Josh Reynolds not practicing today. WR room if they can’t go on Sunday… Allen Lazard, Arian Smith, Tyler Johnson and Isaiah Williams ",38687.0,neutral,0.0,1.0,0.0,0.0
+1o6ul0f,1760482701.0,545,0.98,62,,All Brakes No Gas ,33648.0,negative,0.423,0.577,0.0,-0.296
+1o6q408,1760472204.0,751,0.99,175,,Nick Mangold needs a kidney. ,130854.0,negative,0.0,1.0,0.0,0.0
+1o6ngpr,1760466252.0,210,0.97,23,,I just always feel for this guy as a Jets fan. ,4889.0,neutral,0.0,0.777,0.223,0.3182
+1o6jx42,1760458549.0,267,0.95,44,,Not sure about the rest but the Jets is spot on. ,11414.0,neutral,0.129,0.871,0.0,-0.1232
+1o6i4w1,1760454609.0,418,0.97,142,,We need an offensive minded head coach who’s been to a Super Bowl ,57981.0,neutral,0.178,0.592,0.231,0.2263
+1o6cpp7,1760440689.0,517,0.98,164,,Yet another star player being driven away ,83599.0,negative,0.0,1.0,0.0,0.0
+1o6cj12,1760440108.0,254,0.98,39,,"The Kendall Hinton-led Broncos, who lost all their QBs to Covid the week of their game in 2020, had 22 more passing yards than the Jets did on Sunday ",9957.0,negative,0.076,0.924,0.0,-0.3182
+1o61xoi,1760404116.0,340,0.99,70,,"With no Garrett Wilson, welcome to the sequel: ",23899.0,neutral,0.196,0.536,0.268,0.2023
+1o61wnk,1760404037.0,271,0.85,171,,Get ahead of it and fire Glenn now ,39620.0,negative,0.255,0.745,0.0,-0.34
+1o619rb,1760402265.0,208,0.97,38,,New gear dropped ,7869.0,neutral,0.0,1.0,0.0,0.0
+1o5y0jc,1760393671.0,244,0.98,185,,Breece Hall on Instagram: #Free20 ,44476.0,neutral,0.0,1.0,0.0,0.0
+1o5wv14,1760390926.0,251,0.99,104,,"[Cimini] WR Garrett Wilson underwent an MRI today and appears to have avoided a serious knee injury, per source, but it probably still means some down time. ",26091.0,neutral,0.171,0.829,0.0,-0.4118
+1o5scsr,1760381063.0,485,0.97,362,,Report: Multiple NY Jets Players Wanted Tyrod Taylor Over Justin Fields ,170773.0,neutral,0.0,1.0,0.0,0.0
+1o5qu99,1760377837.0,150,0.97,139,,"Aaron Glenn: Justin Fields ""took a step back"" in his fifth game ",20370.0,neutral,0.0,1.0,0.0,0.0
+1o53qww,1760310722.0,449,0.99,182,,You can’t crosspost text posts here. ,81345.0,neutral,0.0,1.0,0.0,0.0
+1o51t1t,1760305691.0,158,0.83,48,,"Make your voice heard, he can’t ignore all of us ",6426.0,positive,0.217,0.783,0.0,-0.3612
+1o51oyd,1760305406.0,133,0.82,135,,Soon.. ,14832.0,neutral,0.0,1.0,0.0,0.0
+1o50xub,1760303559.0,357,0.93,159,,The new Zach Wilson ,53122.0,neutral,0.0,1.0,0.0,0.0
+1o4zy00,1760301220.0,179,0.87,179,,As bad as Fields was... We have to address the other Elephant in the room. We need to aquire a #2 #3 and #4!!! ,28031.0,neutral,0.166,0.834,0.0,-0.6571
+1o4yp7q,1760298337.0,650,0.95,63,,BREAKING: Garrett Wilson reportedly unfollowed Woody Johnson on Instagram during halftime of today’s game ,39520.0,neutral,0.0,1.0,0.0,0.0
+1o4ylxz,1760298125.0,454,0.98,14,,Being a Jets fan is like rooting for the Generals at a Globetrotters game. ,6674.0,negative,0.0,0.676,0.324,0.5859
+1o4w8x9,1760292669.0,455,1.0,201,,"[Rosenblatt] Garrett Wilson on the moment caught between him and Aaron Glenn going into halftime: “I just didn’t know exactly what the plan was. Once I figured it out, I was disappointed.” ",91910.0,neutral,0.0,1.0,0.0,0.0
+1o4vn5c,1760291303.0,315,0.99,46,,"I don’t understand, when I was a kid you guys sucked. Now I’m old and you guys still suck ",14657.0,negative,0.296,0.704,0.0,-0.7096
+1o4uwqk,1760289615.0,191,0.94,294,,[Highlight / Interview]: Aaron Glenn on if Justin Fields is going to be the QB next week: “What kind of question is that?” ,52964.0,neutral,0.0,1.0,0.0,0.0
+1o4upyv,1760289170.0,571,0.99,303,,[Hughes] Justin Fields will start next week. Aaron Glenn not considering a QB change at all. Said it’s not all on Fields. ,171848.0,neutral,0.0,1.0,0.0,0.0
+1o4ujxi,1760288786.0,386,0.98,27,,I’d give anything to share his optimistic outlook on the world ,10592.0,neutral,0.0,0.667,0.333,0.5423
+1o4ufj0,1760288517.0,150,0.97,14,,No Heart ,2182.0,negative,0.688,0.312,0.0,-0.296
+1o4uah9,1760288214.0,820,0.97,148,,I'm looking forward to 0-17. ,118515.0,negative,0.0,1.0,0.0,0.0
+1o4u4l5,1760287841.0,321,0.98,10,,J-E-T-S ,3460.0,neutral,0.0,1.0,0.0,0.0
+1o4u2dc,1760287705.0,122,0.99,5,,"Same sh*t, different country 🇬🇧 ",725.0,negative,0.0,1.0,0.0,0.0
+1o4tw78,1760287312.0,423,1.0,151,,This box score ,64296.0,neutral,0.0,1.0,0.0,0.0
+1o4tuoc,1760287216.0,317,0.99,26,,There’s comedy. There’s tragedy. And there’s the Jets. ,8473.0,neutral,0.341,0.465,0.194,-0.4404
+1o4tsdd,1760287070.0,1260,0.99,132,,Was there ever any doubt ,165904.0,neutral,0.385,0.615,0.0,-0.3612
+1o4osgx,1760274930.0,198,0.98,25,,When in Rome ,5045.0,neutral,0.0,1.0,0.0,0.0
+1o49u4p,1760224792.0,239,0.86,252,,I’ve seen enough. Fernando Mendoza needs to be a Jet. ,52002.0,positive,0.0,1.0,0.0,0.0
+1o3yb4t,1760196059.0,200,0.89,187,,Fire sale? ,33464.0,neutral,0.706,0.294,0.0,-0.34
+1o39hpi,1760122234.0,281,0.98,41,,New York Jets London Matchup Doodle :) ,11566.0,positive,0.0,0.667,0.333,0.4588
+1o35z8h,1760114373.0,380,0.98,127,,Breece Hall said “I want to be here. I want to be a New York Jet” when asked about any trade rumors surrounding him. ,47667.0,neutral,0.0,0.885,0.115,0.1531
+1o2oyf1,1760063000.0,131,0.98,42,,Silver lining ,5520.0,neutral,0.0,1.0,0.0,0.0
+1o1r8dc,1759967571.0,274,0.94,247,,Jets' Breece Hall trade rumors are heating up amid team's 0-5 start ,63875.0,neutral,0.0,1.0,0.0,0.0
+1o1bfga,1759932318.0,238,0.98,50,,Herm Edwards’ ‘You PLAY to WIN the GAME!!! ,11895.0,neutral,0.0,0.413,0.587,0.8605
+1o0wsgu,1759885133.0,569,0.95,40,,"Would have been more, but the judge took into account time already served. ",22163.0,neutral,0.0,1.0,0.0,0.0
+1o0rwt2,1759872617.0,302,0.99,60,,"Fun Fact: The New York Jets wear green and white primarily because owner Sonny Werblin, born on St. Patrick's Day, chose them for the team after purchasing the New York Titans and renaming them the Jets in 1963. ",18238.0,neutral,0.0,0.918,0.082,0.5106
+1o0qj93,1759869516.0,312,0.99,15,,"In a game that always changes, one thing remains constant ",4942.0,neutral,0.0,1.0,0.0,0.0
+1o0pgez,1759867139.0,171,0.99,106,,[Moret] New York Jets say deleted texts show conspiracy to defame team president ,18114.0,negative,0.221,0.779,0.0,-0.5267
 1o0min8,1759860766.0,157,0.86,168,,"A Contrary Opinion It's obviously been a rough start to the season and I absolutely understand why people are frustrated. Sadly, it's what I anticipated as we entered the season. I think that any lack of quality on the field this season is a direct reflection of the gross mismanagement of this organization in general and especially when they went ""all-in"" on Aaron Rodgers. It's not the Rodgers move that is devastating itself, but instead the fact that they extended him - creating a $21MM cap hit this year and a $35MM cap hit next year. They also extended CJ Mosley (and pushed his dead money down the road - $8.8MM this year and $7.65MM next year), traded an upcoming 3rd round pick for Haason Reddick, gave up the 92nd pick in this past draft for Davante Adams, signed Mike Williams (dead cap this year), Javon Kinlaw (dead cap this year), Tyron Smith (dead cap this year), Tyler Conklin (surprisingly high dead cap this year).
 
 Douglas let Bryce Huff go (seemingly to make room for players like Williams, Smith, and Kinlaw. As a result he drafted Will McDonald in the 1st round instead of addressing an acute long-term need at WR with Jaxon Smith-Njigba. They were in so much need at tackle because of multiple failures that they needed to grab Olu Fashanu in 2024 instead of taking Brock Bowers or one of a number of excellent edge prospects.
@@ -443,62 +443,62 @@ With respect to the coaching staff, I'm waiting to pass judgement until the Jets
 
 I happen to like the defense that Wilks runs and believe it will play really well - especially with Sauce as a CB1. It's all just about the pass rush from here. I think a flier on Drake Jackson would be ideal in the short term with a long term vision of upgrading in the draft. That being said, if any coach doesn't make it through this season, it should be Wilks. At some point in time, the defense needs to be able to stop the big play OR generate significant pressure. An inability to do either is quite problematic.
 
-Long story short (too late!), this team is - at best - two drafts away. This year they need to address QB and either WR or EDGE at the top of the draft and next year they need to go EDGE/WR and likely fill in holes on the offensive line. I don't think it's terrible business to sign Breece Hall to a reasonable three year extension (in the range of what James Cook or Josh Jacobs received) if they're not confident in what Allen/Davis can provide to a new QB and offer AVT a prove it contract. Outside of that, it's essential that they get Moore, Brownlee, Smith, Thomas, and the other young guys as much playing time as possible this year to see what they have in them.",22818.0,negative
-1o0d7uz,1759839701.0,171,0.72,331,,"""We just have to be patient"" ",40876.0,neutral
-1o03y59,1759807401.0,1072,0.99,157,,Watching all these teams win with new head coaches ,167682.0,neutral
-1o00ulz,1759798546.0,186,0.97,14,,The Low expectations weren’t low enough it seems ,2706.0,negative
-1nzxo4e,1759790039.0,393,0.98,50,,Jets are a flat circle ,19642.0,neutral
-1nzsrfv,1759778986.0,226,0.96,164,,Lol ,35798.0,neutral
-1nzoy07,1759770463.0,115,0.98,78,,"Mark Sanchez has charge upgraded to felony, could face additional charges after Saturday altercation ",8903.0,negative
-1nzosl7,1759770122.0,474,0.97,176,,"David Saleh (@DavidSaleh): Last year the #Jets were 2-3 playing for first place in their division when @woodyjohnson4 declared that ""the best roster in franchise history needed a spark."" Since then the #Jets  defense has gone from first to worst donning a record of 3-14. #allgasnobrake #AGNB #Victor ",81381.0,neutral
-1nzklcx,1759760890.0,761,0.97,326,,Who else is convinced we won't win a game this year? ,241382.0,negative
-1nz6jzj,1759715636.0,128,0.96,72,,[Kapadia] The Jets offense had 19 plays of 10+ yards—the most of any team in Week 5. No other team this season that produced that many plays of 10+ yards in a game lost. ,8970.0,neutral
-1nz5mzg,1759712965.0,310,0.94,154,,The Jets when it comes to somehow even being bad at being bad (there are no top QBs in the draft and the best prospect is a safety) ,45167.0,negative
-1nz5bnw,1759712065.0,243,0.92,143,,How do they get the offense in sync for the entire game? ,32193.0,neutral
-1nz51bj,1759711248.0,185,0.99,11,,Perhaps we’re all Carl ,2198.0,neutral
-1nz3hrb,1759706958.0,577,0.98,63,,The New York Jets ,36189.0,neutral
-1nz3ar1,1759706440.0,376,0.99,174,,Joey Slye and the Titans walk off the Cardinals. The New York Jets are the NFL’s only winless team ,65142.0,negative
-1nz34hu,1759705969.0,114,0.91,33,,Why do you even support the jets? ,3527.0,negative
-1nz15xr,1759700863.0,120,0.98,35,,0-5 with zero defensive takeaways ,4234.0,neutral
-1nyyulg,1759695424.0,839,0.99,127,,First team in NFL history to start 0-5 with ZERO defensive takeaways #selltheteamWoody ,106318.0,negative
-1nyy0mm,1759693521.0,335,0.99,21,,It is 2025 ,7296.0,neutral
-1nyxxyp,1759693354.0,336,0.99,24,,Fuck off Woody ,8316.0,negative
-1nyxi3y,1759692350.0,386,0.95,203,,"Ridiculous performance yet again by this shitty organization, I can’t watch anymore. FIRE EVERYBODY ",74807.0,negative
-1nywzgo,1759691196.0,200,0.91,35,,Statement from the Sanchize ,6552.0,neutral
-1nywgid,1759690014.0,449,0.99,70,,2025 Stadium Schedule - Update ,31560.0,neutral
-1nywfuw,1759689972.0,1729,0.98,202,,Sell the team you brainless ape ,343967.0,negative
-1nyw4d2,1759689241.0,457,0.93,339,,HE NEEDS OUT OF HERE NOW ,144503.0,negative
-1nyuu7f,1759686375.0,420,0.98,33,,How it feels watching this defense every week. ,13994.0,negative
-1nys258,1759680070.0,120,0.93,74,,This and when Geno got punched are the funniest headlines ,8370.0,neutral
-1ny7x8v,1759617979.0,511,0.98,21,,The Onion delivers (without being assaulted) ,11017.0,neutral
-1ny6vgi,1759615285.0,257,0.97,8,,"What are you gonna do, stab me? --Mark Sanchez ",2244.0,neutral
-1ny5y63,1759612964.0,178,0.98,113,,The Indianapolis Metropolitan Police Department now says Mark Sanchez has been arrested for his alleged role in the incident during which he was stabbed early this morning. ,19886.0,negative
-1ny4is7,1759609529.0,214,0.98,118,,[ESPN] Jets waive Isaiah Williams after gaffes in MNF loss ,24957.0,negative
-1ny035w,1759599066.0,306,0.98,199,,"Mark Sanchez stabbed in Indianapolis, hospitalized with severe injuries ",59976.0,negative
-1nxwllj,1759590796.0,140,0.98,230,,Name a jet that you loved that doesn’t get mentioned much? ,31693.0,neutral
-1nxffbi,1759536459.0,299,0.97,92,,The Jets…the most average team in the league ,26973.0,negative
-1nxaakt,1759523414.0,116,0.96,101,,Former Jets employee accuses team of retaliation amid sexual misconduct investigation ,11359.0,negative
-1nwcj1m,1759431334.0,136,0.8,121,,“We’re Getting Paid Well To Play”: Justin Fields Remains Unbothered At 0-4 As Jets’ Season Crumbles ,13274.0,negative
-1nw7ty6,1759420926.0,154,0.97,62,,[Ian Rapoport] The #Jets have signed RB Khalil Herbert and officially placed RB Braelon Allen (knee) on IR. He’s likely to be out longer than four weeks. ,9411.0,neutral
-1nvvlei,1759384011.0,253,0.98,53,,Brad Smith ,13389.0,neutral
-1nvkymt,1759353721.0,239,0.98,25,,This might be my answer ,6090.0,neutral
-1nvicab,1759347826.0,190,0.97,27,,New York Jets Week 5 Matchup Doodle :) ,5160.0,positive
-1nvgs3p,1759344371.0,458,0.97,144,,We'll always have the moral victories ,64418.0,neutral
-1nuk3qz,1759254733.0,126,0.98,50,,[Rapoport] Braelon Allen has an MCL sprain. Likely going to IR ,6297.0,neutral
-1nuh87y,1759248251.0,1046,0.97,162,,Strutting into my first 0-17 season like ,165383.0,negative
-1nuc0t7,1759235807.0,194,0.85,35,,Thinking about last nights game then remembering the Yankees are playing tonight ,5936.0,neutral
-1nubcn7,1759233928.0,1295,1.0,125,,Sounds about right ,163170.0,neutral
-1nua7n9,1759230357.0,434,0.99,109,,"[Highlight] Dan Orlovsky did not like a no-call on a late hit: ""That's gotta be a flag... I mean, you can't miss this. That's two tonight that are obvious against the Jets that they just haven't thrown."" ",47263.0,neutral
-1nu95j1,1759226594.0,272,0.97,163,,[Cimini] Quick analysis: Glenn joins Adam Gase and Lou Holtz as the only coaches to start their Jets careers at 0-4. The most troubling part: Regression. #Jets ,43270.0,neutral
-1nu6iti,1759216280.0,128,0.93,165,,Justin Fields shows flashes but can’t sustain passing attack when Jets needed it most ,19761.0,neutral
-1nu5nwj,1759213006.0,294,0.98,43,,"I was hoping to not have to use this meme, but here we are. ",12677.0,neutral
-1nu3myg,1759205905.0,148,0.67,240,,Would You Want This Guy Back ? ,23898.0,neutral
-1nu37cl,1759204555.0,267,0.98,124,,[Highlight] Touchdown-negating OPI call against Garrett Wilson ,32707.0,neutral
-1nu2i42,1759202446.0,304,1.0,58,,Tired of being eliminated from playoff contention before October ,17936.0,negative
-1nu1npe,1759199968.0,383,0.96,135,,0-17? The Browns are our ONLY hope. ,50004.0,negative
-1nu1gno,1759199397.0,261,0.99,14,,Same old Jets ,3876.0,negative
-1nu183x,1759198722.0,934,0.99,224,,Did we actually change coaching staffs? ,208048.0,neutral
-1ntwj0s,1759185929.0,416,0.97,82,,My dog is ready for the game tonight! ,33492.0,positive
+Long story short (too late!), this team is - at best - two drafts away. This year they need to address QB and either WR or EDGE at the top of the draft and next year they need to go EDGE/WR and likely fill in holes on the offensive line. I don't think it's terrible business to sign Breece Hall to a reasonable three year extension (in the range of what James Cook or Josh Jacobs received) if they're not confident in what Allen/Davis can provide to a new QB and offer AVT a prove it contract. Outside of that, it's essential that they get Moore, Brownlee, Smith, Thomas, and the other young guys as much playing time as possible this year to see what they have in them.",22818.0,negative,0.095,0.742,0.163,0.9964
+1o0d7uz,1759839701.0,171,0.72,331,,"""We just have to be patient"" ",40876.0,neutral,0.0,1.0,0.0,0.0
+1o03y59,1759807401.0,1072,0.99,157,,Watching all these teams win with new head coaches ,167682.0,neutral,0.0,0.678,0.322,0.5859
+1o00ulz,1759798546.0,186,0.97,14,,The Low expectations weren’t low enough it seems ,2706.0,negative,0.412,0.588,0.0,-0.4939
+1nzxo4e,1759790039.0,393,0.98,50,,Jets are a flat circle ,19642.0,neutral,0.0,1.0,0.0,0.0
+1nzsrfv,1759778986.0,226,0.96,164,,Lol ,35798.0,neutral,0.0,0.0,1.0,0.4215
+1nzoy07,1759770463.0,115,0.98,78,,"Mark Sanchez has charge upgraded to felony, could face additional charges after Saturday altercation ",8903.0,negative,0.318,0.682,0.0,-0.6808
+1nzosl7,1759770122.0,474,0.97,176,,"David Saleh (@DavidSaleh): Last year the #Jets were 2-3 playing for first place in their division when @woodyjohnson4 declared that ""the best roster in franchise history needed a spark."" Since then the #Jets  defense has gone from first to worst donning a record of 3-14. #allgasnobrake #AGNB #Victor ",81381.0,neutral,0.076,0.784,0.14,0.34
+1nzklcx,1759760890.0,761,0.97,326,,Who else is convinced we won't win a game this year? ,241382.0,negative,0.223,0.581,0.196,-0.0956
+1nz6jzj,1759715636.0,128,0.96,72,,[Kapadia] The Jets offense had 19 plays of 10+ yards—the most of any team in Week 5. No other team this season that produced that many plays of 10+ yards in a game lost. ,8970.0,neutral,0.169,0.727,0.104,-0.3612
+1nz5mzg,1759712965.0,310,0.94,154,,The Jets when it comes to somehow even being bad at being bad (there are no top QBs in the draft and the best prospect is a safety) ,45167.0,negative,0.24,0.547,0.214,-0.25
+1nz5bnw,1759712065.0,243,0.92,143,,How do they get the offense in sync for the entire game? ,32193.0,neutral,0.154,0.846,0.0,-0.25
+1nz51bj,1759711248.0,185,0.99,11,,Perhaps we’re all Carl ,2198.0,neutral,0.0,1.0,0.0,0.0
+1nz3hrb,1759706958.0,577,0.98,63,,The New York Jets ,36189.0,neutral,0.0,1.0,0.0,0.0
+1nz3ar1,1759706440.0,376,0.99,174,,Joey Slye and the Titans walk off the Cardinals. The New York Jets are the NFL’s only winless team ,65142.0,negative,0.0,1.0,0.0,0.0
+1nz34hu,1759705969.0,114,0.91,33,,Why do you even support the jets? ,3527.0,negative,0.0,0.69,0.31,0.4019
+1nz15xr,1759700863.0,120,0.98,35,,0-5 with zero defensive takeaways ,4234.0,neutral,0.0,0.784,0.216,0.0258
+1nyyulg,1759695424.0,839,0.99,127,,First team in NFL history to start 0-5 with ZERO defensive takeaways #selltheteamWoody ,106318.0,negative,0.0,0.916,0.084,0.0258
+1nyy0mm,1759693521.0,335,0.99,21,,It is 2025 ,7296.0,neutral,0.0,1.0,0.0,0.0
+1nyxxyp,1759693354.0,336,0.99,24,,Fuck off Woody ,8316.0,negative,0.636,0.364,0.0,-0.5423
+1nyxi3y,1759692350.0,386,0.95,203,,"Ridiculous performance yet again by this shitty organization, I can’t watch anymore. FIRE EVERYBODY ",74807.0,negative,0.497,0.503,0.0,-0.8715
+1nywzgo,1759691196.0,200,0.91,35,,Statement from the Sanchize ,6552.0,neutral,0.0,1.0,0.0,0.0
+1nywgid,1759690014.0,449,0.99,70,,2025 Stadium Schedule - Update ,31560.0,neutral,0.0,1.0,0.0,0.0
+1nywfuw,1759689972.0,1729,0.98,202,,Sell the team you brainless ape ,343967.0,negative,0.0,1.0,0.0,0.0
+1nyw4d2,1759689241.0,457,0.93,339,,HE NEEDS OUT OF HERE NOW ,144503.0,negative,0.0,1.0,0.0,0.0
+1nyuu7f,1759686375.0,420,0.98,33,,How it feels watching this defense every week. ,13994.0,negative,0.0,0.812,0.188,0.1593
+1nys258,1759680070.0,120,0.93,74,,This and when Geno got punched are the funniest headlines ,8370.0,neutral,0.0,0.714,0.286,0.5574
+1ny7x8v,1759617979.0,511,0.98,21,,The Onion delivers (without being assaulted) ,11017.0,neutral,0.0,1.0,0.0,0.0
+1ny6vgi,1759615285.0,257,0.97,8,,"What are you gonna do, stab me? --Mark Sanchez ",2244.0,neutral,0.322,0.678,0.0,-0.5859
+1ny5y63,1759612964.0,178,0.98,113,,The Indianapolis Metropolitan Police Department now says Mark Sanchez has been arrested for his alleged role in the incident during which he was stabbed early this morning. ,19886.0,negative,0.194,0.806,0.0,-0.7184
+1ny4is7,1759609529.0,214,0.98,118,,[ESPN] Jets waive Isaiah Williams after gaffes in MNF loss ,24957.0,negative,0.204,0.796,0.0,-0.3182
+1ny035w,1759599066.0,306,0.98,199,,"Mark Sanchez stabbed in Indianapolis, hospitalized with severe injuries ",59976.0,negative,0.44,0.56,0.0,-0.6705
+1nxwllj,1759590796.0,140,0.98,230,,Name a jet that you loved that doesn’t get mentioned much? ,31693.0,neutral,0.0,0.698,0.302,0.5994
+1nxffbi,1759536459.0,299,0.97,92,,The Jets…the most average team in the league ,26973.0,negative,0.0,1.0,0.0,0.0
+1nxaakt,1759523414.0,116,0.96,101,,Former Jets employee accuses team of retaliation amid sexual misconduct investigation ,11359.0,negative,0.194,0.806,0.0,-0.34
+1nwcj1m,1759431334.0,136,0.8,121,,“We’re Getting Paid Well To Play”: Justin Fields Remains Unbothered At 0-4 As Jets’ Season Crumbles ,13274.0,negative,0.0,0.877,0.123,0.2732
+1nw7ty6,1759420926.0,154,0.97,62,,[Ian Rapoport] The #Jets have signed RB Khalil Herbert and officially placed RB Braelon Allen (knee) on IR. He’s likely to be out longer than four weeks. ,9411.0,neutral,0.0,1.0,0.0,0.0
+1nvvlei,1759384011.0,253,0.98,53,,Brad Smith ,13389.0,neutral,0.0,1.0,0.0,0.0
+1nvkymt,1759353721.0,239,0.98,25,,This might be my answer ,6090.0,neutral,0.0,1.0,0.0,0.0
+1nvicab,1759347826.0,190,0.97,27,,New York Jets Week 5 Matchup Doodle :) ,5160.0,positive,0.0,0.667,0.333,0.4588
+1nvgs3p,1759344371.0,458,0.97,144,,We'll always have the moral victories ,64418.0,neutral,0.0,1.0,0.0,0.0
+1nuk3qz,1759254733.0,126,0.98,50,,[Rapoport] Braelon Allen has an MCL sprain. Likely going to IR ,6297.0,neutral,0.0,1.0,0.0,0.0
+1nuh87y,1759248251.0,1046,0.97,162,,Strutting into my first 0-17 season like ,165383.0,negative,0.0,0.706,0.294,0.3612
+1nuc0t7,1759235807.0,194,0.85,35,,Thinking about last nights game then remembering the Yankees are playing tonight ,5936.0,neutral,0.0,0.859,0.141,0.2023
+1nubcn7,1759233928.0,1295,1.0,125,,Sounds about right ,163170.0,neutral,0.0,1.0,0.0,0.0
+1nua7n9,1759230357.0,434,0.99,109,,"[Highlight] Dan Orlovsky did not like a no-call on a late hit: ""That's gotta be a flag... I mean, you can't miss this. That's two tonight that are obvious against the Jets that they just haven't thrown."" ",47263.0,neutral,0.061,0.897,0.042,-0.1695
+1nu95j1,1759226594.0,272,0.97,163,,[Cimini] Quick analysis: Glenn joins Adam Gase and Lou Holtz as the only coaches to start their Jets careers at 0-4. The most troubling part: Regression. #Jets ,43270.0,neutral,0.127,0.873,0.0,-0.5849
+1nu6iti,1759216280.0,128,0.93,165,,Justin Fields shows flashes but can’t sustain passing attack when Jets needed it most ,19761.0,neutral,0.242,0.758,0.0,-0.631
+1nu5nwj,1759213006.0,294,0.98,43,,"I was hoping to not have to use this meme, but here we are. ",12677.0,neutral,0.0,0.863,0.137,0.2263
+1nu3myg,1759205905.0,148,0.67,240,,Would You Want This Guy Back ? ,23898.0,neutral,0.0,0.794,0.206,0.0772
+1nu37cl,1759204555.0,267,0.98,124,,[Highlight] Touchdown-negating OPI call against Garrett Wilson ,32707.0,neutral,0.0,1.0,0.0,0.0
+1nu2i42,1759202446.0,304,1.0,58,,Tired of being eliminated from playoff contention before October ,17936.0,negative,0.266,0.734,0.0,-0.4404
+1nu1npe,1759199968.0,383,0.96,135,,0-17? The Browns are our ONLY hope. ,50004.0,negative,0.0,0.674,0.326,0.4404
+1nu1gno,1759199397.0,261,0.99,14,,Same old Jets ,3876.0,negative,0.0,1.0,0.0,0.0
+1nu183x,1759198722.0,934,0.99,224,,Did we actually change coaching staffs? ,208048.0,neutral,0.0,1.0,0.0,0.0
+1ntwj0s,1759185929.0,416,0.97,82,,My dog is ready for the game tonight! ,33492.0,positive,0.0,0.715,0.285,0.4199
 1ntvt64,1759184119.0,102,0.96,7847,,"Game Thread: New York Jets (0-3) at Miami Dolphins (0-3) #New York Jets at Miami Dolphins
 
 [ESPN Gamecast](https://www.espn.com/nfl/game/_/gameId/401772813/jets-dolphins)
@@ -566,19 +566,19 @@ Use [reddit-stream.com](https://reddit-stream.com/comments/auto) to get an autor
 
 ^This ^was ^created ^by ^a ^bot. ^For ^issues ^or ^suggestions ^please ^message ^nfl_gdt_bot.
 
-^Last ^updated: ^2025-09-29_22:49:27.478480-04:00",768476.0,neutral
-1nsy9jo,1759090149.0,1449,0.99,169,,I'm angry for Nabers and Giants fans. It's unacceptable that this keeps happening. ,243867.0,negative
-1nsc9h3,1759024204.0,309,0.98,48,,You think God Cursed George R.R. Martin because he’s a Jets fan? ,14838.0,neutral
-1nsbdz2,1759021467.0,645,0.99,43,,New York football is so fun ,28096.0,positive
-1ns80x3,1759011576.0,125,0.81,33,,The only way to be a Jets fan ,3442.0,neutral
-1ns4l1k,1759002744.0,103,0.93,137,,Keelan Cole ,13219.0,neutral
-1nrvxvo,1758981530.0,840,0.96,48,,This one hurt a little ,39514.0,negative
-1nqpiuk,1758853027.0,532,0.98,125,,There’s an alternate universe where this worked out ,65691.0,neutral
-1nqovo0,1758851134.0,429,0.95,216,,Meanwhile Sam is playing well again for Seattle tonight. 🤪 ,88438.0,positive
-1nqck78,1758820350.0,201,0.96,31,,New York Jets Week 4 MNF Matchup Doodle :) ,6175.0,positive
-1nor4yn,1758656327.0,217,0.99,145,,"[Schultz] TRADE! The Titans are trading Jarvis Brownlee to the Jets in exchange for a 2026 late round swap, per sources. ",31365.0,neutral
-1nopgsi,1758652524.0,199,0.99,136,,[Cimini] Quincy Williams is going on IR. Out at least 4 weeks ,26990.0,neutral
-1no819f,1758601681.0,717,0.98,137,,Leaving this here ,96967.0,neutral
+^Last ^updated: ^2025-09-29_22:49:27.478480-04:00",768476.0,neutral,0.11,0.89,0.0,-0.9715
+1nsy9jo,1759090149.0,1449,0.99,169,,I'm angry for Nabers and Giants fans. It's unacceptable that this keeps happening. ,243867.0,negative,0.364,0.636,0.0,-0.743
+1nsc9h3,1759024204.0,309,0.98,48,,You think God Cursed George R.R. Martin because he’s a Jets fan? ,14838.0,neutral,0.0,0.672,0.328,0.5267
+1nsbdz2,1759021467.0,645,0.99,43,,New York football is so fun ,28096.0,positive,0.0,0.541,0.459,0.6418
+1ns80x3,1759011576.0,125,0.81,33,,The only way to be a Jets fan ,3442.0,neutral,0.0,0.723,0.277,0.3182
+1ns4l1k,1759002744.0,103,0.93,137,,Keelan Cole ,13219.0,neutral,0.0,1.0,0.0,0.0
+1nrvxvo,1758981530.0,840,0.96,48,,This one hurt a little ,39514.0,negative,0.531,0.469,0.0,-0.5267
+1nqpiuk,1758853027.0,532,0.98,125,,There’s an alternate universe where this worked out ,65691.0,neutral,0.0,1.0,0.0,0.0
+1nqovo0,1758851134.0,429,0.95,216,,Meanwhile Sam is playing well again for Seattle tonight. 🤪 ,88438.0,positive,0.0,0.642,0.358,0.4404
+1nqck78,1758820350.0,201,0.96,31,,New York Jets Week 4 MNF Matchup Doodle :) ,6175.0,positive,0.0,0.7,0.3,0.4588
+1nor4yn,1758656327.0,217,0.99,145,,"[Schultz] TRADE! The Titans are trading Jarvis Brownlee to the Jets in exchange for a 2026 late round swap, per sources. ",31365.0,neutral,0.0,1.0,0.0,0.0
+1nopgsi,1758652524.0,199,0.99,136,,[Cimini] Quincy Williams is going on IR. Out at least 4 weeks ,26990.0,neutral,0.0,1.0,0.0,0.0
+1no819f,1758601681.0,717,0.98,137,,Leaving this here ,96967.0,neutral,0.0,1.0,0.0,0.0
 1no4k2y,1758591071.0,284,0.92,151,Cope,"Why as a fan, I’m not that upset being 0-3 compared to years past 
 
 Some people are gonna hate me for posting this, but this season is very similar to how the Dan Campbell’s tenure in Detroit started.
@@ -612,37 +612,37 @@ People will read this and think I’m making excuses, but I’m not. I want this
 All I’m saying is; we should be realistic with our expectations this and next season. If Detroit ran Dan Campbell out of their franchise that first couple seasons, they wouldn’t have reached the heights they did later on. 
 
 
-The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchise turnaround that he helped bring to Detroit. Guess what? This is what it looks like. ",39715.0,neutral
-1nnks1e,1758543187.0,766,0.98,72,,Dolphins vs Jets flexed to Comedy Central ,54800.0,negative
-1nn9lep,1758504765.0,180,0.98,21,,Time is a flat circle… ,3881.0,neutral
-1nn4hy1,1758490766.0,327,0.94,215,,[Highlight] QB Baker Mayfield on beating the Jets: “Their D-coordinator (Steve Wilks) was the one who cut me in Carolina. A lot of stuff was personal today. Haason Reddick. Former Jet. A lot of people.” ,66394.0,neutral
-1nn2qxl,1758486572.0,525,0.97,267,,#1 baby! who you got? ,136479.0,positive
-1nn2kq9,1758486163.0,124,0.84,39,,Maybe it was my fault ,4166.0,neutral
-1nn2k0k,1758486116.0,211,0.79,196,,Fire Steve wilks ,32838.0,negative
-1nm01fe,1758379484.0,293,0.99,23,,Jets Official Party Pad Car Has anyone seen this car over the years? If so when did you see it at games? ,6962.0,neutral
-1nle1ea,1758312513.0,119,0.97,58,,How did Wayne shape you as a Jets fan? What are your personal memories? ,6810.0,neutral
-1nket7s,1758216924.0,263,0.96,29,,New York Jets Week 3 Matchup Doodle :) ,7574.0,positive
-1njh79n,1758124981.0,282,0.98,247,,[Schefter] Jets QB Justin Fields has been ruled out of Sunday’s game vs. Tampa Bay due to his concussion. Tyrod Taylor will start. ,68537.0,neutral
-1njck9h,1758114173.0,1155,0.99,110,,When will it end ,126923.0,negative
-1nizvhj,1758072383.0,227,0.97,32,,MRW The New York Jets finally make the Playoffs. ,7266.0,positive
-1nhvl4c,1757964619.0,188,0.97,32,,Not getting me again ,6018.0,negative
-1nhktu5,1757940301.0,456,0.97,246,,2 games in 😂 ,109253.0,neutral
-1nh3ztt,1757886605.0,2288,0.99,215,,"Today, someone in my section paid $200 for my Nick Mangold jersey. ",489266.0,neutral
-1ngt2bl,1757860984.0,210,0.97,18,,Let's go jets ,3870.0,positive
-1ng2pl1,1757782902.0,180,0.97,141,,Cowboys offered the Jets Parsons for Quinnen and a 2026 1st per Jerry Jones on ESPN Radio Was just listening to the Jerry Jones interview on ESPN and this was brought up. Apparently Jerry called the Jets and offered us Parsons for Q and a 1st.  I think we made the right call personally but no doubt he makes us better. ,24793.0,neutral
-1nf6tal,1757692211.0,174,0.99,65,,"[Rapoport] Bills standout DL Ed Oliver, who impressed with a sack and a forced fumble in Week 1, was ruled out for Sunday by coach Sean McDermott. Oliver got stepped on this week and is using a walking boot. ",11369.0,neutral
-1nenqva,1757632870.0,196,0.99,31,,Quinnen Williams was the BEST PLAYER ON THE FIELD vs the Steelers | Jets All-22 Breakdown 🎥 ,6209.0,positive
-1ndlq23,1757527671.0,208,0.99,73,,Jets Sign WR Isaiah Williams to replace Xavier Gipson ,15238.0,neutral
-1ndkuc2,1757525750.0,247,0.97,14,,New York Jets Week 2 Matchup Doodle :) ,3594.0,positive
-1ndc737,1757505558.0,706,0.99,265,,"[Costello] The Jets are planning on releasing Xavier Gipson today, per source. Gipson had the costly fumble on Sunday and now the team is moving on ",185918.0,neutral
-1ncyf3c,1757460071.0,195,0.97,74,,Justin Fields BALLED out vs the Steelers | All-22 Film Breakdown ,14186.0,positive
-1nck5oc,1757427446.0,1002,0.99,99,,On the bright side ,99198.0,neutral
-1nc33tq,1757373550.0,355,0.99,106,,How Armand Membou SHUT DOWN TJ Watt in his NFL debut | All-22 Breakdown ,37605.0,positive
-1nbyn1z,1757362709.0,174,1.0,140,,Week 1 PFF Grades ,24534.0,neutral
-1nbqnnv,1757344947.0,408,0.98,48,,"The loss sucked, but Breece looked awesome (over 100 yards rushing, 5.6 YPC, 2 catches for 38 yards). ",19592.0,positive
-1nbq40m,1757343711.0,649,0.99,205,,"[ZackBlatt] Justin Fields had the best passing grade (90.4) of his career yesterday, according to PFF’s grading. He also had the best EPA per attempt (0.68) of his career per TruMedia. And Field’s adjusted completion percentage (88.9) was the third-highest of his career. J",132357.0,neutral
-1nbpooa,1757342772.0,1006,0.95,137,,Lol so true. ,131887.0,neutral
-1nbmmaw,1757335156.0,1054,0.97,121,,The world if Gibson didn’t drop that punt return ,124730.0,negative
+The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchise turnaround that he helped bring to Detroit. Guess what? This is what it looks like. ",39715.0,neutral,0.047,0.839,0.114,0.9879
+1nnks1e,1758543187.0,766,0.98,72,,Dolphins vs Jets flexed to Comedy Central ,54800.0,negative,0.0,0.706,0.294,0.3612
+1nn9lep,1758504765.0,180,0.98,21,,Time is a flat circle… ,3881.0,neutral,0.0,1.0,0.0,0.0
+1nn4hy1,1758490766.0,327,0.94,215,,[Highlight] QB Baker Mayfield on beating the Jets: “Their D-coordinator (Steve Wilks) was the one who cut me in Carolina. A lot of stuff was personal today. Haason Reddick. Former Jet. A lot of people.” ,66394.0,neutral,0.141,0.859,0.0,-0.6249
+1nn2qxl,1758486572.0,525,0.97,267,,#1 baby! who you got? ,136479.0,positive,0.0,1.0,0.0,0.0
+1nn2kq9,1758486163.0,124,0.84,39,,Maybe it was my fault ,4166.0,neutral,0.403,0.597,0.0,-0.4019
+1nn2k0k,1758486116.0,211,0.79,196,,Fire Steve wilks ,32838.0,negative,0.545,0.455,0.0,-0.34
+1nm01fe,1758379484.0,293,0.99,23,,Jets Official Party Pad Car Has anyone seen this car over the years? If so when did you see it at games? ,6962.0,neutral,0.0,0.873,0.127,0.4696
+1nle1ea,1758312513.0,119,0.97,58,,How did Wayne shape you as a Jets fan? What are your personal memories? ,6810.0,neutral,0.0,0.819,0.181,0.3939
+1nket7s,1758216924.0,263,0.96,29,,New York Jets Week 3 Matchup Doodle :) ,7574.0,positive,0.0,0.667,0.333,0.4588
+1njh79n,1758124981.0,282,0.98,247,,[Schefter] Jets QB Justin Fields has been ruled out of Sunday’s game vs. Tampa Bay due to his concussion. Tyrod Taylor will start. ,68537.0,neutral,0.0,1.0,0.0,0.0
+1njck9h,1758114173.0,1155,0.99,110,,When will it end ,126923.0,negative,0.0,1.0,0.0,0.0
+1nizvhj,1758072383.0,227,0.97,32,,MRW The New York Jets finally make the Playoffs. ,7266.0,positive,0.0,1.0,0.0,0.0
+1nhvl4c,1757964619.0,188,0.97,32,,Not getting me again ,6018.0,negative,0.0,1.0,0.0,0.0
+1nhktu5,1757940301.0,456,0.97,246,,2 games in 😂 ,109253.0,neutral,0.0,1.0,0.0,0.0
+1nh3ztt,1757886605.0,2288,0.99,215,,"Today, someone in my section paid $200 for my Nick Mangold jersey. ",489266.0,neutral,0.0,1.0,0.0,0.0
+1ngt2bl,1757860984.0,210,0.97,18,,Let's go jets ,3870.0,positive,0.0,1.0,0.0,0.0
+1ng2pl1,1757782902.0,180,0.97,141,,Cowboys offered the Jets Parsons for Quinnen and a 2026 1st per Jerry Jones on ESPN Radio Was just listening to the Jerry Jones interview on ESPN and this was brought up. Apparently Jerry called the Jets and offered us Parsons for Q and a 1st.  I think we made the right call personally but no doubt he makes us better. ,24793.0,neutral,0.095,0.845,0.06,-0.296
+1nf6tal,1757692211.0,174,0.99,65,,"[Rapoport] Bills standout DL Ed Oliver, who impressed with a sack and a forced fumble in Week 1, was ruled out for Sunday by coach Sean McDermott. Oliver got stepped on this week and is using a walking boot. ",11369.0,neutral,0.075,0.848,0.077,0.0258
+1nenqva,1757632870.0,196,0.99,31,,Quinnen Williams was the BEST PLAYER ON THE FIELD vs the Steelers | Jets All-22 Breakdown 🎥 ,6209.0,positive,0.0,0.739,0.261,0.7125
+1ndlq23,1757527671.0,208,0.99,73,,Jets Sign WR Isaiah Williams to replace Xavier Gipson ,15238.0,neutral,0.0,1.0,0.0,0.0
+1ndkuc2,1757525750.0,247,0.97,14,,New York Jets Week 2 Matchup Doodle :) ,3594.0,positive,0.0,0.667,0.333,0.4588
+1ndc737,1757505558.0,706,0.99,265,,"[Costello] The Jets are planning on releasing Xavier Gipson today, per source. Gipson had the costly fumble on Sunday and now the team is moving on ",185918.0,neutral,0.053,0.947,0.0,-0.1027
+1ncyf3c,1757460071.0,195,0.97,74,,Justin Fields BALLED out vs the Steelers | All-22 Film Breakdown ,14186.0,positive,0.0,1.0,0.0,0.0
+1nck5oc,1757427446.0,1002,0.99,99,,On the bright side ,99198.0,neutral,0.0,0.508,0.492,0.4404
+1nc33tq,1757373550.0,355,0.99,106,,How Armand Membou SHUT DOWN TJ Watt in his NFL debut | All-22 Breakdown ,37605.0,positive,0.0,1.0,0.0,0.0
+1nbyn1z,1757362709.0,174,1.0,140,,Week 1 PFF Grades ,24534.0,neutral,0.0,1.0,0.0,0.0
+1nbqnnv,1757344947.0,408,0.98,48,,"The loss sucked, but Breece looked awesome (over 100 yards rushing, 5.6 YPC, 2 catches for 38 yards). ",19592.0,positive,0.157,0.601,0.242,0.6124
+1nbq40m,1757343711.0,649,0.99,205,,"[ZackBlatt] Justin Fields had the best passing grade (90.4) of his career yesterday, according to PFF’s grading. He also had the best EPA per attempt (0.68) of his career per TruMedia. And Field’s adjusted completion percentage (88.9) was the third-highest of his career. J",132357.0,neutral,0.0,0.83,0.17,0.8555
+1nbpooa,1757342772.0,1006,0.95,137,,Lol so true. ,131887.0,neutral,0.0,0.145,0.855,0.7089
+1nbmmaw,1757335156.0,1054,0.97,121,,The world if Gibson didn’t drop that punt return ,124730.0,negative,0.208,0.792,0.0,-0.2732
 1nbfkyn,1757310154.0,188,0.97,75,,"I watched the entire game a second time (yes I’m a psycho) and here are my takeaways Starting with the offense, Fields looked spectacular. Schematically Engstrand opened the game with a conservative game plan but really opened it up for Fields after that first TD throw to GW. While Fields only attempted 22 passes, when I say opened it up I’m referring to all the read option they ran. Engstrand clearly felt comfortable putting the game in Fields hands, and for the most part he made all the right choices. The game plan was a tad gimmicky and didn’t require him to progress past a second read most of the time, but unlike what we’ve seen from fields in the past, what he did so well today was stepping up in the pocket and feeling where the pressure was coming from. This allows him to make decisive throws or use his elite athleticism to turn nothing into something. Fields speed, lower body strength, and arm strength allow him to be get away with being a slightly slower processor while still stepping up in a muddied pocket knowing he’s got the tools to escape or get a tight window throw off. He did a wonderful job of that today against what should be one of the better front 7s in the NFL this year. 
 
 Speaking of the pocket, the offensive line was very impressive today. I was a tad worried that the AVT injury would kill our run game with the last minute IOL changes, but they looked great as a unit in both the passing game and on the ground. After rewatching and focusing on the line specially, I really do think guard is Tippmans best position and Fields having his college center working with him in Myers seems to be a good thing from a snapping standpoint. Generally speaking the weapons were solid, GW and Breece obviously being the standouts but also saw some nice plays from Josh Reynolds, Tyler Johnson, and the TE duo of Taylor and Ruckert. Yes, that last drive was a killer, but 32 points against the Steelers with 2 missed 2pt conversions (first of which I didn’t love the play call and the second of which fields made the wrong read and threw into double coverage) should be more than enough to win any game with the talent this defense possesses. Overall, given the expectations, this was truly a great day for the offense and leaves me very optimistic going forward. Hats off to Tanner Engstrand, who I thought called a great game as well. 
@@ -657,15 +657,15 @@ Final Grades:
 Offense: A
 Defense: D+
 Special Teams: C
-",13859.0,positive
-1nbdfbp,1757302878.0,532,0.97,107,,"Welp, this was needed to be said about that one ",55732.0,neutral
-1nb75xn,1757284890.0,438,0.99,202,,"[Jet Press] Brandon Stephens was targeted 7 times in Week 1, allowing 5 catches for 60 yards and 2 TDs. He was also flagged for DPI and had a 136.9 NFL passer rating when targeted. Brutal debut for the #Jets big free agent signing. Looked like the same player he was in Baltimore. ",88025.0,negative
+",13859.0,positive,0.116,0.711,0.173,0.996
+1nbdfbp,1757302878.0,532,0.97,107,,"Welp, this was needed to be said about that one ",55732.0,neutral,0.0,1.0,0.0,0.0
+1nb75xn,1757284890.0,438,0.99,202,,"[Jet Press] Brandon Stephens was targeted 7 times in Week 1, allowing 5 catches for 60 yards and 2 TDs. He was also flagged for DPI and had a 136.9 NFL passer rating when targeted. Brutal debut for the #Jets big free agent signing. Looked like the same player he was in Baltimore. ",88025.0,negative,0.073,0.823,0.104,0.1779
 1nb6afr,1757282664.0,190,0.88,325,,"[Pryor] Aaron Rodgers when asked how it feels to beat Aaron Glenn
 
-""I'm just happy to beat everybody associated with the Jets."" ",54507.0,negative
-1nay3zh,1757263474.0,110,0.94,8,,Will They? ,931.0,neutral
-1naxltf,1757262294.0,612,0.92,58,,Please be the one AG ,33219.0,neutral
-1naxiyp,1757262108.0,372,0.98,15,,"A new season, I’m ready. ",5833.0,positive
+""I'm just happy to beat everybody associated with the Jets."" ",54507.0,negative,0.0,0.85,0.15,0.5719
+1nay3zh,1757263474.0,110,0.94,8,,Will They? ,931.0,neutral,0.0,1.0,0.0,0.0
+1naxltf,1757262294.0,612,0.92,58,,Please be the one AG ,33219.0,neutral,0.0,0.635,0.365,0.3182
+1naxiyp,1757262108.0,372,0.98,15,,"A new season, I’m ready. ",5833.0,positive,0.0,0.545,0.455,0.3612
 1nawqcp,1757260242.0,109,0.94,6563,,"Game Thread: Pittsburgh Steelers (0-0) at New York Jets (0-0) #Pittsburgh Steelers at New York Jets
 
 [ESPN Gamecast](https://www.espn.com/nfl/game?gameId=401772721)
@@ -745,45 +745,45 @@ Use [reddit-stream.com](https://reddit-stream.com/comments/auto) to get an autor
 
 ^This ^was ^created ^by ^a ^bot. ^For ^issues ^or ^suggestions ^please ^message ^nfl_gdt_bot.
 
-^Last ^updated: ^2025-09-07_16:40:14.120112-04:00",672547.0,neutral
-1nasv2m,1757250808.0,214,0.93,46,,Get Pumped! It's Gameday!! ,9354.0,positive
+^Last ^updated: ^2025-09-07_16:40:14.120112-04:00",672547.0,neutral,0.0,1.0,0.0,0.0
+1nasv2m,1757250808.0,214,0.93,46,,Get Pumped! It's Gameday!! ,9354.0,positive,0.0,1.0,0.0,0.0
 1naru8s,1757247914.0,264,0.97,95,,"The New York Jets play football today God help us all 
 
-",24584.0,negative
-1naeove,1757203109.0,245,0.97,80,,"Here we go again... Just want to come on and say as a follower of this subreddit for the past year and being a fan of the jets for 20 years I really appreciate all you guys as sick as we all are for rooting for this forsaken team. I will be watching tomorrow and I have low expectations but this is my team and it will be forever and I'm sure this season with be a rollercoaster and I'll be there with a full liquor cabinet. Wherever everyone is watching, See you guys at 1pm. Go Jets!",19250.0,neutral
-1n9dhvg,1757097936.0,411,0.99,138,,Corley asked for 1mil from Adams for #17 ,56558.0,neutral
-1n9866s,1757085713.0,313,0.97,26,,"‘People Who Go In That Locker Room Come Out…Different,’ Jets Custodian Warns Aaron Glenn ",8197.0,neutral
-1n8rbmc,1757033181.0,134,0.95,147,,"The Jets plan to have their offense follow a ""run-heavy, keep-away style"", per @DanGrazianoESPN. ",18840.0,neutral
-1n8pitm,1757028253.0,179,0.98,81,,Hot dog prices by team ,14384.0,neutral
-1n8lhiw,1757018268.0,142,0.81,129,,Will AVT’s injury allow him to be able to come back for the playoffs? I’m in the mood to trigger the entire fanbase with one question ,14953.0,neutral
-1n8crjt,1756998467.0,243,0.98,123,,Jets' Alijah Vera-Tucker: Requires season-ending surgery ,29529.0,negative
-1n7lvc5,1756922029.0,105,0.98,91,,[Schefter] Sources: Jets fear that guard Alijah Vera-Tucker suffered a season-ending torn tricep. He is getting a second opinion to confirm the injury and see if surgery is necessary. ,9467.0,negative
-1n7lf4p,1756921029.0,451,0.98,43,,New York Jets Week 1 Matchup Doodle :) ,19447.0,positive
-1n7l9bm,1756920680.0,190,0.97,114,,Jets fear that guard Alijah Vera-Tucker suffered a season-ending torn tricep. He is getting a second opinion. ,21194.0,negative
-1n7f2cf,1756906698.0,251,0.97,291,,AVT has suffered a significant injury ,71093.0,negative
-1n662yp,1756774913.0,162,0.79,106,,I miss Rex Ryan. That’s it. That’s the post. .,13694.0,neutral
-1n53e4a,1756667811.0,490,0.99,64,,Happy Last Weekend before sacrificing my mental health for Jets football to all who celebrate Go enjoy a walk with your loved ones before making the annual sacrifices! ,31532.0,neutral
-1n49otr,1756580547.0,214,0.96,139,,Friendly reminder Denzel Mims lasted 3 seasons longer Malachi Corley Biggest draft bust since Zach Wilson?,28762.0,negative
-1n3eg0k,1756490222.0,112,0.94,52,,The dress is Gotham Green and Black ,5580.0,neutral
-1n3dfn6,1756487953.0,189,0.9,202,,No respect or do we still suck? ,34530.0,negative
-1n3a47a,1756480393.0,335,0.97,101,,Everyone let this sink in... We got more for Jamal Adams than what Dallas got for Parsons... digest that!,33145.0,negative
-1n2jtsz,1756404880.0,206,0.98,56,,City boys! ,11507.0,positive
-1n2gmzz,1756397744.0,113,0.91,15,,Is the Jersey Gray or is it Olive Green - what is it ,1645.0,neutral
-1n2fhb8,1756395127.0,160,0.96,40,,Sauce Gardner Earns his Nickname on the Hot Ones Football Special | Hot Ones ,6298.0,neutral
-1n2eake,1756392522.0,564,0.95,201,,Better look at the Gotham Jersey ,108232.0,neutral
-1n2d526,1756389907.0,233,0.92,185,,GOTHAM CITY RIVALRY JERSEY! ,39871.0,positive
-1n2ce6x,1756388097.0,197,0.96,95,,"Jets captains are QB Justin Fields, RG Alijah Vera-Tucker and WR Garrett Wilson on offense, LB Jamien Sherwood and Quinnen Williams on defense, and LB Marcelino McCrary-Ball on special teams. ",18156.0,neutral
-1ompvka,1762111103.0,38346,0.98,24,Memes,"They're going to make it 19 days without a loss  If you dorks who constantly post about draft positions want something to watch today, this year's top pick is playing like dogshit again",939477.0,negative
+",24584.0,negative,0.0,0.526,0.474,0.7351
+1naeove,1757203109.0,245,0.97,80,,"Here we go again... Just want to come on and say as a follower of this subreddit for the past year and being a fan of the jets for 20 years I really appreciate all you guys as sick as we all are for rooting for this forsaken team. I will be watching tomorrow and I have low expectations but this is my team and it will be forever and I'm sure this season with be a rollercoaster and I'll be there with a full liquor cabinet. Wherever everyone is watching, See you guys at 1pm. Go Jets!",19250.0,neutral,0.038,0.879,0.083,0.5169
+1n9dhvg,1757097936.0,411,0.99,138,,Corley asked for 1mil from Adams for #17 ,56558.0,neutral,0.0,1.0,0.0,0.0
+1n9866s,1757085713.0,313,0.97,26,,"‘People Who Go In That Locker Room Come Out…Different,’ Jets Custodian Warns Aaron Glenn ",8197.0,neutral,0.097,0.903,0.0,-0.1027
+1n8rbmc,1757033181.0,134,0.95,147,,"The Jets plan to have their offense follow a ""run-heavy, keep-away style"", per @DanGrazianoESPN. ",18840.0,neutral,0.143,0.857,0.0,-0.25
+1n8pitm,1757028253.0,179,0.98,81,,Hot dog prices by team ,14384.0,neutral,0.0,1.0,0.0,0.0
+1n8lhiw,1757018268.0,142,0.81,129,,Will AVT’s injury allow him to be able to come back for the playoffs? I’m in the mood to trigger the entire fanbase with one question ,14953.0,neutral,0.098,0.836,0.066,-0.2263
+1n8crjt,1756998467.0,243,0.98,123,,Jets' Alijah Vera-Tucker: Requires season-ending surgery ,29529.0,negative,0.0,1.0,0.0,0.0
+1n7lvc5,1756922029.0,105,0.98,91,,[Schefter] Sources: Jets fear that guard Alijah Vera-Tucker suffered a season-ending torn tricep. He is getting a second opinion to confirm the injury and see if surgery is necessary. ,9467.0,negative,0.327,0.673,0.0,-0.8807
+1n7lf4p,1756921029.0,451,0.98,43,,New York Jets Week 1 Matchup Doodle :) ,19447.0,positive,0.0,0.667,0.333,0.4588
+1n7l9bm,1756920680.0,190,0.97,114,,Jets fear that guard Alijah Vera-Tucker suffered a season-ending torn tricep. He is getting a second opinion. ,21194.0,negative,0.412,0.588,0.0,-0.8126
+1n7f2cf,1756906698.0,251,0.97,291,,AVT has suffered a significant injury ,71093.0,negative,0.612,0.204,0.184,-0.6369
+1n662yp,1756774913.0,162,0.79,106,,I miss Rex Ryan. That’s it. That’s the post. .,13694.0,neutral,0.186,0.814,0.0,-0.1531
+1n53e4a,1756667811.0,490,0.99,64,,Happy Last Weekend before sacrificing my mental health for Jets football to all who celebrate Go enjoy a walk with your loved ones before making the annual sacrifices! ,31532.0,neutral,0.0,0.609,0.391,0.9412
+1n49otr,1756580547.0,214,0.96,139,,Friendly reminder Denzel Mims lasted 3 seasons longer Malachi Corley Biggest draft bust since Zach Wilson?,28762.0,negative,0.0,0.814,0.186,0.4939
+1n3eg0k,1756490222.0,112,0.94,52,,The dress is Gotham Green and Black ,5580.0,neutral,0.0,1.0,0.0,0.0
+1n3dfn6,1756487953.0,189,0.9,202,,No respect or do we still suck? ,34530.0,negative,0.418,0.328,0.254,-0.25
+1n3a47a,1756480393.0,335,0.97,101,,Everyone let this sink in... We got more for Jamal Adams than what Dallas got for Parsons... digest that!,33145.0,negative,0.0,1.0,0.0,0.0
+1n2jtsz,1756404880.0,206,0.98,56,,City boys! ,11507.0,positive,0.0,1.0,0.0,0.0
+1n2gmzz,1756397744.0,113,0.91,15,,Is the Jersey Gray or is it Olive Green - what is it ,1645.0,neutral,0.0,1.0,0.0,0.0
+1n2fhb8,1756395127.0,160,0.96,40,,Sauce Gardner Earns his Nickname on the Hot Ones Football Special | Hot Ones ,6298.0,neutral,0.0,0.816,0.184,0.4019
+1n2eake,1756392522.0,564,0.95,201,,Better look at the Gotham Jersey ,108232.0,neutral,0.0,0.633,0.367,0.4404
+1n2d526,1756389907.0,233,0.92,185,,GOTHAM CITY RIVALRY JERSEY! ,39871.0,positive,0.0,1.0,0.0,0.0
+1n2ce6x,1756388097.0,197,0.96,95,,"Jets captains are QB Justin Fields, RG Alijah Vera-Tucker and WR Garrett Wilson on offense, LB Jamien Sherwood and Quinnen Williams on defense, and LB Marcelino McCrary-Ball on special teams. ",18156.0,neutral,0.06,0.813,0.127,0.296
+1ompvka,1762111103.0,38346,0.98,24,Memes,"They're going to make it 19 days without a loss  If you dorks who constantly post about draft positions want something to watch today, this year's top pick is playing like dogshit again",939477.0,negative,0.041,0.705,0.254,0.7061
 1ompvka,1762112134.0,3486,0.98,24,Memes,"They're going to make it 19 days without a loss  Go Jets 
 The pain will be worth it .
-Glory days someday",85407.0,positive
-1ompvka,1762120484.0,1162,0.98,24,Memes,They're going to make it 19 days without a loss  Matthew Schaefer looks good,28469.0,neutral
-1ompvka,1762123566.0,1162,0.98,24,Memes,They're going to make it 19 days without a loss  Time off for good behavior 😁,28469.0,positive
-1ompvka,1762122815.0,1743,0.98,24,Memes,They're going to make it 19 days without a loss  We may never lose again,42704.0,positive
-1ompvka,1762112283.0,1162,0.98,24,Memes,They're going to make it 19 days without a loss  Super Bowl bound,28469.0,positive
-1ompvka,1762183207.0,581,0.98,24,Memes,They're going to make it 19 days without a loss  HE'LL YEA PLAN THE PARADE HOSS,14234.0,positive
-1ompvka,1762279007.0,581,0.98,24,Memes,They're going to make it 19 days without a loss  Does losing your star corner count as a loss?,14234.0,neutral
-1ompvka,1762282769.0,581,0.98,24,Memes,"They're going to make it 19 days without a loss  Jets got their loss, didn't have to wait 2 weeks either.",14234.0,neutral
+Glory days someday",85407.0,positive,0.124,0.6,0.276,0.47
+1ompvka,1762120484.0,1162,0.98,24,Memes,They're going to make it 19 days without a loss  Matthew Schaefer looks good,28469.0,neutral,0.0,0.693,0.307,0.5943
+1ompvka,1762123566.0,1162,0.98,24,Memes,They're going to make it 19 days without a loss  Time off for good behavior 😁,28469.0,positive,0.0,0.712,0.288,0.5943
+1ompvka,1762122815.0,1743,0.98,24,Memes,They're going to make it 19 days without a loss  We may never lose again,42704.0,positive,0.0,0.74,0.26,0.4973
+1ompvka,1762112283.0,1162,0.98,24,Memes,They're going to make it 19 days without a loss  Super Bowl bound,28469.0,positive,0.208,0.662,0.13,-0.2924
+1ompvka,1762183207.0,581,0.98,24,Memes,They're going to make it 19 days without a loss  HE'LL YEA PLAN THE PARADE HOSS,14234.0,positive,0.0,0.877,0.123,0.2411
+1ompvka,1762279007.0,581,0.98,24,Memes,They're going to make it 19 days without a loss  Does losing your star corner count as a loss?,14234.0,neutral,0.0,0.696,0.304,0.6259
+1ompvka,1762282769.0,581,0.98,24,Memes,"They're going to make it 19 days without a loss  Jets got their loss, didn't have to wait 2 weeks either.",14234.0,neutral,0.0,0.812,0.188,0.4449
 1no4k2y,1758649672.0,21300,0.92,151,Cope,"Why as a fan, I’m not that upset being 0-3 compared to years past 
 
 Some people are gonna hate me for posting this, but this season is very similar to how the Dan Campbell’s tenure in Detroit started.
@@ -817,7 +817,7 @@ People will read this and think I’m making excuses, but I’m not. I want this
 All I’m saying is; we should be realistic with our expectations this and next season. If Detroit ran Dan Campbell out of their franchise that first couple seasons, they wouldn’t have reached the heights they did later on. 
 
 
-The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchise turnaround that he helped bring to Detroit. Guess what? This is what it looks like.  But will ownership stay out of the way???",2978592.0,neutral
+The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchise turnaround that he helped bring to Detroit. Guess what? This is what it looks like.  But will ownership stay out of the way???",2978592.0,neutral,0.047,0.841,0.113,0.9883
 1no4k2y,1758649717.0,45440,0.92,151,Cope,"Why as a fan, I’m not that upset being 0-3 compared to years past 
 
 Some people are gonna hate me for posting this, but this season is very similar to how the Dan Campbell’s tenure in Detroit started.
@@ -851,7 +851,7 @@ People will read this and think I’m making excuses, but I’m not. I want this
 All I’m saying is; we should be realistic with our expectations this and next season. If Detroit ran Dan Campbell out of their franchise that first couple seasons, they wouldn’t have reached the heights they did later on. 
 
 
-The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchise turnaround that he helped bring to Detroit. Guess what? This is what it looks like.  I just wish the defense had even the slightest hint of a pulse on gameday.",6354330.0,neutral
+The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchise turnaround that he helped bring to Detroit. Guess what? This is what it looks like.  I just wish the defense had even the slightest hint of a pulse on gameday.",6354330.0,neutral,0.046,0.834,0.12,0.9906
 1no4k2y,1758649810.0,24140,0.92,151,Cope,"Why as a fan, I’m not that upset being 0-3 compared to years past 
 
 Some people are gonna hate me for posting this, but this season is very similar to how the Dan Campbell’s tenure in Detroit started.
@@ -889,7 +889,7 @@ The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchis
 
 I imagine Lions fans ready to tar and feather Campbell at that point also. 
 
-Every team is different and I have no reason the believe the Jets will turn it around like the Lions and Campbell did, but it is worth noting that Campbell’s first year looked way worse than this.",3375738.0,negative
+Every team is different and I have no reason the believe the Jets will turn it around like the Lions and Campbell did, but it is worth noting that Campbell’s first year looked way worse than this.",3375738.0,negative,0.06,0.83,0.11,0.9836
 1no4k2y,1758649810.0,9940,0.92,151,Cope,"Why as a fan, I’m not that upset being 0-3 compared to years past 
 
 Some people are gonna hate me for posting this, but this season is very similar to how the Dan Campbell’s tenure in Detroit started.
@@ -925,7 +925,7 @@ All I’m saying is; we should be realistic with our expectations this and next 
 
 The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchise turnaround that he helped bring to Detroit. Guess what? This is what it looks like.  I am definitely not ready to pull my hair out, but we also have to remember that the Lions had a solid QB in Goff AND multiple early round draft picks to accelerate the rebuild from the Stafford trade. Unfortunately we're entering this rebuild without a long term solution at QB nor as much draft capital as Detroit had.
 
-So in really we need the front office to execute at a really high level over the next 2-3 years.",1390010.0,negative
+So in really we need the front office to execute at a really high level over the next 2-3 years.",1390010.0,negative,0.054,0.839,0.107,0.986
 1no4k2y,1758650672.0,13632,0.92,151,Cope,"Why as a fan, I’m not that upset being 0-3 compared to years past 
 
 Some people are gonna hate me for posting this, but this season is very similar to how the Dan Campbell’s tenure in Detroit started.
@@ -960,7 +960,7 @@ All I’m saying is; we should be realistic with our expectations this and next 
 
 
 The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchise turnaround that he helped bring to Detroit. Guess what? This is what it looks like.  It’s taken two playoff teams last second field goals to
-Keep us from 2-1.",1906299.0,neutral
+Keep us from 2-1.",1906299.0,neutral,0.046,0.843,0.111,0.9879
 1no4k2y,1758664033.0,2272,0.92,151,Cope,"Why as a fan, I’m not that upset being 0-3 compared to years past 
 
 Some people are gonna hate me for posting this, but this season is very similar to how the Dan Campbell’s tenure in Detroit started.
@@ -998,7 +998,7 @@ The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchis
 
 This organization is hopeless. They are so bad they've turned a great and proud fanbase into this.
 
-Fuck Dick Johnson",317716.0,negative
+Fuck Dick Johnson",317716.0,negative,0.077,0.803,0.12,0.9723
 1no4k2y,1758649561.0,1988,0.92,151,Cope,"Why as a fan, I’m not that upset being 0-3 compared to years past 
 
 Some people are gonna hate me for posting this, but this season is very similar to how the Dan Campbell’s tenure in Detroit started.
@@ -1032,7 +1032,7 @@ People will read this and think I’m making excuses, but I’m not. I want this
 All I’m saying is; we should be realistic with our expectations this and next season. If Detroit ran Dan Campbell out of their franchise that first couple seasons, they wouldn’t have reached the heights they did later on. 
 
 
-The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchise turnaround that he helped bring to Detroit. Guess what? This is what it looks like.  6 teams currently 0-3",278002.0,neutral
+The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchise turnaround that he helped bring to Detroit. Guess what? This is what it looks like.  6 teams currently 0-3",278002.0,neutral,0.047,0.84,0.113,0.9879
 1no4k2y,1758650828.0,1704,0.92,151,Cope,"Why as a fan, I’m not that upset being 0-3 compared to years past 
 
 Some people are gonna hate me for posting this, but this season is very similar to how the Dan Campbell’s tenure in Detroit started.
@@ -1066,7 +1066,7 @@ People will read this and think I’m making excuses, but I’m not. I want this
 All I’m saying is; we should be realistic with our expectations this and next season. If Detroit ran Dan Campbell out of their franchise that first couple seasons, they wouldn’t have reached the heights they did later on. 
 
 
-The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchise turnaround that he helped bring to Detroit. Guess what? This is what it looks like.  Progress is a process.  Gotta fix foundation.  Then build on it",238287.0,neutral
+The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchise turnaround that he helped bring to Detroit. Guess what? This is what it looks like.  Progress is a process.  Gotta fix foundation.  Then build on it",238287.0,neutral,0.046,0.836,0.118,0.9902
 1no4k2y,1758650498.0,3408,0.92,151,Cope,"Why as a fan, I’m not that upset being 0-3 compared to years past 
 
 Some people are gonna hate me for posting this, but this season is very similar to how the Dan Campbell’s tenure in Detroit started.
@@ -1102,7 +1102,7 @@ All I’m saying is; we should be realistic with our expectations this and next 
 
 The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchise turnaround that he helped bring to Detroit. Guess what? This is what it looks like.  People should be aware this season is basically an alpha test and just keep calm, we don't have anything figured out  or basically any key pieces in place and this season was known to be a write off from the start. 
 
-There's nothing about their performance so far you couldn't have seen coming miles away if you were slightly realistic we just have to hope they can build ANY kind of identity or vision for the future coming out of this season.",476575.0,negative
+There's nothing about their performance so far you couldn't have seen coming miles away if you were slightly realistic we just have to hope they can build ANY kind of identity or vision for the future coming out of this season.",476575.0,negative,0.041,0.847,0.113,0.9923
 1no4k2y,1758651217.0,1136,0.92,151,Cope,"Why as a fan, I’m not that upset being 0-3 compared to years past 
 
 Some people are gonna hate me for posting this, but this season is very similar to how the Dan Campbell’s tenure in Detroit started.
@@ -1136,7 +1136,7 @@ People will read this and think I’m making excuses, but I’m not. I want this
 All I’m saying is; we should be realistic with our expectations this and next season. If Detroit ran Dan Campbell out of their franchise that first couple seasons, they wouldn’t have reached the heights they did later on. 
 
 
-The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchise turnaround that he helped bring to Detroit. Guess what? This is what it looks like.  You’re not changing this level of bad in one off-season plus 3 weeks. Lions were in the same boat like you’re saying. Complete agree with taking a breath.",158858.0,neutral
+The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchise turnaround that he helped bring to Detroit. Guess what? This is what it looks like.  You’re not changing this level of bad in one off-season plus 3 weeks. Lions were in the same boat like you’re saying. Complete agree with taking a breath.",158858.0,neutral,0.053,0.829,0.118,0.9886
 1no4k2y,1758675524.0,852,0.92,151,Cope,"Why as a fan, I’m not that upset being 0-3 compared to years past 
 
 Some people are gonna hate me for posting this, but this season is very similar to how the Dan Campbell’s tenure in Detroit started.
@@ -1170,7 +1170,7 @@ People will read this and think I’m making excuses, but I’m not. I want this
 All I’m saying is; we should be realistic with our expectations this and next season. If Detroit ran Dan Campbell out of their franchise that first couple seasons, they wouldn’t have reached the heights they did later on. 
 
 
-The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchise turnaround that he helped bring to Detroit. Guess what? This is what it looks like.  I love the delusion. I figured the real answer is because we are always had and you just feel numb at this point. We say this about every coach when they begin. Then the jets dna kicks in. Can’t wait til our next coaching and gm hires in 4 years…",119144.0,negative
+The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchise turnaround that he helped bring to Detroit. Guess what? This is what it looks like.  I love the delusion. I figured the real answer is because we are always had and you just feel numb at this point. We say this about every coach when they begin. Then the jets dna kicks in. Can’t wait til our next coaching and gm hires in 4 years…",119144.0,negative,0.048,0.839,0.113,0.9902
 1no4k2y,1758669255.0,1704,0.92,151,Cope,"Why as a fan, I’m not that upset being 0-3 compared to years past 
 
 Some people are gonna hate me for posting this, but this season is very similar to how the Dan Campbell’s tenure in Detroit started.
@@ -1208,7 +1208,7 @@ The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchis
 
 Woody will get impatient. He’ll pressure for a head to roll. Wilkes will get the ax first. Then he’ll demand we draft a qb and play him immediately. He will and he’ll crumble under the pressure. Woody will demand a head. Our OC will get the ax. Then we’ll overpay some free agents and Woody will get impatient and fire Glenn.
 
-Woody is the problem. Until he’s gone nothing will change.",238287.0,negative
+Woody is the problem. Until he’s gone nothing will change.",238287.0,negative,0.074,0.811,0.115,0.9816
 1no4k2y,1758657386.0,2272,0.92,151,Cope,"Why as a fan, I’m not that upset being 0-3 compared to years past 
 
 Some people are gonna hate me for posting this, but this season is very similar to how the Dan Campbell’s tenure in Detroit started.
@@ -1246,7 +1246,7 @@ The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchis
 
 https://www.reddit.com/r/nyjets/comments/ph5sjk/rich_cimini_analysis_the_rebuilding_jets_want_you/
 
-Yeah man totally not having the same conversation for 11 years.",317716.0,negative
+Yeah man totally not having the same conversation for 11 years.",317716.0,negative,0.046,0.838,0.116,0.9895
 1no4k2y,1758655884.0,852,0.92,151,Cope,"Why as a fan, I’m not that upset being 0-3 compared to years past 
 
 Some people are gonna hate me for posting this, but this season is very similar to how the Dan Campbell’s tenure in Detroit started.
@@ -1280,7 +1280,7 @@ People will read this and think I’m making excuses, but I’m not. I want this
 All I’m saying is; we should be realistic with our expectations this and next season. If Detroit ran Dan Campbell out of their franchise that first couple seasons, they wouldn’t have reached the heights they did later on. 
 
 
-The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchise turnaround that he helped bring to Detroit. Guess what? This is what it looks like.  I’m not sure why we point out some of the exceptions and not the rule. How about we stay in the moment",119144.0,neutral
+The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchise turnaround that he helped bring to Detroit. Guess what? This is what it looks like.  I’m not sure why we point out some of the exceptions and not the rule. How about we stay in the moment",119144.0,neutral,0.05,0.841,0.109,0.9864
 1no4k2y,1758656629.0,852,0.92,151,Cope,"Why as a fan, I’m not that upset being 0-3 compared to years past 
 
 Some people are gonna hate me for posting this, but this season is very similar to how the Dan Campbell’s tenure in Detroit started.
@@ -1314,7 +1314,7 @@ People will read this and think I’m making excuses, but I’m not. I want this
 All I’m saying is; we should be realistic with our expectations this and next season. If Detroit ran Dan Campbell out of their franchise that first couple seasons, they wouldn’t have reached the heights they did later on. 
 
 
-The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchise turnaround that he helped bring to Detroit. Guess what? This is what it looks like.  What did the lions roster look like before Dan Campbell though? This was a team that lured Aaron Rodgers out of Green Bay for a Super Bowl shot. We still have many of those pieces.",119144.0,neutral
+The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchise turnaround that he helped bring to Detroit. Guess what? This is what it looks like.  What did the lions roster look like before Dan Campbell though? This was a team that lured Aaron Rodgers out of Green Bay for a Super Bowl shot. We still have many of those pieces.",119144.0,neutral,0.044,0.835,0.121,0.9926
 1no4k2y,1758661646.0,852,0.92,151,Cope,"Why as a fan, I’m not that upset being 0-3 compared to years past 
 
 Some people are gonna hate me for posting this, but this season is very similar to how the Dan Campbell’s tenure in Detroit started.
@@ -1348,7 +1348,7 @@ People will read this and think I’m making excuses, but I’m not. I want this
 All I’m saying is; we should be realistic with our expectations this and next season. If Detroit ran Dan Campbell out of their franchise that first couple seasons, they wouldn’t have reached the heights they did later on. 
 
 
-The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchise turnaround that he helped bring to Detroit. Guess what? This is what it looks like.  Watching Skattebo play made me realize how ducking soft and no effort most of the league plays with",119144.0,negative
+The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchise turnaround that he helped bring to Detroit. Guess what? This is what it looks like.  Watching Skattebo play made me realize how ducking soft and no effort most of the league plays with",119144.0,negative,0.05,0.831,0.119,0.9895
 1no4k2y,1758665239.0,1704,0.92,151,Cope,"Why as a fan, I’m not that upset being 0-3 compared to years past 
 
 Some people are gonna hate me for posting this, but this season is very similar to how the Dan Campbell’s tenure in Detroit started.
@@ -1382,7 +1382,7 @@ People will read this and think I’m making excuses, but I’m not. I want this
 All I’m saying is; we should be realistic with our expectations this and next season. If Detroit ran Dan Campbell out of their franchise that first couple seasons, they wouldn’t have reached the heights they did later on. 
 
 
-The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchise turnaround that he helped bring to Detroit. Guess what? This is what it looks like.  Can we please stop with this comparison already …. Enough is enough",238287.0,negative
+The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchise turnaround that he helped bring to Detroit. Guess what? This is what it looks like.  Can we please stop with this comparison already …. Enough is enough",238287.0,negative,0.051,0.833,0.116,0.9881
 1no4k2y,1758698675.0,1136,0.92,151,Cope,"Why as a fan, I’m not that upset being 0-3 compared to years past 
 
 Some people are gonna hate me for posting this, but this season is very similar to how the Dan Campbell’s tenure in Detroit started.
@@ -1422,7 +1422,7 @@ This defense has 3 all-pros from just 2 years ago (all three still in prime year
 
 Offense has a line full of premium picks, a 2nd round TE, a WR who’s supposed to be top tier (also just got paid), and a RB that’s supposed to be top tier. 
 
-If this is a 3 win team picking in the top 5 there are some serious core talent problems.",158858.0,negative
+If this is a 3 win team picking in the top 5 there are some serious core talent problems.",158858.0,negative,0.051,0.822,0.127,0.9935
 1no4k2y,1758667510.0,568,0.92,151,Cope,"Why as a fan, I’m not that upset being 0-3 compared to years past 
 
 Some people are gonna hate me for posting this, but this season is very similar to how the Dan Campbell’s tenure in Detroit started.
@@ -1456,7 +1456,7 @@ People will read this and think I’m making excuses, but I’m not. I want this
 All I’m saying is; we should be realistic with our expectations this and next season. If Detroit ran Dan Campbell out of their franchise that first couple seasons, they wouldn’t have reached the heights they did later on. 
 
 
-The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchise turnaround that he helped bring to Detroit. Guess what? This is what it looks like.  I remember people doing this by comparing zach wilsons and Josh Allen's interceptions",79429.0,neutral
+The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchise turnaround that he helped bring to Detroit. Guess what? This is what it looks like.  I remember people doing this by comparing zach wilsons and Josh Allen's interceptions",79429.0,neutral,0.046,0.843,0.111,0.9879
 1no4k2y,1758674468.0,568,0.92,151,Cope,"Why as a fan, I’m not that upset being 0-3 compared to years past 
 
 Some people are gonna hate me for posting this, but this season is very similar to how the Dan Campbell’s tenure in Detroit started.
@@ -1490,4 +1490,4 @@ People will read this and think I’m making excuses, but I’m not. I want this
 All I’m saying is; we should be realistic with our expectations this and next season. If Detroit ran Dan Campbell out of their franchise that first couple seasons, they wouldn’t have reached the heights they did later on. 
 
 
-The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchise turnaround that he helped bring to Detroit. Guess what? This is what it looks like.  It’s good to have perspective, but it’s also important to remember the context of that 3 win season. Everyone who watched those games could see that Detroit was playing hard. They lost some close games that year, and that gave everyone some confidence in the coaching staff. You can survive a 3 win season, BUT to do so the coaching staff has to show that they have buy-in from the players and that the team is playing hard.",79429.0,neutral
+The fanbase wanted Aaron Glenn, and we wanted him to bring with him the franchise turnaround that he helped bring to Detroit. Guess what? This is what it looks like.  It’s good to have perspective, but it’s also important to remember the context of that 3 win season. Everyone who watched those games could see that Detroit was playing hard. They lost some close games that year, and that gave everyone some confidence in the coaching staff. You can survive a 3 win season, BUT to do so the coaching staff has to show that they have buy-in from the players and that the team is playing hard.",79429.0,neutral,0.05,0.814,0.136,0.9953

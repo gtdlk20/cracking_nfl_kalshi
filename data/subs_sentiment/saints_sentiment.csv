@@ -1,119 +1,119 @@
-id,created_utc,score,upvote_ratio,num_comments,link_flair_text,text,populairity,sentiment
-1p5i389,1763993577.0,105,0.9,66,,"Honestly, if we give this man a decent Oline and some more targets down field,  I think we're back Nice pose, working pretty well under pressure and extending plays.. I like what I'm seeing from the rook. Give him some help on the line and some more WRs and i think we might be back. A decent O line would get the running game back. Defense still playing top 15 football so they should only get better. ",6332.0,positive
-1p53k5f,1763946490.0,140,0.98,12,,"Well, here it is…. que te",1784.0,neutral
-1p52xam,1763944700.0,152,0.98,18,,"Sucks we lost but…. Drew Brees called such a good game. Heads and shoulders above any commentary I’ve heard this year. It’s crazy how much he knows his shit. Calling out the use of play action, sometimes calling plays before they happened, and it’s the GOAT? Yea, I think I’m gonna be listening in to all the games he calls. 🔥",2830.0,positive
-1p52kxw,1763943750.0,145,1.0,2,,"The Man, The Myth, The LEGEND! 🐐 DREW BREES! ",435.0,positive
-1p51u13,1763941717.0,138,0.95,7,,When you realize that we should be tied right now… yo ,1049.0,neutral
-1p50fnf,1763938074.0,292,0.93,38,,Y’all gotta chill with all the cut grupe posts Can’t keep up with upvoting them all,10591.0,neutral
-1p50def,1763937913.0,154,0.96,34,,There’s no excuse for Grupe It’s Smyth time. I’ve seen enough ,5174.0,negative
-1p4yyn9,1763934393.0,382,0.99,79,,"Bro I’m done with Grupe. I'm tired of his little goofy ass missing easy field goals. That was a fucking 38-yard field goal. Granted, I know that we’re not playing for anything this year, but that shit is embarrassing. And I don’t want to hear about his potential. The past two seasons, he has been ass. Release that dude. ",30254.0,negative
-1p4yvou,1763934192.0,101,0.96,17,,Cut this kicker already Grupe sucks plain and simple,1745.0,negative
-1p4umnv,1763923917.0,110,0.97,7,,We ready? ,854.0,neutral
-1p4lmpp,1763901214.0,130,0.95,14,,FTF! ,1852.0,negative
-1p4a9d3,1763862105.0,135,1.0,9,,Get ready boys ,1350.0,neutral
-1p38o5p,1763755161.0,164,0.99,39,,Tyrann Mathieu Says Saints Fans Need To Support Shough [https://youtu.be/Pxic0ToIjxU](https://youtu.be/Pxic0ToIjxU),6494.0,neutral
-1p38hv5,1763754746.0,102,1.0,9,,"Week 12 Tyler Shough first game after pregnancy announcement and first home start, first time finally using our black helmets the right way with a black out combo, Drew calling the game, Falcons in the dome... im excited ",1020.0,positive
-1p2z8hv,1763733316.0,267,0.96,106,,Cam on the Around the NFL podcast: ,27426.0,neutral
-1p2b8u5,1763664088.0,369,1.0,27,,"Brees on calling the game objectively: ""You know damn well who I want to win..."" ",10332.0,neutral
-1p1t4rf,1763610539.0,197,0.98,8,,Lisan Al Gaib!!! ,1738.0,neutral
-1p1q3b3,1763601909.0,107,0.85,27,,"Saints are 2-8, can we please tie the next 3 games? The next best thing to a winning record is a trolling record",2547.0,neutral
+id,created_utc,score,upvote_ratio,num_comments,link_flair_text,text,populairity,sentiment,vader_neg,vader_neu,vader_pos,vader_compound
+1p5i389,1763993577.0,105,0.9,66,,"Honestly, if we give this man a decent Oline and some more targets down field,  I think we're back Nice pose, working pretty well under pressure and extending plays.. I like what I'm seeing from the rook. Give him some help on the line and some more WRs and i think we might be back. A decent O line would get the running game back. Defense still playing top 15 football so they should only get better. ",6332.0,positive,0.025,0.694,0.281,0.959
+1p53k5f,1763946490.0,140,0.98,12,,"Well, here it is…. que te",1784.0,neutral,0.0,0.704,0.296,0.2732
+1p52xam,1763944700.0,152,0.98,18,,"Sucks we lost but…. Drew Brees called such a good game. Heads and shoulders above any commentary I’ve heard this year. It’s crazy how much he knows his shit. Calling out the use of play action, sometimes calling plays before they happened, and it’s the GOAT? Yea, I think I’m gonna be listening in to all the games he calls. 🔥",2830.0,positive,0.156,0.738,0.106,-0.5423
+1p52kxw,1763943750.0,145,1.0,2,,"The Man, The Myth, The LEGEND! 🐐 DREW BREES! ",435.0,positive,0.0,1.0,0.0,0.0
+1p51u13,1763941717.0,138,0.95,7,,When you realize that we should be tied right now… yo ,1049.0,neutral,0.0,1.0,0.0,0.0
+1p50fnf,1763938074.0,292,0.93,38,,Y’all gotta chill with all the cut grupe posts Can’t keep up with upvoting them all,10591.0,neutral,0.123,0.877,0.0,-0.2732
+1p50def,1763937913.0,154,0.96,34,,There’s no excuse for Grupe It’s Smyth time. I’ve seen enough ,5174.0,negative,0.176,0.72,0.104,-0.2263
+1p4yyn9,1763934393.0,382,0.99,79,,"Bro I’m done with Grupe. I'm tired of his little goofy ass missing easy field goals. That was a fucking 38-yard field goal. Granted, I know that we’re not playing for anything this year, but that shit is embarrassing. And I don’t want to hear about his potential. The past two seasons, he has been ass. Release that dude. ",30254.0,negative,0.277,0.654,0.07,-0.9388
+1p4yvou,1763934192.0,101,0.96,17,,Cut this kicker already Grupe sucks plain and simple,1745.0,negative,0.397,0.603,0.0,-0.5574
+1p4umnv,1763923917.0,110,0.97,7,,We ready? ,854.0,neutral,0.0,0.286,0.714,0.3612
+1p4lmpp,1763901214.0,130,0.95,14,,FTF! ,1852.0,negative,0.0,1.0,0.0,0.0
+1p4a9d3,1763862105.0,135,1.0,9,,Get ready boys ,1350.0,neutral,0.0,0.444,0.556,0.3612
+1p38o5p,1763755161.0,164,0.99,39,,Tyrann Mathieu Says Saints Fans Need To Support Shough [https://youtu.be/Pxic0ToIjxU](https://youtu.be/Pxic0ToIjxU),6494.0,neutral,0.0,0.769,0.231,0.4019
+1p38hv5,1763754746.0,102,1.0,9,,"Week 12 Tyler Shough first game after pregnancy announcement and first home start, first time finally using our black helmets the right way with a black out combo, Drew calling the game, Falcons in the dome... im excited ",1020.0,positive,0.0,0.938,0.062,0.34
+1p2z8hv,1763733316.0,267,0.96,106,,Cam on the Around the NFL podcast: ,27426.0,neutral,0.0,1.0,0.0,0.0
+1p2b8u5,1763664088.0,369,1.0,27,,"Brees on calling the game objectively: ""You know damn well who I want to win..."" ",10332.0,neutral,0.158,0.643,0.199,-0.0772
+1p1t4rf,1763610539.0,197,0.98,8,,Lisan Al Gaib!!! ,1738.0,neutral,0.0,1.0,0.0,0.0
+1p1q3b3,1763601909.0,107,0.85,27,,"Saints are 2-8, can we please tie the next 3 games? The next best thing to a winning record is a trolling record",2547.0,neutral,0.0,0.632,0.368,0.872
 1p1psrk,1763601105.0,241,1.0,24,,"Pic of me and Deuce from ‘09 This popped up on my “memories” / timeline thing FB likes to do. I met him here at a restaurant in Madison, MS. Was sitting at a table next to him. He was super cool. Had a few drinks with him while we had dinner.  Very good time. 
 
-Just thought I would share.",6025.0,neutral
-1p1lcjv,1763589759.0,172,0.99,35,,"[Triplett] Next year's guaranteed portion was indeed removed from Brandin Cooks' contract, saving the Saints nearly $2 million as part of the agreement to release veteran WR. ",6130.0,neutral
-1p1cx7d,1763571133.0,233,0.99,137,Roster News,BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter) ,31832.0,neutral
-1p16br4,1763555149.0,345,0.99,11,,His nickname was Honest Abe ,4099.0,neutral
-1p0xfvx,1763524715.0,142,0.99,33,,"Saints expect to play a game in Paris, team official says ",4780.0,neutral
-1p0s0w3,1763509703.0,639,0.92,38,,FTF ,22927.0,negative
-1p0d52c,1763475555.0,280,0.9,129,,"This Thanksgiving, I’m thankful we didn’t draft Shedeur. Who Dat!!",32760.0,positive
-1ozy0oe,1763427269.0,350,0.99,12,,ITS FALCONS HATE WEEK LADS!! FTF!!! ,4504.0,negative
+Just thought I would share.",6025.0,neutral,0.0,0.773,0.227,0.9245
+1p1lcjv,1763589759.0,172,0.99,35,,"[Triplett] Next year's guaranteed portion was indeed removed from Brandin Cooks' contract, saving the Saints nearly $2 million as part of the agreement to release veteran WR. ",6130.0,neutral,0.0,0.89,0.11,0.4939
+1p1cx7d,1763571133.0,233,0.99,137,Roster News,BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter) ,31832.0,neutral,0.0,0.8,0.2,0.3612
+1p16br4,1763555149.0,345,0.99,11,,His nickname was Honest Abe ,4099.0,neutral,0.0,0.548,0.452,0.5106
+1p0xfvx,1763524715.0,142,0.99,33,,"Saints expect to play a game in Paris, team official says ",4780.0,neutral,0.0,0.789,0.211,0.34
+1p0s0w3,1763509703.0,639,0.92,38,,FTF ,22927.0,negative,0.0,1.0,0.0,0.0
+1p0d52c,1763475555.0,280,0.9,129,,"This Thanksgiving, I’m thankful we didn’t draft Shedeur. Who Dat!!",32760.0,positive,0.0,0.678,0.322,0.6467
+1ozy0oe,1763427269.0,350,0.99,12,,ITS FALCONS HATE WEEK LADS!! FTF!!! ,4504.0,negative,0.493,0.507,0.0,-0.7067
 1ozutbz,1763419184.0,175,0.99,14,,"It’s Officially “Shough the Falcons” week “Shough the falcons!”
 
-That is all…",2599.0,positive
-1ozujry,1763418558.0,285,0.97,22,,It’s time to take out the trash ,6358.0,negative
-1ozmjru,1763400763.0,216,0.99,56,,"Is it weird being this happy at 2-8? Clowning Falcons fans, Brees getting the spotlight, Shough showing promise. We are doing it right. Banks Jr. playing like a stud. What else is there to say? Eating our vegetables and getting our roots sturdy. Who dat baby. ",12189.0,positive
-1oz5vna,1763350334.0,465,1.0,19,,Brees to be in the booth for Falcons/Saints game ,9300.0,neutral
-1oz42kp,1763345193.0,561,0.99,42,,3rd Place Here We Come! ,23882.0,positive
-1oyz01q,1763331621.0,102,0.87,46,,Bryce Young passed for 448 yards vs Falcons today… I can hear it now- Shough does amazing next week and fans will say it’s meaningless because Bryce Young passed for 448 yards vs them…,4171.0,neutral
-1oyvxy9,1763324238.0,199,0.94,56,,Trevor Penning got benched 😂😂 Safe to say we swindled Chargers getting anything out of him lmao,10662.0,negative
-1oxkg20,1763187689.0,118,0.93,9,,Tyler Shough actually threw a no look pass on a clutch yard cross route pass to Olave on a third and seven. ,1097.0,positive
-1oxebnk,1763168868.0,183,0.99,44,,"Chris Olave tells Kay Adams he ""want's to be in New Orleans forever"" ",8153.0,positive
-1ox2z6h,1763141682.0,106,0.97,37,,Who is this Saint pictured with my Dad? Hello! My dad passed away last year and I was going through some photos of him and couldn’t figure out who’s he’s standing next to. For context this was at a Saints game in 2018 against the Rams on 11/4. My dad is the one on the left. Can my fellow Who Dats help me figure this out? Thanks!,3907.0,neutral
-1ownay5,1763095534.0,426,0.99,57,,Cam on the Around the NFL podcast: ,24461.0,neutral
-1owdbvf,1763068738.0,367,0.99,34,,Olave locked in ,12717.0,positive
+That is all…",2599.0,positive,0.0,1.0,0.0,0.0
+1ozujry,1763418558.0,285,0.97,22,,It’s time to take out the trash ,6358.0,negative,0.0,1.0,0.0,0.0
+1ozmjru,1763400763.0,216,0.99,56,,"Is it weird being this happy at 2-8? Clowning Falcons fans, Brees getting the spotlight, Shough showing promise. We are doing it right. Banks Jr. playing like a stud. What else is there to say? Eating our vegetables and getting our roots sturdy. Who dat baby. ",12189.0,positive,0.032,0.764,0.204,0.8385
+1oz5vna,1763350334.0,465,1.0,19,,Brees to be in the booth for Falcons/Saints game ,9300.0,neutral,0.0,1.0,0.0,0.0
+1oz42kp,1763345193.0,561,0.99,42,,3rd Place Here We Come! ,23882.0,positive,0.0,1.0,0.0,0.0
+1oyz01q,1763331621.0,102,0.87,46,,Bryce Young passed for 448 yards vs Falcons today… I can hear it now- Shough does amazing next week and fans will say it’s meaningless because Bryce Young passed for 448 yards vs them…,4171.0,neutral,0.077,0.822,0.101,0.2263
+1oyvxy9,1763324238.0,199,0.94,56,,Trevor Penning got benched 😂😂 Safe to say we swindled Chargers getting anything out of him lmao,10662.0,negative,0.0,0.688,0.312,0.7783
+1oxkg20,1763187689.0,118,0.93,9,,Tyler Shough actually threw a no look pass on a clutch yard cross route pass to Olave on a third and seven. ,1097.0,positive,0.109,0.891,0.0,-0.296
+1oxebnk,1763168868.0,183,0.99,44,,"Chris Olave tells Kay Adams he ""want's to be in New Orleans forever"" ",8153.0,positive,0.0,1.0,0.0,0.0
+1ox2z6h,1763141682.0,106,0.97,37,,Who is this Saint pictured with my Dad? Hello! My dad passed away last year and I was going through some photos of him and couldn’t figure out who’s he’s standing next to. For context this was at a Saints game in 2018 against the Rams on 11/4. My dad is the one on the left. Can my fellow Who Dats help me figure this out? Thanks!,3907.0,neutral,0.0,0.906,0.094,0.7611
+1ownay5,1763095534.0,426,0.99,57,,Cam on the Around the NFL podcast: ,24461.0,neutral,0.0,1.0,0.0,0.0
+1owdbvf,1763068738.0,367,0.99,34,,Olave locked in ,12717.0,positive,0.0,1.0,0.0,0.0
 1ow3tzh,1763047239.0,177,0.86,139,,"The way I wanted to reach through my phone lmfao Also, seeing so many Pat's fans/Brady meat riders disrespect DB9 over the years is part of why Patriots are moreso my enemy team than the Falcons, as well as why it was such a gutpunch when we got screwed with the no call. 
 
-I wanted a Brady/Brees Superbowl to finally put to rest who the best was.",21311.0,positive
-1ovphlt,1763001523.0,117,0.94,17,,"Sitting around during the bye week wondering if Shough is the second coming of Brees, or if it’s a fluke and we have to draft Mendoza ",1980.0,neutral
-1ovnycq,1762997292.0,135,0.99,35,,Statistically we have a top 15 (13th) ranked defense and honestly they deserve some praise | 2025 NFL Defense Total Team Stat Leaders They haven't looked great in every game but they have been putting in work to keep it close in most. Yes we have some aging vets but they are leading way and our rookies we drafted this season are doing pretty well. I'm excited to see what Staley wants next draft and free agency. WHO DAT!!,4811.0,positive
-1ouk3ua,1762891943.0,159,0.96,46,,"If he continues to make plays like this, we are not drafting a QB next draft and Kellen will build around him for the future: ""Tyler Shough evades multiple sacks on 52-yard pass to Juwan Johnson | Saints-Panthers Highlights | 2025 NFL Week 10"" We know he can ball. The only question is can he do it consistently. The next few games will tell, but if he is consistently good, then congrats everyone because we might have our franchise guy. ",7174.0,positive
-1ottr6c,1762817625.0,145,0.94,25,,WHO DAT GOT DAT HOPE ,3544.0,positive
+I wanted a Brady/Brees Superbowl to finally put to rest who the best was.",21311.0,positive,0.151,0.709,0.14,-0.2023
+1ovphlt,1763001523.0,117,0.94,17,,"Sitting around during the bye week wondering if Shough is the second coming of Brees, or if it’s a fluke and we have to draft Mendoza ",1980.0,neutral,0.0,1.0,0.0,0.0
+1ovnycq,1762997292.0,135,0.99,35,,Statistically we have a top 15 (13th) ranked defense and honestly they deserve some praise | 2025 NFL Defense Total Team Stat Leaders They haven't looked great in every game but they have been putting in work to keep it close in most. Yes we have some aging vets but they are leading way and our rookies we drafted this season are doing pretty well. I'm excited to see what Staley wants next draft and free agency. WHO DAT!!,4811.0,positive,0.023,0.692,0.286,0.9724
+1ouk3ua,1762891943.0,159,0.96,46,,"If he continues to make plays like this, we are not drafting a QB next draft and Kellen will build around him for the future: ""Tyler Shough evades multiple sacks on 52-yard pass to Juwan Johnson | Saints-Panthers Highlights | 2025 NFL Week 10"" We know he can ball. The only question is can he do it consistently. The next few games will tell, but if he is consistently good, then congrats everyone because we might have our franchise guy. ",7174.0,positive,0.0,0.862,0.138,0.8934
+1ottr6c,1762817625.0,145,0.94,25,,WHO DAT GOT DAT HOPE ,3544.0,positive,0.0,0.58,0.42,0.4404
 1otoxg0,1762806352.0,221,0.83,176,,"Just here to say I called it Already watching the narrative change *""I always liked Shough""*
 
-",32467.0,positive
-1otjpyc,1762795061.0,203,0.92,42,,Remember when I got laughed at for ordering a Shough Jersey 😭 Yay I can,8031.0,positive
+",32467.0,positive,0.0,0.833,0.167,0.4215
+1otjpyc,1762795061.0,203,0.92,42,,Remember when I got laughed at for ordering a Shough Jersey 😭 Yay I can,8031.0,positive,0.0,0.584,0.416,0.7506
 1otjiz5,1762794642.0,244,1.0,33,,"With yesterday's sack. Cam Jordan enters the Top 20 Sackers of all time https://preview.redd.it/823rux0gpg0g1.png?width=286&format=png&auto=webp&s=5164c2d20bd94f76611919dfb5f56558c5ff4aca
 
 Surprised this wasnt brought up as soon as it happened. Ive been waiting on it
 
-EDIT: My bad. I thought he needed one more going into the Car game. Turns out he was already #20, now he's further solidified his position ",8296.0,positive
+EDIT: My bad. I thought he needed one more going into the Car game. Turns out he was already #20, now he's further solidified his position ",8296.0,positive,0.06,0.876,0.064,-0.2023
 1othj4y,1762790296.0,126,0.93,34,,"Glad we didn’t trade Olave I didn’t get how fans wanted to trade him. If you see his stats he’s right there with most of the receivers in the league. As shown yesterday he’s a great receiver for a young QB to have. Trading Shaaed was sad but forsure the move but you don’t trade Olave. It’s probably why Jets didn’t trade Garret Wilson 
 
-",4101.0,positive
-1oth840,1762789592.0,169,0.75,175,,"As much as it pains me, I should thank the Buccs because without them exposing Rattler like they did, we wouldn't have gotten to see Shough shine this soon in the season All is balanced ☯️",22308.0,positive
-1oth5b4,1762789424.0,111,1.0,25,,we are the Week 10 jewel of the division!! ,2886.0,positive
-1ot2r81,1762743569.0,403,1.0,26,,My first NFL game I moved to NC this year. This was my first time seeing my Saints. I wore Saints nails for good luck!🖤⚜️🖤,10881.0,positive
-1osz0tk,1762732948.0,255,0.99,22,,"Saints fans are indebted to Paul Tagliabue. Condolences to the family of Paul Tagliabue. On the heels of Katrina, Tagliabue was the force that ensured the city wouldn’t lose the Saints. Tom Benson was ready to take the team to San Antonio for a few extra nickels but strong leadership from Tagliabue prevented him from ever getting traction in relocating the team. I have always thought a statue of Tagliabue should sit outside the dome. RIP Paul Tagliabue. ",5806.0,neutral
-1osyzn5,1762732867.0,186,0.98,4,,Let’s go be menaces in the meme war together this week while we have the opportunity ,911.0,positive
-1osx22h,1762727865.0,177,0.94,34,,"You guys realize he sat a lot of the 4th quarter and still put up 280 yards right? 280 Yards and he sat a lot of the 4th quarter, called this in my bold prediction. lol",5823.0,neutral
-1osv8aa,1762723457.0,104,1.0,2,,Hollin’ Black and Gold to the SuperBowl ,312.0,positive
+",4101.0,positive,0.032,0.898,0.07,0.3612
+1oth840,1762789592.0,169,0.75,175,,"As much as it pains me, I should thank the Buccs because without them exposing Rattler like they did, we wouldn't have gotten to see Shough shine this soon in the season All is balanced ☯️",22308.0,positive,0.069,0.763,0.168,0.4614
+1oth5b4,1762789424.0,111,1.0,25,,we are the Week 10 jewel of the division!! ,2886.0,positive,0.0,0.722,0.278,0.4738
+1ot2r81,1762743569.0,403,1.0,26,,My first NFL game I moved to NC this year. This was my first time seeing my Saints. I wore Saints nails for good luck!🖤⚜️🖤,10881.0,positive,0.0,0.873,0.127,0.4926
+1osz0tk,1762732948.0,255,0.99,22,,"Saints fans are indebted to Paul Tagliabue. Condolences to the family of Paul Tagliabue. On the heels of Katrina, Tagliabue was the force that ensured the city wouldn’t lose the Saints. Tom Benson was ready to take the team to San Antonio for a few extra nickels but strong leadership from Tagliabue prevented him from ever getting traction in relocating the team. I have always thought a statue of Tagliabue should sit outside the dome. RIP Paul Tagliabue. ",5806.0,neutral,0.023,0.885,0.092,0.6705
+1osyzn5,1762732867.0,186,0.98,4,,Let’s go be menaces in the meme war together this week while we have the opportunity ,911.0,positive,0.188,0.676,0.135,-0.2732
+1osx22h,1762727865.0,177,0.94,34,,"You guys realize he sat a lot of the 4th quarter and still put up 280 yards right? 280 Yards and he sat a lot of the 4th quarter, called this in my bold prediction. lol",5823.0,neutral,0.0,0.856,0.144,0.6597
+1osv8aa,1762723457.0,104,1.0,2,,Hollin’ Black and Gold to the SuperBowl ,312.0,positive,0.0,1.0,0.0,0.0
 1osuusv,1762722568.0,105,0.82,139,,"Rattler cannot really get a pass anymore I know last year Rattler had a bare bones team. But Shough is not too far off and he pulled his first win in his 2nd start.
 
-I was a Rattler fan but cannot deny he did not give his team chances to win ",12054.0,positive
-1osukar,1762721889.0,142,0.99,18,,"Tyler Shough in his 1st career W: 18/26, 268 yards, 2 TD, 0 INT, 128.4 passer rating ",2671.0,neutral
-1osugkh,1762721639.0,101,0.98,11,,Tyler Shough First Rookie QB to Win since 1981 This is the first time a starting rookie QB won a game for the Saints since 1981 with Dave Wilson! ,1188.0,positive
+I was a Rattler fan but cannot deny he did not give his team chances to win ",12054.0,positive,0.0,0.694,0.306,0.959
+1osukar,1762721889.0,142,0.99,18,,"Tyler Shough in his 1st career W: 18/26, 268 yards, 2 TD, 0 INT, 128.4 passer rating ",2671.0,neutral,0.0,1.0,0.0,0.0
+1osugkh,1762721639.0,101,0.98,11,,Tyler Shough First Rookie QB to Win since 1981 This is the first time a starting rookie QB won a game for the Saints since 1981 with Dave Wilson! ,1188.0,positive,0.0,0.762,0.238,0.8313
 1osue8o,1762721480.0,827,0.98,60,,"Tyler Shough gets his first NFL win! Final statline:
 19/27, 282 yards
-2 TD, 0 INTS, 128.9 QB Rating",49438.0,positive
-1osudts,1762721451.0,343,0.97,18,,Chris Olave with the catch of the year. HOLY SH*T 🤯 ,6321.0,positive
-1osu564,1762720869.0,497,0.98,26,,WHO DAT!!!!!!!!!!!!!!!!!! ,13151.0,positive
-1ostsdt,1762720019.0,716,0.97,87,,Apologies need to be as loud as the disrespect. ,61118.0,neutral
-1oss06l,1762715855.0,303,0.93,66,,Shough is our guy ,18880.0,positive
-1ospueq,1762710826.0,247,0.95,39,,"HAHAHAHAHAHAHAHAHA THE FAILCONS CHOKE AGAIN, JOKE OF A FRANCHISE 😂😂😂😂😂",9386.0,negative
-1oso1x1,1762706652.0,111,0.99,15,,In enemy territory ,1758.0,neutral
-1os3w9j,1762644688.0,147,0.99,28,,The saints fans that are left... Me messaging saints twitter today. ,4220.0,neutral
-1os1fq1,1762638276.0,281,1.0,7,,Me every Sunday Still ride or die tho,2248.0,positive
-1os02ae,1762634802.0,144,0.96,10,,The rest of this season & probably for the foreseeable future: ,1521.0,neutral
-1opmy2n,1762396025.0,399,0.99,25,,"Got a buddy who's a Vikings fan, sometimes gives me grief for our down years lately, but at least we can be petty by showing off our Lombardi lol. Who Dat! ",10270.0,positive
-1opjtl9,1762387609.0,123,0.91,117,,"We all agree that Kyler Murray to the Saints would be an absolute nightmare scenario right? Looks like Kyler Murray's time with the Cardinals is probably coming to the end after this season. In a nightmare scenario we sign him, I just see this as Derek Carr 2.0, decently large contract for mid level talent. Am I wrong? ",13208.0,neutral
-1opd88q,1762372351.0,106,1.0,13,,"Drew Brees has signed a deal with FOX as a game analyst, partnering with Adam Amin Pretty much the title ",1484.0,neutral
-1opd70x,1762372279.0,504,0.99,55,,Get ready to hear Brees call Saints games in the near future ,27942.0,positive
-1opchi4,1762370733.0,266,1.0,19,,Wife and I went to our first NFL game unfortunately We happened to be in town for other sports stuff,5320.0,neutral
-1oojpbh,1762291350.0,146,0.99,85,,"[Rapoport] Sources: The Saints  are trading OL Trevor Penning to Chargers for a sixth rounder in 2027, source said. ",12430.0,neutral
-1ooj5h3,1762289977.0,246,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source. ",38868.0,neutral
-1oof8gh,1762281222.0,157,0.98,44,,"Shaheed trade is great for both sides. Shaheed’s contract is up after this season, he probably would have left anyways. Seahawks need more targets for Darnold. We are also probably not going to be as competitive as the Seahawks are for this year and probably next. This is part of the rebuild process. Guys on different timelines than us need to go. It’s sucks, but ultimately the smartest thing to do. Happy for Shaheed. ",6924.0,positive
-1ooeh4o,1762279610.0,153,0.99,71,,"Nick Underhill (@nick_underhill) “Saints are receiving fourth and fifth round picks in 2026 for Shaheed, per source” ",10906.0,neutral
-1ooe0c4,1762278607.0,262,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet. ",46730.0,neutral
-1onzwbd,1762236308.0,159,0.99,10,,Bought this Pierre Thomas jersey! I just bought this Pierre Thomas jersey off of facebook marketplace and tbh I really don’t care if this is a replica jersey I always wanted a Saints jersey. Pierre Thomas didn’t play for the Saints till 2007 and this jersey has this patch from the 2006 season! Idk if this jersey I bought is real or fake but still nice jersey!,1732.0,positive
-1onvh47,1762222600.0,334,0.9,92,,I miss him I hate those commercials :(,27956.0,negative
-1onfan4,1762184955.0,156,0.92,116,,Why did we make this trade Traded 2 picks including a top 100 pick for this. ,16792.0,negative
-1omwsof,1762127465.0,122,0.81,101,,"Honestly, I see the flashes and will be alright in the future.. Bro has been throwing some dipping dots down the field throughout the game against a really good defense. He had some nice throws especially that scramble throw to Olave. We need to finish drives, people need to stop dropping passes of course but I think we got something here brewing for the future of this team with Shough",10080.0,positive
-1omvyun,1762125245.0,254,0.99,39,,9th Giveaway in Last 3 Games ,10058.0,neutral
-1omv0a4,1762122771.0,108,0.97,36,,Tyler Shough's first TD in the NFL ,3876.0,positive
-1omq37c,1762110996.0,349,0.99,20,,My first ever NFL game today #WHODAT ,7256.0,positive
-1olp11j,1762006838.0,110,0.97,9,,When people start talking about how great this past Halloween was but I can always think of a better one I’ll always remember you Trevor Siemian ,1067.0,neutral
-1ol83s5,1761949610.0,662,0.98,32,,This picture is 100% unedited. The good ol days ,21409.0,neutral
-1okwf25,1761921666.0,129,0.95,48,,Chase young all-pro level performance Chase young has 90.5 Pff grade across 117 snaps and ranked 5th among edge rushers. That is all-pro level!,6005.0,positive
-1okqo4i,1761905611.0,129,1.0,9,,Happy Halloween to all my Who dats! ,1290.0,positive
-1ok0p9w,1761833260.0,741,0.94,122,,Sell the teams Gayle ,85674.0,negative
-1ojx08a,1761823384.0,106,0.99,35,,"According to Kellen @1:44, ""Tyler is starting and we will not be looking back.. Spencer knows he is there to be the backup"" when asked if the QB job is considered week to week. It's the Shough show until the draft, for better or for worst. Tough first test with the Rams for the rook next week but we have entered uncharted waters and it's exciting.",3778.0,positive
-1ojaqzt,1761758741.0,111,0.98,31,,"The longest run of the season so far is 18 yds. Dead last in the NFL For all the talk about QB’s, we can’t run the ball worth a damn. ",3481.0,negative
-1oilsdm,1761686302.0,270,0.95,76,,"At what moment in that Buccs game do you think Kellen was like ""Yup, it's time to move on.."" and why is it this one? ",19750.0,neutral
-1oijgvq,1761681020.0,133,0.97,135,,"ESPN’s Adam Schefter believes “at least one” of the Saints wide receivers will be dealt, and added that “if I had to bet, I’d say Rashid Shaheed is the guy who interests most teams ",17545.0,neutral
-1oids12,1761668264.0,151,0.98,85,,"Ian Rapoport (@RapSheet) Sources: The future is now in New Orleans, with the #Saints making rookie QB Tyler Shough their starte ",12726.0,neutral
-1oidrrw,1761668250.0,251,0.97,103,,BREAKING: Tyler Shough named Week 9 starter (Ian Rapoport) ,25321.0,neutral
-1ohzcuu,1761622679.0,249,0.99,46,,State of New Orleans Sports ,11586.0,neutral
-1ohftld,1761575153.0,162,0.97,60,,Saints fans when the offense is significantly worse without Erik McCoy: Some of y'all have very short memories.,9586.0,negative
+2 TD, 0 INTS, 128.9 QB Rating",49438.0,positive,0.0,0.796,0.204,0.6239
+1osudts,1762721451.0,343,0.97,18,,Chris Olave with the catch of the year. HOLY SH*T 🤯 ,6321.0,positive,0.0,1.0,0.0,0.0
+1osu564,1762720869.0,497,0.98,26,,WHO DAT!!!!!!!!!!!!!!!!!! ,13151.0,positive,0.0,1.0,0.0,0.0
+1ostsdt,1762720019.0,716,0.97,87,,Apologies need to be as loud as the disrespect. ,61118.0,neutral,0.259,0.741,0.0,-0.4215
+1oss06l,1762715855.0,303,0.93,66,,Shough is our guy ,18880.0,positive,0.0,1.0,0.0,0.0
+1ospueq,1762710826.0,247,0.95,39,,"HAHAHAHAHAHAHAHAHA THE FAILCONS CHOKE AGAIN, JOKE OF A FRANCHISE 😂😂😂😂😂",9386.0,negative,0.299,0.494,0.207,-0.3182
+1oso1x1,1762706652.0,111,0.99,15,,In enemy territory ,1758.0,neutral,0.636,0.364,0.0,-0.5423
+1os3w9j,1762644688.0,147,0.99,28,,The saints fans that are left... Me messaging saints twitter today. ,4220.0,neutral,0.0,1.0,0.0,0.0
+1os1fq1,1762638276.0,281,1.0,7,,Me every Sunday Still ride or die tho,2248.0,positive,0.358,0.642,0.0,-0.5994
+1os02ae,1762634802.0,144,0.96,10,,The rest of this season & probably for the foreseeable future: ,1521.0,neutral,0.0,1.0,0.0,0.0
+1opmy2n,1762396025.0,399,0.99,25,,"Got a buddy who's a Vikings fan, sometimes gives me grief for our down years lately, but at least we can be petty by showing off our Lombardi lol. Who Dat! ",10270.0,positive,0.123,0.715,0.161,0.3274
+1opjtl9,1762387609.0,123,0.91,117,,"We all agree that Kyler Murray to the Saints would be an absolute nightmare scenario right? Looks like Kyler Murray's time with the Cardinals is probably coming to the end after this season. In a nightmare scenario we sign him, I just see this as Derek Carr 2.0, decently large contract for mid level talent. Am I wrong? ",13208.0,neutral,0.05,0.819,0.131,0.6199
+1opd88q,1762372351.0,106,1.0,13,,"Drew Brees has signed a deal with FOX as a game analyst, partnering with Adam Amin Pretty much the title ",1484.0,neutral,0.0,0.842,0.158,0.4939
+1opd70x,1762372279.0,504,0.99,55,,Get ready to hear Brees call Saints games in the near future ,27942.0,positive,0.0,0.815,0.185,0.3612
+1opchi4,1762370733.0,266,1.0,19,,Wife and I went to our first NFL game unfortunately We happened to be in town for other sports stuff,5320.0,neutral,0.118,0.882,0.0,-0.34
+1oojpbh,1762291350.0,146,0.99,85,,"[Rapoport] Sources: The Saints  are trading OL Trevor Penning to Chargers for a sixth rounder in 2027, source said. ",12430.0,neutral,0.0,1.0,0.0,0.0
+1ooj5h3,1762289977.0,246,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source. ",38868.0,neutral,0.0,1.0,0.0,0.0
+1oof8gh,1762281222.0,157,0.98,44,,"Shaheed trade is great for both sides. Shaheed’s contract is up after this season, he probably would have left anyways. Seahawks need more targets for Darnold. We are also probably not going to be as competitive as the Seahawks are for this year and probably next. This is part of the rebuild process. Guys on different timelines than us need to go. It’s sucks, but ultimately the smartest thing to do. Happy for Shaheed. ",6924.0,positive,0.021,0.81,0.17,0.9287
+1ooeh4o,1762279610.0,153,0.99,71,,"Nick Underhill (@nick_underhill) “Saints are receiving fourth and fifth round picks in 2026 for Shaheed, per source” ",10906.0,neutral,0.0,1.0,0.0,0.0
+1ooe0c4,1762278607.0,262,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet. ",46730.0,neutral,0.0,1.0,0.0,0.0
+1onzwbd,1762236308.0,159,0.99,10,,Bought this Pierre Thomas jersey! I just bought this Pierre Thomas jersey off of facebook marketplace and tbh I really don’t care if this is a replica jersey I always wanted a Saints jersey. Pierre Thomas didn’t play for the Saints till 2007 and this jersey has this patch from the 2006 season! Idk if this jersey I bought is real or fake but still nice jersey!,1732.0,positive,0.048,0.826,0.126,0.7403
+1onvh47,1762222600.0,334,0.9,92,,I miss him I hate those commercials :(,27956.0,negative,0.732,0.268,0.0,-0.802
+1onfan4,1762184955.0,156,0.92,116,,Why did we make this trade Traded 2 picks including a top 100 pick for this. ,16792.0,negative,0.0,0.878,0.122,0.2023
+1omwsof,1762127465.0,122,0.81,101,,"Honestly, I see the flashes and will be alright in the future.. Bro has been throwing some dipping dots down the field throughout the game against a really good defense. He had some nice throws especially that scramble throw to Olave. We need to finish drives, people need to stop dropping passes of course but I think we got something here brewing for the future of this team with Shough",10080.0,positive,0.022,0.853,0.124,0.6469
+1omvyun,1762125245.0,254,0.99,39,,9th Giveaway in Last 3 Games ,10058.0,neutral,0.0,1.0,0.0,0.0
+1omv0a4,1762122771.0,108,0.97,36,,Tyler Shough's first TD in the NFL ,3876.0,positive,0.0,1.0,0.0,0.0
+1omq37c,1762110996.0,349,0.99,20,,My first ever NFL game today #WHODAT ,7256.0,positive,0.0,1.0,0.0,0.0
+1olp11j,1762006838.0,110,0.97,9,,When people start talking about how great this past Halloween was but I can always think of a better one I’ll always remember you Trevor Siemian ,1067.0,neutral,0.0,0.775,0.225,0.7506
+1ol83s5,1761949610.0,662,0.98,32,,This picture is 100% unedited. The good ol days ,21409.0,neutral,0.0,0.734,0.266,0.4404
+1okwf25,1761921666.0,129,0.95,48,,Chase young all-pro level performance Chase young has 90.5 Pff grade across 117 snaps and ranked 5th among edge rushers. That is all-pro level!,6005.0,positive,0.0,1.0,0.0,0.0
+1okqo4i,1761905611.0,129,1.0,9,,Happy Halloween to all my Who dats! ,1290.0,positive,0.0,0.6,0.4,0.6114
+1ok0p9w,1761833260.0,741,0.94,122,,Sell the teams Gayle ,85674.0,negative,0.0,1.0,0.0,0.0
+1ojx08a,1761823384.0,106,0.99,35,,"According to Kellen @1:44, ""Tyler is starting and we will not be looking back.. Spencer knows he is there to be the backup"" when asked if the QB job is considered week to week. It's the Shough show until the draft, for better or for worst. Tough first test with the Rams for the rook next week but we have entered uncharted waters and it's exciting.",3778.0,positive,0.053,0.861,0.087,0.5346
+1ojaqzt,1761758741.0,111,0.98,31,,"The longest run of the season so far is 18 yds. Dead last in the NFL For all the talk about QB’s, we can’t run the ball worth a damn. ",3481.0,negative,0.201,0.745,0.054,-0.7269
+1oilsdm,1761686302.0,270,0.95,76,,"At what moment in that Buccs game do you think Kellen was like ""Yup, it's time to move on.."" and why is it this one? ",19750.0,neutral,0.0,0.906,0.094,0.3612
+1oijgvq,1761681020.0,133,0.97,135,,"ESPN’s Adam Schefter believes “at least one” of the Saints wide receivers will be dealt, and added that “if I had to bet, I’d say Rashid Shaheed is the guy who interests most teams ",17545.0,neutral,0.0,0.941,0.059,0.25
+1oids12,1761668264.0,151,0.98,85,,"Ian Rapoport (@RapSheet) Sources: The future is now in New Orleans, with the #Saints making rookie QB Tyler Shough their starte ",12726.0,neutral,0.0,1.0,0.0,0.0
+1oidrrw,1761668250.0,251,0.97,103,,BREAKING: Tyler Shough named Week 9 starter (Ian Rapoport) ,25321.0,neutral,0.0,1.0,0.0,0.0
+1ohzcuu,1761622679.0,249,0.99,46,,State of New Orleans Sports ,11586.0,neutral,0.0,1.0,0.0,0.0
+1ohftld,1761575153.0,162,0.97,60,,Saints fans when the offense is significantly worse without Erik McCoy: Some of y'all have very short memories.,9586.0,negative,0.242,0.758,0.0,-0.6249
 1oh0d9z,1761524393.0,156,0.99,24,,"Not to interrupt the hate parade BUT Kool-Aid McKinstry had a fantastic game today
 
 He kept getting put on Egbuka one versus one time and time again, and came up on top every single time, including that fantastic PBU on the goal line. 
@@ -122,15 +122,15 @@ Over the past few weeks, it's not crazy to say that Egbuka has been a tough 10 t
 
 History doesn't repeat itself, but it often rhymes. We may have ourselves another good Buccaneers WR with a Saints CB as his kryptonite.
 
-Just with less fist fights this time",3861.0,positive
-1ogyzup,1761520574.0,207,0.91,107,,We did it ,20344.0,positive
-1ogyzdf,1761520540.0,165,0.99,23,,All those 1st round picks on O-line and they still dogshtt ,3920.0,negative
-1ogyvcb,1761520236.0,565,0.96,58,,Shough or Rattler debate is pointless ,32002.0,negative
-1ogyul7,1761520178.0,195,0.86,111,,"Honestly, I want to see more.. We FINALLY were throwing beyond 10 yards and I like how Shough is trying to move it down field unlike Rattler. We Definitely have no pass protection and everybody is dropping the ball. BUT Shough had some nice throws/competitions. I want to see more. I am convinced that I want to see one full game from him",18782.0,positive
-1ogxwyb,1761517705.0,279,0.93,101,,We would be FOOLS to resign him for top WR money Bro needs to be traded or resigned for cheap,26466.0,negative
-1ogxioi,1761516661.0,137,0.87,55,,Let’s Shoughin’ Go ,6675.0,positive
-1ogmkz4,1761490342.0,506,0.99,21,,Gameday rules for the faithful: WHO FUCKING DAT !!!,11021.0,positive
-1oglkfq,1761487774.0,148,0.96,53,,1-6 we still here boyz. the soldiers are still here to watch the game. The crybabies have all left the building. Let's hope bakery mayflower gets plucked today. ,7672.0,negative
+Just with less fist fights this time",3861.0,positive,0.063,0.764,0.173,0.9286
+1ogyzup,1761520574.0,207,0.91,107,,We did it ,20344.0,positive,0.0,1.0,0.0,0.0
+1ogyzdf,1761520540.0,165,0.99,23,,All those 1st round picks on O-line and they still dogshtt ,3920.0,negative,0.0,1.0,0.0,0.0
+1ogyvcb,1761520236.0,565,0.96,58,,Shough or Rattler debate is pointless ,32002.0,negative,0.0,1.0,0.0,0.0
+1ogyul7,1761520178.0,195,0.86,111,,"Honestly, I want to see more.. We FINALLY were throwing beyond 10 yards and I like how Shough is trying to move it down field unlike Rattler. We Definitely have no pass protection and everybody is dropping the ball. BUT Shough had some nice throws/competitions. I want to see more. I am convinced that I want to see one full game from him",18782.0,positive,0.024,0.721,0.255,0.9139
+1ogxwyb,1761517705.0,279,0.93,101,,We would be FOOLS to resign him for top WR money Bro needs to be traded or resigned for cheap,26466.0,negative,0.319,0.612,0.069,-0.7603
+1ogxioi,1761516661.0,137,0.87,55,,Let’s Shoughin’ Go ,6675.0,positive,0.0,1.0,0.0,0.0
+1ogmkz4,1761490342.0,506,0.99,21,,Gameday rules for the faithful: WHO FUCKING DAT !!!,11021.0,positive,0.0,0.679,0.321,0.5826
+1oglkfq,1761487774.0,148,0.96,53,,1-6 we still here boyz. the soldiers are still here to watch the game. The crybabies have all left the building. Let's hope bakery mayflower gets plucked today. ,7672.0,negative,0.0,0.903,0.097,0.4404
 1of9l87,1761340308.0,124,0.84,103,,"Can we have our draft picks back for Lattimore please? Commanders fan coming in peace.
 
 What in the world did you guys sell us? It honestly feels like this has to violate whatever Lemon Laws are in place in DC.
@@ -139,25 +139,25 @@ This dude is getting roasted with regularity and I'm starting to feel bad for hi
 
 Was he already moving in this direction before the trade?
 
-Is this payback for the Ricky Williams trade?",10833.0,negative
-1oemf1y,1761273557.0,106,0.96,40,,Boomer hasn’t forgotten about the no call. ,4172.0,negative
-1oeiwdx,1761263160.0,107,0.97,12,,"Are you guys excited to see what the rook can do this Sunday? With Miller out for the season, Neal will get additional touches behind Kamara. Curious to see how he does. ",1349.0,neutral
-1oeeoiz,1761252352.0,200,0.86,168,,Would yall accept or nah? Seen on Twitter ,29068.0,neutral
-1oe5evb,1761231215.0,240,0.81,161,,Does anyone want to remind Baker Mayfield how Jameis Winston tore his ACL? Or why Mike Evans has served multiple suspensions after playing the Saints? Had to screenshot this since the sub doesn’t allow videos but I couldn’t let this go unnoticed. Extremely rich to insinuate that the Bucs are perfect baby angels who never do anything dirty ,31493.0,negative
-1ocv4q3,1761096490.0,137,0.92,45,,Brees: Quarterbacks need 50 quality starts before you know what you have in a quarterback. https://youtu.be/T_NIxu5gtBw?si=RcGJXCPeOLZjRrIe,5798.0,neutral
-1obqllq,1760987224.0,171,0.96,114,,[Underhill] Kellen Moore said Spencer Rattler will keep starting. Noted Chicago takes the ball from everyone. Said he has to grow from it ,18878.0,neutral
-1ob769b,1760924049.0,180,0.85,166,,Matt Flynn: I am concerned about the overall football iq of the people saying Rattler sucks On his X account. ,25551.0,negative
-1ob56xd,1760918422.0,268,1.0,12,,Already feels like forever ago😔⚜️ ,3484.0,neutral
-1ob3av1,1760913320.0,232,1.0,37,,Game of the Year ,8816.0,positive
-1ob0cuz,1760906080.0,114,0.99,25,,Somebody write the eulogy for the 2025 season ,2934.0,negative
-1oazkm3,1760904241.0,135,0.95,73,,"When this is your run game, you will see games like that. Unacceptable. ",9490.0,negative
-1oazc3j,1760903698.0,244,0.69,292,,"It's time for Tyler Shough Spencer Rattler had his chances and has been mid/ass, especially today with 4 turnovers. It's time to move on. Let's see what we got in the rook.",49329.0,negative
-1oarkbx,1760885436.0,197,0.99,9,,The Saints even get dragged in a novel… My girlfriend was reading a novel called The Academy by Elin Hilderbrand and started laughing. It’s a REBUILDING PHASE SO THERES HOPE OKAY!?!?,1950.0,positive
-1oa25dr,1760809406.0,280,1.0,8,,"Parked behind this guy at a truck stop in Wytheville, VA ",2520.0,neutral
-1o9hzfb,1760747851.0,470,0.99,91,,Anyone else remember this moment thinking - holy shit we are so back 😭 ,42808.0,positive
-1o93hom,1760712846.0,176,0.99,32,,Spence and Kendre this week before they go against DA ,5750.0,neutral
-1o8owvq,1760666355.0,338,0.98,16,,Insane stat Credit to whodatsnation on instagram ,5631.0,neutral
-1o8j65i,1760650890.0,343,0.99,47,,[Underhill] Alvin Kamara said today that if they trade him he’s going to just go drink “pina coladas” somewhere ,16299.0,neutral
+Is this payback for the Ricky Williams trade?",10833.0,negative,0.077,0.756,0.167,0.782
+1oemf1y,1761273557.0,106,0.96,40,,Boomer hasn’t forgotten about the no call. ,4172.0,negative,0.451,0.549,0.0,-0.4767
+1oeiwdx,1761263160.0,107,0.97,12,,"Are you guys excited to see what the rook can do this Sunday? With Miller out for the season, Neal will get additional touches behind Kamara. Curious to see how he does. ",1349.0,neutral,0.0,0.865,0.135,0.5719
+1oeeoiz,1761252352.0,200,0.86,168,,Would yall accept or nah? Seen on Twitter ,29068.0,neutral,0.14,0.6,0.26,0.296
+1oe5evb,1761231215.0,240,0.81,161,,Does anyone want to remind Baker Mayfield how Jameis Winston tore his ACL? Or why Mike Evans has served multiple suspensions after playing the Saints? Had to screenshot this since the sub doesn’t allow videos but I couldn’t let this go unnoticed. Extremely rich to insinuate that the Bucs are perfect baby angels who never do anything dirty ,31493.0,negative,0.0,0.741,0.259,0.9506
+1ocv4q3,1761096490.0,137,0.92,45,,Brees: Quarterbacks need 50 quality starts before you know what you have in a quarterback. https://youtu.be/T_NIxu5gtBw?si=RcGJXCPeOLZjRrIe,5798.0,neutral,0.0,1.0,0.0,0.0
+1obqllq,1760987224.0,171,0.96,114,,[Underhill] Kellen Moore said Spencer Rattler will keep starting. Noted Chicago takes the ball from everyone. Said he has to grow from it ,18878.0,neutral,0.0,1.0,0.0,0.0
+1ob769b,1760924049.0,180,0.85,166,,Matt Flynn: I am concerned about the overall football iq of the people saying Rattler sucks On his X account. ,25551.0,negative,0.128,0.872,0.0,-0.3612
+1ob56xd,1760918422.0,268,1.0,12,,Already feels like forever ago😔⚜️ ,3484.0,neutral,0.0,0.615,0.385,0.3612
+1ob3av1,1760913320.0,232,1.0,37,,Game of the Year ,8816.0,positive,0.0,1.0,0.0,0.0
+1ob0cuz,1760906080.0,114,0.99,25,,Somebody write the eulogy for the 2025 season ,2934.0,negative,0.0,1.0,0.0,0.0
+1oazkm3,1760904241.0,135,0.95,73,,"When this is your run game, you will see games like that. Unacceptable. ",9490.0,negative,0.182,0.667,0.152,-0.128
+1oazc3j,1760903698.0,244,0.69,292,,"It's time for Tyler Shough Spencer Rattler had his chances and has been mid/ass, especially today with 4 turnovers. It's time to move on. Let's see what we got in the rook.",49329.0,negative,0.0,0.943,0.057,0.2023
+1oarkbx,1760885436.0,197,0.99,9,,The Saints even get dragged in a novel… My girlfriend was reading a novel called The Academy by Elin Hilderbrand and started laughing. It’s a REBUILDING PHASE SO THERES HOPE OKAY!?!?,1950.0,positive,0.031,0.593,0.376,0.9372
+1oa25dr,1760809406.0,280,1.0,8,,"Parked behind this guy at a truck stop in Wytheville, VA ",2520.0,neutral,0.196,0.804,0.0,-0.296
+1o9hzfb,1760747851.0,470,0.99,91,,Anyone else remember this moment thinking - holy shit we are so back 😭 ,42808.0,positive,0.247,0.753,0.0,-0.5574
+1o93hom,1760712846.0,176,0.99,32,,Spence and Kendre this week before they go against DA ,5750.0,neutral,0.0,1.0,0.0,0.0
+1o8owvq,1760666355.0,338,0.98,16,,Insane stat Credit to whodatsnation on instagram ,5631.0,neutral,0.262,0.485,0.252,-0.0258
+1o8j65i,1760650890.0,343,0.99,47,,[Underhill] Alvin Kamara said today that if they trade him he’s going to just go drink “pina coladas” somewhere ,16299.0,neutral,0.0,1.0,0.0,0.0
 1o8gfbf,1760644471.0,378,0.93,90,,"Hot Take: It was this moment, not Drew's retirement, that started us on our current path Topical? Not at all. But it's on my mind, so here we are! If you are lucky enough to have forgotten, this picture shows the moment Jameis was horse-collared by Devin White and had his ACL torn. This occurred in week 8 of the 2021 season.
 
 Entering this game, Sean Payton had the team at 4-2. The team was inconsistent, but starting to click. Jameis was playing the best ball of his career. Everything pointed toward Sean and Mickey having made the right decision to not initiate a rebuild simply because Drew retired.
@@ -171,86 +171,86 @@ The convenient narrative is that Sean Payton left so soon after Drew retired bec
 Don't get me wrong, I like the direction we're headed in. The Carr and DA years were rough, but I think Kellen has us on the right track. Still, it hurts to think about what might have been.
 
   
-**EDIT**: I got too caught up in the vibes - Turns out TB won the division in 2021 by going 13-4, so 12-5 wouldn't have won it. I do think this team could have gone 13-4 on the season with Jameis (additional losses to the Bills and Cowboys), and we would've then held the tiebreaker over TB by having beaten them twice. Even if we do go 11-6 or 12-5, we still make the playoffs.",31990.0,neutral
-1o8d4lz,1760637104.0,136,1.0,5,,New Orleans Saints Week 7 Matchup Doodle :) ,816.0,neutral
-1o7f921,1760544537.0,145,0.92,53,,How I feel about the Saints paying Juwan $30mil That is all.,7204.0,neutral
+**EDIT**: I got too caught up in the vibes - Turns out TB won the division in 2021 by going 13-4, so 12-5 wouldn't have won it. I do think this team could have gone 13-4 on the season with Jameis (additional losses to the Bills and Cowboys), and we would've then held the tiebreaker over TB by having beaten them twice. Even if we do go 11-6 or 12-5, we still make the playoffs.",31990.0,neutral,0.099,0.785,0.116,0.9182
+1o8d4lz,1760637104.0,136,1.0,5,,New Orleans Saints Week 7 Matchup Doodle :) ,816.0,neutral,0.0,0.667,0.333,0.4588
+1o7f921,1760544537.0,145,0.92,53,,How I feel about the Saints paying Juwan $30mil That is all.,7204.0,neutral,0.0,1.0,0.0,0.0
 1o6fh2y,1760448394.0,203,0.87,122,,"Bears are a must win. So not only is this game DA return to Nola, a lot of the players I would guess have a chip on their shoulder especially after the lookeroom issues last season. ( not sure) but nevertheless its a factor. BUT its Caleb Williams who benched Rattler in college, what led to him ultimately transferring and tanking his draft stock. Safe to say I think rattler will be DIALED in and I would say mental will play a roll in the game.
 
-Would say as saints fans we have this game and both falcons matchups to look forward to .",21723.0,neutral
+Would say as saints fans we have this game and both falcons matchups to look forward to .",21723.0,neutral,0.0,0.907,0.093,0.8537
 1o66lx4,1760418096.0,136,0.82,81,,"Remember when this guy was praised for his catch radius? Derek Carr and Andy Dalton truly ruined this mans career and confidence. Rattler is giving him plenty of clean targets to be a top 5 WR and yet Olave is a shell of his rookie/OSU self. Sad to see.
 
 JSN and Egbuka for example haul in hard catch after hard catch and their QBs get praised for it, despite plenty of their highlights being from a not so perfect throw. 
 
 Olave meanwhile drops a perfect pass to the pylon and we have guys saying we need a change at QB. Just bonkers. 
 
-tl;dr- watch more NFL games and you will see what real receivers should look like, or turn on some Michael Thomas highlights to see how when a wr has a real catch radius they don’t NEED the QB to put it right in the chest every time.",9145.0,negative
-1o5yp4b,1760395374.0,591,0.97,178,,"I'm honestly happy with Kellen Moore so far. What about you? I was walking into this season expecting our team to look abysmally and abhorrently awful but (outside of one game against Seattle) they've been way more buttoned up and competitive than I would have imagined before the season started and to be honest, I've been enjoying watching them play despite the losses.  The Saints are what you want a rebuilding team to look like, not a ton of talent, but they show up to fight every Sunday.  I can't wait to see what they look like once we get some more young talent in the building over the next couple years.",102615.0,positive
-1o5lvex,1760367171.0,143,0.84,58,,Race To Drafting 1st ,7087.0,neutral
-1o5459d,1760311823.0,116,0.99,5,,Bloody Red Zone ,689.0,neutral
-1o512fd,1760303868.0,138,0.99,4,,"Time to give Arthur some snaps as WR I mean, what could go wrong at this point. He would instantly be the 2nd best receiver after Shaheed. He brings speed and elusiveness, but he ain't a team first kinda guy. He reminds me of Stefon Diggs",683.0,positive
-1o50u8n,1760303319.0,130,0.95,4,,"Thank you saints fans!!! Hi guys, you were amazing fans and I was treated kindly by you and as a Steelers fan, I love Saints fans now and I want to comeback to your wonderful stadium and the atmosphere was the greatest I experienced at any NFL game and I didn’t experience any issues with being a fan of a different team. So thank you for this wonderful game today!!",618.0,positive
-1o4z3tp,1760299293.0,295,0.93,175,,"Anyone who thinks Rattler is the problem is not watching Olave drops a TD, a first on 3rd and 17, another 50+ yarder, shaheed can’t jump, Juwan can’t hold onto the ball, the defense gives up what seems like every single 3rd and long. This team needs about 10 starting caliber players at various positions before they even think about QB. That’s all ",48286.0,negative
-1o4ymxk,1760298191.0,239,0.9,89,,Juwan Johnson should be cut He is incompetent. I can think of 3-4 games we’ve lost because he can’t perform basic professional football tasks. ,19359.0,negative
-1o4wfpf,1760293108.0,145,0.87,98,,Spencer Rattler is playing out of his mind. That is all. ,12489.0,positive
+tl;dr- watch more NFL games and you will see what real receivers should look like, or turn on some Michael Thomas highlights to see how when a wr has a real catch radius they don’t NEED the QB to put it right in the chest every time.",9145.0,negative,0.1,0.767,0.133,0.6665
+1o5yp4b,1760395374.0,591,0.97,178,,"I'm honestly happy with Kellen Moore so far. What about you? I was walking into this season expecting our team to look abysmally and abhorrently awful but (outside of one game against Seattle) they've been way more buttoned up and competitive than I would have imagined before the season started and to be honest, I've been enjoying watching them play despite the losses.  The Saints are what you want a rebuilding team to look like, not a ton of talent, but they show up to fight every Sunday.  I can't wait to see what they look like once we get some more young talent in the building over the next couple years.",102615.0,positive,0.085,0.695,0.22,0.9516
+1o5lvex,1760367171.0,143,0.84,58,,Race To Drafting 1st ,7087.0,neutral,0.0,1.0,0.0,0.0
+1o5459d,1760311823.0,116,0.99,5,,Bloody Red Zone ,689.0,neutral,0.592,0.408,0.0,-0.4404
+1o512fd,1760303868.0,138,0.99,4,,"Time to give Arthur some snaps as WR I mean, what could go wrong at this point. He would instantly be the 2nd best receiver after Shaheed. He brings speed and elusiveness, but he ain't a team first kinda guy. He reminds me of Stefon Diggs",683.0,positive,0.044,0.9,0.056,0.1406
+1o50u8n,1760303319.0,130,0.95,4,,"Thank you saints fans!!! Hi guys, you were amazing fans and I was treated kindly by you and as a Steelers fan, I love Saints fans now and I want to comeback to your wonderful stadium and the atmosphere was the greatest I experienced at any NFL game and I didn’t experience any issues with being a fan of a different team. So thank you for this wonderful game today!!",618.0,positive,0.0,0.592,0.408,0.9874
+1o4z3tp,1760299293.0,295,0.93,175,,"Anyone who thinks Rattler is the problem is not watching Olave drops a TD, a first on 3rd and 17, another 50+ yarder, shaheed can’t jump, Juwan can’t hold onto the ball, the defense gives up what seems like every single 3rd and long. This team needs about 10 starting caliber players at various positions before they even think about QB. That’s all ",48286.0,negative,0.042,0.896,0.062,0.0772
+1o4ymxk,1760298191.0,239,0.9,89,,Juwan Johnson should be cut He is incompetent. I can think of 3-4 games we’ve lost because he can’t perform basic professional football tasks. ,19359.0,negative,0.273,0.727,0.0,-0.7579
+1o4wfpf,1760293108.0,145,0.87,98,,Spencer Rattler is playing out of his mind. That is all. ,12489.0,positive,0.0,0.847,0.153,0.2023
 1o4rdai,1760281423.0,166,0.93,51,,"Thank God We Didn’t Hire Aaron Glenn That’s it. That’s the post. 
 
-I feel pretty dang good about Kellen now ",8028.0,positive
-1o4oz66,1760275420.0,700,0.99,80,,Finally finished my home office Thoughts? What’s missing or what should I replace?,56133.0,neutral
-1o4a29b,1760225409.0,255,1.0,51,,"[Rapoport] Saints RB Alvin Kamara has been the subject of trade calls, but his stance was made clear — He doesn’t want to go anywhere. ",13260.0,neutral
+I feel pretty dang good about Kellen now ",8028.0,positive,0.0,0.584,0.416,0.8658
+1o4oz66,1760275420.0,700,0.99,80,,Finally finished my home office Thoughts? What’s missing or what should I replace?,56133.0,neutral,0.189,0.811,0.0,-0.3736
+1o4a29b,1760225409.0,255,1.0,51,,"[Rapoport] Saints RB Alvin Kamara has been the subject of trade calls, but his stance was made clear — He doesn’t want to go anywhere. ",13260.0,neutral,0.0,0.819,0.181,0.5927
 1o41ap3,1760203280.0,121,0.98,278,,"For those of you that do not live in NO, how did you become a saints fan? To start, I live in CA. One year as a kid, I remember wanting to get into football and I chose a team at random from the start of the season. That team was the saints and they ended up wining the Super Bowl that year. I was taken back and how much I enjoyed them being the underdogs and how they were on a mission to prove everyone wrong. Since then, no matter what, I have been a die hard saints fan and I don’t mind defending them everytime football gets brought up around here (majority of fans are raiders, rams, chargers, 49ers). 
 
-It’s been a rough year and if I’m being honest, we may be looking at rebuilding for sometime. Not a longtime, but sometime hopefully. Anyways, figured it would be cool to hear some stories of how we all ended up here lol. I just hope by the time I have kids, they’ll be able to relive some of what I experienced. Who Dat⚜️⚜️",33084.0,positive
-1o3yaob,1760196029.0,129,0.97,32,,We will be there again ! I have faith !! ,4129.0,positive
-1o3abcd,1760124106.0,1479,0.99,51,,Certified Ball Knower ,76139.0,neutral
-1o39lxp,1760122500.0,200,1.0,4,,New Orleans Saints Week 6 Matchup Doodle :) ,1000.0,neutral
+It’s been a rough year and if I’m being honest, we may be looking at rebuilding for sometime. Not a longtime, but sometime hopefully. Anyways, figured it would be cool to hear some stories of how we all ended up here lol. I just hope by the time I have kids, they’ll be able to relive some of what I experienced. Who Dat⚜️⚜️",33084.0,positive,0.039,0.816,0.144,0.9556
+1o3yaob,1760196029.0,129,0.97,32,,We will be there again ! I have faith !! ,4129.0,positive,0.0,0.656,0.344,0.5684
+1o3abcd,1760124106.0,1479,0.99,51,,Certified Ball Knower ,76139.0,neutral,0.0,1.0,0.0,0.0
+1o39lxp,1760122500.0,200,1.0,4,,New Orleans Saints Week 6 Matchup Doodle :) ,1000.0,neutral,0.0,0.667,0.333,0.4588
 1o30rv0,1760102529.0,124,0.94,73,,"Does this say more about Us? Or the Eagles? Like damn we only held them to 14 points and gave up no turnovers, granted it’s always different when facing divisional rivals but it’s still a fraud alert watch for them but can’t help
-but take our win with extra hopium for what we are building. There offense looks different without Kellen for sure. Just glad we are getting better every game and building a culture one game at a time. ",8625.0,positive
-1o2z9uj,1760098598.0,419,1.0,40,,How delusional do you have to be to think Hurts is better than Drew? ,17179.0,negative
-1o2pn0m,1760065041.0,152,0.97,64,,The Eagles were simple Kellen Moore merchants Offense looks worse than ours somehow lol,9584.0,negative
-1o2pfrg,1760064442.0,143,0.93,41,,"We’re Super Bowl bound I known I’m overreacting, but we whipped the team beating the champions",5586.0,positive
-1o2pd89,1760064222.0,150,1.0,5,,Just saw a Paulson Adebo DPI on my screen ,900.0,neutral
-1o2iesx,1760045165.0,249,0.9,148,,Can we please get serious for a second ,33391.0,neutral
-1o1t7m1,1759973176.0,101,0.98,9,,Archie ❤️❤️ ,990.0,positive
-1o1p3oy,1759961856.0,120,0.97,48,,Rattler is in the Top 5 for fastest Time-to-throw (TT) among some interesting company. Last year he was 25th. Make of that what you will. ,5704.0,neutral
-1o1etmh,1759939766.0,332,0.99,16,,Kool-Aid McKinstry is the NFC Defensive Player of the Week! ,5588.0,positive
+but take our win with extra hopium for what we are building. There offense looks different without Kellen for sure. Just glad we are getting better every game and building a culture one game at a time. ",8625.0,positive,0.134,0.64,0.226,0.8864
+1o2z9uj,1760098598.0,419,1.0,40,,How delusional do you have to be to think Hurts is better than Drew? ,17179.0,negative,0.172,0.667,0.161,-0.0516
+1o2pn0m,1760065041.0,152,0.97,64,,The Eagles were simple Kellen Moore merchants Offense looks worse than ours somehow lol,9584.0,negative,0.27,0.582,0.148,-0.3182
+1o2pfrg,1760064442.0,143,0.93,41,,"We’re Super Bowl bound I known I’m overreacting, but we whipped the team beating the champions",5586.0,positive,0.174,0.521,0.306,0.4678
+1o2pd89,1760064222.0,150,1.0,5,,Just saw a Paulson Adebo DPI on my screen ,900.0,neutral,0.0,1.0,0.0,0.0
+1o2iesx,1760045165.0,249,0.9,148,,Can we please get serious for a second ,33391.0,neutral,0.151,0.581,0.267,0.25
+1o1t7m1,1759973176.0,101,0.98,9,,Archie ❤️❤️ ,990.0,positive,0.0,1.0,0.0,0.0
+1o1p3oy,1759961856.0,120,0.97,48,,Rattler is in the Top 5 for fastest Time-to-throw (TT) among some interesting company. Last year he was 25th. Make of that what you will. ,5704.0,neutral,0.0,0.83,0.17,0.5423
+1o1etmh,1759939766.0,332,0.99,16,,Kool-Aid McKinstry is the NFC Defensive Player of the Week! ,5588.0,positive,0.342,0.579,0.08,-0.6833
 1o0wu47,1759885255.0,226,0.99,24,,"They did our boy dirty! “Suspects arrested in Georgia” … checks out
 
 
 
-https://www.nola.com/sports/saints/cam-jordan-house-burglarized-saints/article_fb391cbf-745e-4ebc-8103-721214114d65.amp.html",5594.0,neutral
-1o0vha2,1759881528.0,180,0.99,21,,“The Giants 17 pressures are the most in a game without a sack by any defense this season” ,3920.0,neutral
-1o0uuwx,1759879879.0,171,0.92,94,,"Going to the game against the Pats solo. Is that gonna seem weird? I've been to several NFL games, but never by myself. I'm pretty chatty/friendly, so I'm hoping that sitting on the home side by myself (f) won't be too weird. My friend bailed on me but I've been to New Orleans dozens of times, so not worried about it. But is sitting alone at the game going to be awkward? I mean, if so, I'm still going. Got seats in the 300s and my swag all packed. ",14945.0,neutral
-1nzxu5i,1759790462.0,195,0.96,71,,Choose Your Fighter ,13478.0,neutral
+https://www.nola.com/sports/saints/cam-jordan-house-burglarized-saints/article_fb391cbf-745e-4ebc-8103-721214114d65.amp.html",5594.0,neutral,0.386,0.614,0.0,-0.7424
+1o0vha2,1759881528.0,180,0.99,21,,“The Giants 17 pressures are the most in a game without a sack by any defense this season” ,3920.0,neutral,0.129,0.787,0.084,-0.2023
+1o0uuwx,1759879879.0,171,0.92,94,,"Going to the game against the Pats solo. Is that gonna seem weird? I've been to several NFL games, but never by myself. I'm pretty chatty/friendly, so I'm hoping that sitting on the home side by myself (f) won't be too weird. My friend bailed on me but I've been to New Orleans dozens of times, so not worried about it. But is sitting alone at the game going to be awkward? I mean, if so, I'm still going. Got seats in the 300s and my swag all packed. ",14945.0,neutral,0.075,0.772,0.153,0.9006
+1nzxu5i,1759790462.0,195,0.96,71,,Choose Your Fighter ,13478.0,neutral,0.0,0.556,0.444,0.1531
 1nznx78,1759768198.0,117,0.98,39,,"Kendre Miller is really good I love Kamara so it’s a little tough seeing Miller start to actually out touch Kamara. It gets me scared Saints actually might trade him I don’t think they will but it is scary.
 
-That being said Miller is really good I can see why he had such a long leash. He’s a back that can easily be a bellcow in this league ",4586.0,positive
-1nzn05j,1759766204.0,283,0.99,51,,I know all anyone wants to talk about is Rattler but… Can we get some love for our head coach Kellen Moore. First win of his head coaching career! And how about some love for our beleaguered defense. 5 turnovers yesterday! Granderson with the big sack that was stolen from him on a totally ridiculous roughing the passer call. Jordan with the fumble recovery. Bresee with the huge forced fumble. Davis with a huge forced fumble. Kool-Aid with two picks. Jonas Sanker is all over the place and johnny on the spot on the fumble recovery. Jordan Howden filling in for Reid and also playing very well.,14569.0,positive
-1nzldh8,1759762669.0,240,0.91,104,,"Buckle up my fellow Saints, the next 4 weeks are ROUGH Let’s enjoy the week while we can ",22932.0,negative
-1nz0ukh,1759700096.0,663,0.93,252,,"Spencer Rattler Through 5 Games: 990 yards, 6 TDs, 1 INT, 67%…he’s not the problem🫵 ",155997.0,positive
-1nz04vu,1759698384.0,257,0.99,26,,Are we back???? ,6870.0,neutral
-1nyzxm2,1759697920.0,531,1.0,26,,Shoutout to the OL The run game wasn’t great today but the pass protection was solid against an elite unit. Rattler also did great avoiding the pressure he did face. ,14337.0,positive
+That being said Miller is really good I can see why he had such a long leash. He’s a back that can easily be a bellcow in this league ",4586.0,positive,0.102,0.733,0.166,0.6946
+1nzn05j,1759766204.0,283,0.99,51,,I know all anyone wants to talk about is Rattler but… Can we get some love for our head coach Kellen Moore. First win of his head coaching career! And how about some love for our beleaguered defense. 5 turnovers yesterday! Granderson with the big sack that was stolen from him on a totally ridiculous roughing the passer call. Jordan with the fumble recovery. Bresee with the huge forced fumble. Davis with a huge forced fumble. Kool-Aid with two picks. Jonas Sanker is all over the place and johnny on the spot on the fumble recovery. Jordan Howden filling in for Reid and also playing very well.,14569.0,positive,0.095,0.722,0.183,0.8774
+1nzldh8,1759762669.0,240,0.91,104,,"Buckle up my fellow Saints, the next 4 weeks are ROUGH Let’s enjoy the week while we can ",22932.0,negative,0.0,0.833,0.167,0.4939
+1nz0ukh,1759700096.0,663,0.93,252,,"Spencer Rattler Through 5 Games: 990 yards, 6 TDs, 1 INT, 67%…he’s not the problem🫵 ",155997.0,positive,0.0,1.0,0.0,0.0
+1nz04vu,1759698384.0,257,0.99,26,,Are we back???? ,6870.0,neutral,0.0,1.0,0.0,0.0
+1nyzxm2,1759697920.0,531,1.0,26,,Shoutout to the OL The run game wasn’t great today but the pass protection was solid against an elite unit. Rattler also did great avoiding the pressure he did face. ,14337.0,positive,0.144,0.61,0.246,0.6369
 1nyz0e0,1759695786.0,300,1.0,32,,"The League owes Granderson a sack Even tho we won that was absolutely horrendous. Cleanest sack I’ve ever seen called roughing. 
 
-Good to see Kellen fired up tho, lookin like a young Sean Payton",9900.0,negative
-1nyysy9,1759695322.0,274,0.99,19,,"Spencer Rattler, winless no more ",5425.0,positive
-1nyyou6,1759695066.0,161,0.98,7,,THE SAINTS HAVE WON A FOOTBALL GAME Yaya Yay ,1262.0,positive
-1nyyo81,1759695028.0,2246,0.99,88,,"SPENCER RATTLER GETS HIS FIRST NFL WIN Final statline: 20/30, 225 yards 1 passing TD, 100 QB Rating",197895.0,positive
-1nyynzz,1759695015.0,237,0.99,5,,THE SAINTS BEAT THE 0-17 ALLEGATIONS 🔥🔥 Yay Spencer rattlers first win!,1408.0,positive
-1nyym69,1759694898.0,604,0.98,28,,The NY Giants have just been ,17166.0,neutral
-1nyyltb,1759694875.0,224,0.96,8,,Made this months ago and can finally post it Got removed by a moderator earlier (don’t know why we had this locked) WHO DAT. WE WON. ,1935.0,positive
-1nyy4vs,1759693799.0,533,0.99,19,,WHO DAT!!!!!!!!!!!! FUCK YEAH LETS GO SAINTS!!!!!!!!,10553.0,positive
-1nyxrjs,1759692947.0,132,0.97,7,,"We are SO back, y'all!!!! ",1024.0,positive
-1nywyo1,1759691146.0,305,0.98,19,,Alvin Kamara moves up the list ,5978.0,neutral
-1nywsb9,1759690764.0,592,0.96,67,,I REALLY miss this guy …. ,38646.0,negative
-1nyw5wt,1759689338.0,115,0.89,47,,Grupe needs to go He’s tied for 33 in accuracy this year of 35 kickers. The guy has missed at least 1 kick in 4 of 5 games this year. He’s ass. ,4913.0,negative
-1nyvc66,1759687491.0,256,0.98,14,,WE FINALLY COMPLETED THE DEEP BALL SHAHEEEEEEEEED,3763.0,positive
-1ny8fsg,1759619354.0,240,0.97,24,,"Tay drops her album, Tay bout to drop them giants? Coincidence? Probably. ",5820.0,neutral
-1ny425m,1759608415.0,294,0.99,32,,The boys are back ,9605.0,positive
-1nx6wp8,1759515617.0,155,1.0,15,,Let’s go rook 😤 ,2480.0,positive
-1nx5888,1759511841.0,111,0.98,30,,"I hope we win a game soon because as a sub we are so negative nowadays Love Rattler or Hate Rattler, Kool-Aid or Lemonade, win some games or 0-17, etc. All we do is talk negative nowadays about the team and our players. I hope the team pulls a win out in these next 3 games because if we fall to 0-7, the complaining will become unbearable. Growing pains of a rebuild are normal. Geaux Saints!",3372.0,negative
-1nx2w5t,1759506720.0,112,0.95,31,,"Atleast our fan media spaces won’t quit on us like this. A reminder that it could be a lot worse and we aren’t that bad, a lot more hope for the future than most. This podcast was only 6 years old and they calling it quits loll valid tho, we just gon be here until there is no saints. ",3405.0,positive
-1nwjyhh,1759448967.0,743,0.84,340,,"True dat. Winning record carr ran out the dome, 0-11 winless rattlesnakes worship the ground spencer walks on. He better win this weekend with taysom's help, all i'm sayin'.",212825.0,negative
-1nwg1w9,1759439143.0,307,0.99,30,,"Saints announce new lease, will stay in New Orleans through 2035 ",9422.0,neutral
+Good to see Kellen fired up tho, lookin like a young Sean Payton",9900.0,negative,0.176,0.617,0.208,0.1045
+1nyysy9,1759695322.0,274,0.99,19,,"Spencer Rattler, winless no more ",5425.0,positive,0.355,0.645,0.0,-0.296
+1nyyou6,1759695066.0,161,0.98,7,,THE SAINTS HAVE WON A FOOTBALL GAME Yaya Yay ,1262.0,positive,0.0,0.434,0.566,0.8331
+1nyyo81,1759695028.0,2246,0.99,88,,"SPENCER RATTLER GETS HIS FIRST NFL WIN Final statline: 20/30, 225 yards 1 passing TD, 100 QB Rating",197895.0,positive,0.0,0.779,0.221,0.6739
+1nyynzz,1759695015.0,237,0.99,5,,THE SAINTS BEAT THE 0-17 ALLEGATIONS 🔥🔥 Yay Spencer rattlers first win!,1408.0,positive,0.0,0.572,0.428,0.8172
+1nyym69,1759694898.0,604,0.98,28,,The NY Giants have just been ,17166.0,neutral,0.0,1.0,0.0,0.0
+1nyyltb,1759694875.0,224,0.96,8,,Made this months ago and can finally post it Got removed by a moderator earlier (don’t know why we had this locked) WHO DAT. WE WON. ,1935.0,positive,0.0,0.844,0.156,0.6633
+1nyy4vs,1759693799.0,533,0.99,19,,WHO DAT!!!!!!!!!!!! FUCK YEAH LETS GO SAINTS!!!!!!!!,10553.0,positive,0.393,0.421,0.185,-0.5374
+1nyxrjs,1759692947.0,132,0.97,7,,"We are SO back, y'all!!!! ",1024.0,positive,0.0,1.0,0.0,0.0
+1nywyo1,1759691146.0,305,0.98,19,,Alvin Kamara moves up the list ,5978.0,neutral,0.0,1.0,0.0,0.0
+1nywsb9,1759690764.0,592,0.96,67,,I REALLY miss this guy …. ,38646.0,negative,0.396,0.604,0.0,-0.3871
+1nyw5wt,1759689338.0,115,0.89,47,,Grupe needs to go He’s tied for 33 in accuracy this year of 35 kickers. The guy has missed at least 1 kick in 4 of 5 games this year. He’s ass. ,4913.0,negative,0.174,0.826,0.0,-0.6908
+1nyvc66,1759687491.0,256,0.98,14,,WE FINALLY COMPLETED THE DEEP BALL SHAHEEEEEEEEED,3763.0,positive,0.0,1.0,0.0,0.0
+1ny8fsg,1759619354.0,240,0.97,24,,"Tay drops her album, Tay bout to drop them giants? Coincidence? Probably. ",5820.0,neutral,0.183,0.817,0.0,-0.3527
+1ny425m,1759608415.0,294,0.99,32,,The boys are back ,9605.0,positive,0.0,1.0,0.0,0.0
+1nx6wp8,1759515617.0,155,1.0,15,,Let’s go rook 😤 ,2480.0,positive,0.0,1.0,0.0,0.0
+1nx5888,1759511841.0,111,0.98,30,,"I hope we win a game soon because as a sub we are so negative nowadays Love Rattler or Hate Rattler, Kool-Aid or Lemonade, win some games or 0-17, etc. All we do is talk negative nowadays about the team and our players. I hope the team pulls a win out in these next 3 games because if we fall to 0-7, the complaining will become unbearable. Growing pains of a rebuild are normal. Geaux Saints!",3372.0,negative,0.181,0.579,0.24,0.7071
+1nx2w5t,1759506720.0,112,0.95,31,,"Atleast our fan media spaces won’t quit on us like this. A reminder that it could be a lot worse and we aren’t that bad, a lot more hope for the future than most. This podcast was only 6 years old and they calling it quits loll valid tho, we just gon be here until there is no saints. ",3405.0,positive,0.134,0.745,0.121,-0.204
+1nwjyhh,1759448967.0,743,0.84,340,,"True dat. Winning record carr ran out the dome, 0-11 winless rattlesnakes worship the ground spencer walks on. He better win this weekend with taysom's help, all i'm sayin'.",212825.0,negative,0.0,0.564,0.436,0.9501
+1nwg1w9,1759439143.0,307,0.99,30,,"Saints announce new lease, will stay in New Orleans through 2035 ",9422.0,neutral,0.0,1.0,0.0,0.0
 1nwclb7,1759431476.0,326,0.77,352,,"Why does the NFL hype up certain players?! I saw this picture today and it kinda made me think about how much certain players are ""hyped up"" while others are ""played down"".
 
 This picture was posted to show that Aaron Rodgers had passed Favre's TD record.
@@ -339,8 +339,8 @@ Ok there's my analytical rant. You may proceed with your day.
 
 Oh! and the falcons blew a 25 point lead in the Superbowl.
 
-Who Dat!",88610.0,neutral
-1nvu0fh,1759378569.0,147,0.95,47,,Taysom listed as QB Has Taysom always been listed as QB? I could’ve sworn he’s usually listed as a TE. I wonder if Kellen Moore is considering having Taysom play more of a QB role than he has in the past.,6703.0,neutral
+Who Dat!",88610.0,neutral,0.005,0.899,0.096,0.989
+1nvu0fh,1759378569.0,147,0.95,47,,Taysom listed as QB Has Taysom always been listed as QB? I could’ve sworn he’s usually listed as a TE. I wonder if Kellen Moore is considering having Taysom play more of a QB role than he has in the past.,6703.0,neutral,0.0,0.938,0.062,0.34
 1nvkytd,1759353733.0,223,0.99,62,,"Reminder that Kellen Moore was like that, absolute surgeon who just didn’t have an Nfl arm. Heisman finalist, multiple All-Americans, 50-3 record, and one of the best college QB stat sheets of all time. 
 
 The guy oozes football and every time a reporter asks him a deep question about the league and modern offenses you can see his excitement talking about it. 
@@ -350,17 +350,17 @@ Whether the QBs we currently have are the future of the team or not, I trust Kel
 He is the youngest coach in the league and other coaches already seem to have a lot of respect for him, which is a great sign. I believe he will right this ship in time. 
 
 Have faith y’all.
-",13909.0,positive
-1nvkfhv,1759352486.0,109,0.84,48,,I think we turn this around with taysom hill coming back and go 14-3😁 If you wasn’t with us at 0-3 don’t be with us when we go 14-3 and win the sb,4486.0,positive
-1nvibca,1759347763.0,263,0.99,14,,New Orleans Saints Week 5 Matchup Doodle :) ,3906.0,neutral
-1nuqnrq,1759269706.0,384,0.99,60,,"Fire Dennis Allen For real though, Kendre reminded me of Kamara during that Green Bay game where no one could tackle him. More of that please.",23190.0,negative
-1nupr8z,1759267541.0,102,0.96,38,,Rattler Holding The Mountain Up or Something? Womp Womp,3819.0,negative
-1nufuj7,1759245146.0,334,0.99,59,,Diamond in the Rough? ,19840.0,neutral
-1ntwwn9,1759186910.0,219,0.97,158,,"His next 3 games are his best chances to finally get a W on the board... Hate him or love him, you have to admit that if we lose our next three games against the Giants, Patriots, and Bears, I find it difficult to believe that Kellen Moore and his staff will not discuss starting Shough. Honestly, I don't have high hopes based on how those teams are doing (especially with Dart now starting for the Giants), but I believe those are our best chances of getting a win before the bye.",33776.0,neutral
+",13909.0,positive,0.036,0.825,0.139,0.9403
+1nvkfhv,1759352486.0,109,0.84,48,,I think we turn this around with taysom hill coming back and go 14-3😁 If you wasn’t with us at 0-3 don’t be with us when we go 14-3 and win the sb,4486.0,positive,0.0,0.891,0.109,0.5859
+1nvibca,1759347763.0,263,0.99,14,,New Orleans Saints Week 5 Matchup Doodle :) ,3906.0,neutral,0.0,0.667,0.333,0.4588
+1nuqnrq,1759269706.0,384,0.99,60,,"Fire Dennis Allen For real though, Kendre reminded me of Kamara during that Green Bay game where no one could tackle him. More of that please.",23190.0,negative,0.153,0.763,0.085,-0.2585
+1nupr8z,1759267541.0,102,0.96,38,,Rattler Holding The Mountain Up or Something? Womp Womp,3819.0,negative,0.0,1.0,0.0,0.0
+1nufuj7,1759245146.0,334,0.99,59,,Diamond in the Rough? ,19840.0,neutral,0.0,0.556,0.444,0.34
+1ntwwn9,1759186910.0,219,0.97,158,,"His next 3 games are his best chances to finally get a W on the board... Hate him or love him, you have to admit that if we lose our next three games against the Giants, Patriots, and Bears, I find it difficult to believe that Kellen Moore and his staff will not discuss starting Shough. Honestly, I don't have high hopes based on how those teams are doing (especially with Dart now starting for the Giants), but I believe those are our best chances of getting a win before the bye.",33776.0,neutral,0.073,0.703,0.223,0.9484
 1ntwb6q,1759185372.0,247,1.0,6,,"I got this jersey in October 2009. It's special to me. Today is the day. I have a wonderful new home this year and this baby is going up finally. I got it in early October on my birthday in 2009. It was one of this best years of my life. And this has been one of the best years of my life even though the saints aren't winning I still feel like its the start of a new chapter of my life and for the saints as well. The next jersey we win in will be the theme of my next jersey, likely with Taysom Hill or Kamara as both are special players to me.
 
-Who dat everyone! Enjoy this weekend.",1729.0,positive
-1ntv2ks,1759182327.0,267,0.99,34,,A notification has never made me happier... We're about to get our first win with the Mormon Missile back in the crew 🙏🫶⚜️,9252.0,positive
+Who dat everyone! Enjoy this weekend.",1729.0,positive,0.02,0.758,0.222,0.9821
+1ntv2ks,1759182327.0,267,0.99,34,,A notification has never made me happier... We're about to get our first win with the Mormon Missile back in the crew 🙏🫶⚜️,9252.0,positive,0.0,0.847,0.153,0.5859
 1nthaa7,1759150563.0,142,0.86,116,,"They are gonna start winning let me tell you why. They started Sankers and Riley which are absolute play makers, Ruiz is gonna be replaced by Simp which he is an absolute unit. Ruiz is our weak link on the oline.
 
 Our oline has only allowed 9 sacks this entire season which is top 10 I believe in protection and a few of those sacks were on rattler.
@@ -390,88 +390,88 @@ Good luck boys, its not over yet.
 
 
   
-",14288.0,positive
-1nt40x6,1759105242.0,122,0.91,30,,Felt like this was relevant to us ,3442.0,neutral
-1nt2w98,1759102023.0,111,0.98,23,,"SANKER With his pick and play today, I think we smashed the pick? Solid player. Thoughts ? ",2611.0,neutral
-1nszm59,1759093419.0,299,0.79,91,,My best friend was in Buffalo and he came prepared ,21731.0,neutral
-1nszc7y,1759092752.0,366,0.99,22,,Damn it ,8334.0,negative
-1p1cx7d,1763571274.0,35416,0.99,137,Roster News,BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  He wants to play somewhere competitive I’m guessing,4838534.0,neutral
-1p1cx7d,1763571603.0,24931,0.99,137,Roster News,BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  And now my cooks jersey is worthless again lol,3406073.0,negative
-1p1cx7d,1763571549.0,9553,0.99,137,Roster News,BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  Who do we have at wr besides olave and  vele? And this show it’s a good chance we drafting a wr in the 1st rd,1305131.0,neutral
-1p1cx7d,1763571255.0,16310,0.99,137,Roster News,BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  Surely this has to mean Vele gets more targets (it won’t),2228272.0,negative
-1p1cx7d,1763572476.0,12582,0.99,137,Roster News,"BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  If Shough manages to be decent with his weapons looking like Olave, Juwan, Vele, and Tipton I will deadass think he’s our next franchise savior",1718953.0,positive
-1p1cx7d,1763573168.0,3029,0.99,137,Roster News,BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  I'm coming down for the game this weekend. I'm available to play. I haven't played in like twenty years but I think I've got some gas left.,413822.0,positive
-1p1cx7d,1763571617.0,12815,0.99,137,Roster News,"BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  $8M guaranteed for a 32 year old undersized ""speed"" WR that already left on sour terms once before. Wtf was Mickey thinking",1750785.0,negative
-1p1cx7d,1763571415.0,4893,0.99,137,Roster News,BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  So pre-game events this week include fans getting on-field tryouts at WR?,668482.0,neutral
-1p1cx7d,1763571362.0,2097,0.99,137,Roster News,BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  Why are you saying it's from Schefter and linking an Underhill tweet lol,286492.0,neutral
-1p1cx7d,1763573319.0,1864,0.99,137,Roster News,BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  His signing never made sense for this rebuilding team,254660.0,negative
-1p1cx7d,1763572635.0,1165,0.99,137,Roster News,"BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  If it was mutual, I’m guessing we recouped some money? Otherwise no reason to release him mid season",159162.0,neutral
-1p1cx7d,1763572043.0,1864,0.99,137,Roster News,BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  No big loss. Do we recoup some money?,254660.0,neutral
-1p1cx7d,1763575217.0,699,0.99,137,Roster News,"BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  Im not mad at Cooks, but i never really understood the signing. Yes, im glad we tried to put more weapons around our young QB. But he's just not what we needed, Loomis clearly knew that seeing as he still traded for Vele.",95497.0,negative
-1p1cx7d,1763575501.0,699,0.99,137,Roster News,"BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  Not mad at it at all, need to see the young receivers do something",95497.0,neutral
-1p1cx7d,1763576758.0,699,0.99,137,Roster News,BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  I hope we see more Vele targets. I truly think he should be a great WR2,95497.0,positive
-1p1cx7d,1763572258.0,1398,0.99,137,Roster News,"BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  IIRC, there was a chart that showed WR ability to separate and get open against zone and man coverage posted not long ago. Cooks was pretty bottom of the barrel for both.",190995.0,negative
-1p1cx7d,1763576604.0,1165,0.99,137,Roster News,BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  Still don't understand why we brought back a dude who threw a fit when MT was playing better than him,159162.0,negative
-1p1cx7d,1763572533.0,466,0.99,137,Roster News,BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  Averaging 2.5 targets per game w/zero targets last week. My guess is that he wants to showcase himself for a job next season and he sees the writing on the wall here.  Not sure where he would get more action but he's trying to prolong his career.,63665.0,negative
-1p1cx7d,1763573209.0,466,0.99,137,Roster News,BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  Mickey Loomis masterclass right there,63665.0,negative
-1p1cx7d,1763577878.0,466,0.99,137,Roster News,"BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  Why tf did he even sign here then? No way he didn't think we'd be in ""rebuilding"" mode.",63665.0,negative
-1ooj5h3,1762290035.0,86100,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  THIS IS OUR SUPER BOWL RIGHT HERE BOYS",13603800.0,positive
-1ooj5h3,1762290028.0,43050,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  Sorry Justin Herbert",6801900.0,neutral
+",14288.0,positive,0.042,0.8,0.158,0.9845
+1nt40x6,1759105242.0,122,0.91,30,,Felt like this was relevant to us ,3442.0,neutral,0.0,0.706,0.294,0.3612
+1nt2w98,1759102023.0,111,0.98,23,,"SANKER With his pick and play today, I think we smashed the pick? Solid player. Thoughts ? ",2611.0,neutral,0.0,0.749,0.251,0.5204
+1nszm59,1759093419.0,299,0.79,91,,My best friend was in Buffalo and he came prepared ,21731.0,neutral,0.0,0.429,0.571,0.8519
+1nszc7y,1759092752.0,366,0.99,22,,Damn it ,8334.0,negative,0.73,0.27,0.0,-0.4019
+1p1cx7d,1763571274.0,35416,0.99,137,Roster News,BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  He wants to play somewhere competitive I’m guessing,4838534.0,neutral,0.0,0.708,0.292,0.6808
+1p1cx7d,1763571603.0,24931,0.99,137,Roster News,BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  And now my cooks jersey is worthless again lol,3406073.0,negative,0.115,0.675,0.21,0.34
+1p1cx7d,1763571549.0,9553,0.99,137,Roster News,BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  Who do we have at wr besides olave and  vele? And this show it’s a good chance we drafting a wr in the 1st rd,1305131.0,neutral,0.0,0.807,0.193,0.7506
+1p1cx7d,1763571255.0,16310,0.99,137,Roster News,BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  Surely this has to mean Vele gets more targets (it won’t),2228272.0,negative,0.0,0.787,0.213,0.6597
+1p1cx7d,1763572476.0,12582,0.99,137,Roster News,"BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  If Shough manages to be decent with his weapons looking like Olave, Juwan, Vele, and Tipton I will deadass think he’s our next franchise savior",1718953.0,positive,0.073,0.802,0.125,0.2732
+1p1cx7d,1763573168.0,3029,0.99,137,Roster News,BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  I'm coming down for the game this weekend. I'm available to play. I haven't played in like twenty years but I think I've got some gas left.,413822.0,positive,0.08,0.831,0.09,0.0969
+1p1cx7d,1763571617.0,12815,0.99,137,Roster News,"BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  $8M guaranteed for a 32 year old undersized ""speed"" WR that already left on sour terms once before. Wtf was Mickey thinking",1750785.0,negative,0.105,0.826,0.069,-0.3182
+1p1cx7d,1763571415.0,4893,0.99,137,Roster News,BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  So pre-game events this week include fans getting on-field tryouts at WR?,668482.0,neutral,0.0,0.898,0.102,0.3612
+1p1cx7d,1763571362.0,2097,0.99,137,Roster News,BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  Why are you saying it's from Schefter and linking an Underhill tweet lol,286492.0,neutral,0.0,0.806,0.194,0.6486
+1p1cx7d,1763573319.0,1864,0.99,137,Roster News,BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  His signing never made sense for this rebuilding team,254660.0,negative,0.0,0.884,0.116,0.3612
+1p1cx7d,1763572635.0,1165,0.99,137,Roster News,"BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  If it was mutual, I’m guessing we recouped some money? Otherwise no reason to release him mid season",159162.0,neutral,0.069,0.852,0.079,0.0772
+1p1cx7d,1763572043.0,1864,0.99,137,Roster News,BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  No big loss. Do we recoup some money?,254660.0,neutral,0.196,0.696,0.109,-0.25
+1p1cx7d,1763575217.0,699,0.99,137,Roster News,"BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  Im not mad at Cooks, but i never really understood the signing. Yes, im glad we tried to put more weapons around our young QB. But he's just not what we needed, Loomis clearly knew that seeing as he still traded for Vele.",95497.0,negative,0.065,0.713,0.222,0.8546
+1p1cx7d,1763575501.0,699,0.99,137,Roster News,"BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  Not mad at it at all, need to see the young receivers do something",95497.0,neutral,0.0,0.818,0.182,0.6283
+1p1cx7d,1763576758.0,699,0.99,137,Roster News,BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  I hope we see more Vele targets. I truly think he should be a great WR2,95497.0,positive,0.0,0.612,0.388,0.9129
+1p1cx7d,1763572258.0,1398,0.99,137,Roster News,"BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  IIRC, there was a chart that showed WR ability to separate and get open against zone and man coverage posted not long ago. Cooks was pretty bottom of the barrel for both.",190995.0,negative,0.0,0.83,0.17,0.7906
+1p1cx7d,1763576604.0,1165,0.99,137,Roster News,BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  Still don't understand why we brought back a dude who threw a fit when MT was playing better than him,159162.0,negative,0.0,0.72,0.28,0.8271
+1p1cx7d,1763572533.0,466,0.99,137,Roster News,BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  Averaging 2.5 targets per game w/zero targets last week. My guess is that he wants to showcase himself for a job next season and he sees the writing on the wall here.  Not sure where he would get more action but he's trying to prolong his career.,63665.0,negative,0.025,0.945,0.03,0.0693
+1p1cx7d,1763573209.0,466,0.99,137,Roster News,BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  Mickey Loomis masterclass right there,63665.0,negative,0.0,0.857,0.143,0.3612
+1p1cx7d,1763577878.0,466,0.99,137,Roster News,"BREAKING: Saints and Brandin Cooks mutually agree to part ways (Schefter)  Why tf did he even sign here then? No way he didn't think we'd be in ""rebuilding"" mode.",63665.0,negative,0.069,0.852,0.079,0.0772
+1ooj5h3,1762290035.0,86100,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  THIS IS OUR SUPER BOWL RIGHT HERE BOYS",13603800.0,positive,0.0,0.819,0.181,0.6841
+1ooj5h3,1762290028.0,43050,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  Sorry Justin Herbert",6801900.0,neutral,0.075,0.925,0.0,-0.0772
 1ooj5h3,1762290086.0,24846,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  This makes a heap of sense 
 
 Accept that he's a below average o lineman and accept that we missed on the pick 
 
 Bad at tackle, better at guard but still bad
 
-We missed on the pick, it happens, now time to move on",3925668.0,negative
-1ooj5h3,1762290092.0,32472,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  How did we fleece someone for this man of all people",5130576.0,negative
-1ooj5h3,1762290079.0,12300,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  WE GOT A BUZZER BEATER!!!!!",1943400.0,positive
-1ooj5h3,1762290163.0,9102,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  What did we have to give up ?",1438116.0,neutral
+We missed on the pick, it happens, now time to move on",3925668.0,negative,0.178,0.735,0.087,-0.7814
+1ooj5h3,1762290092.0,32472,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  How did we fleece someone for this man of all people",5130576.0,negative,0.0,1.0,0.0,0.0
+1ooj5h3,1762290079.0,12300,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  WE GOT A BUZZER BEATER!!!!!",1943400.0,positive,0.0,1.0,0.0,0.0
+1ooj5h3,1762290163.0,9102,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  What did we have to give up ?",1438116.0,neutral,0.0,1.0,0.0,0.0
 1ooj5h3,1762290036.0,15006,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  For what?
 
-I'll take a warm poboy for him, so anything more than that is a win",2370948.0,neutral
-1ooj5h3,1762290120.0,6150,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  Staley’s final vengeance",971700.0,neutral
+I'll take a warm poboy for him, so anything more than that is a win",2370948.0,neutral,0.0,0.826,0.174,0.6908
+1ooj5h3,1762290120.0,6150,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  Staley’s final vengeance",971700.0,neutral,0.0,1.0,0.0,0.0
 1ooj5h3,1762290212.0,6150,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  https://i.redd.it/7efdi1yk1bzf1.gif
 
-Every day we move further away from *DA’s Dark Years*",971700.0,positive
-1ooj5h3,1762290562.0,6150,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  Watch him magically become a pro bowler in a few years.  It's our curse, I hope he does do well though.",971700.0,positive
-1ooj5h3,1762290408.0,5658,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  SoFi Stadium must be replacing a turnstile",893964.0,negative
-1ooj5h3,1762290045.0,10086,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  The bad man can’t hurt us anymore",1593588.0,positive
-1ooj5h3,1762290099.0,3198,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  What, did the Chargers lose a bet?",505284.0,neutral
-1ooj5h3,1762290652.0,2952,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  He will become all pro now LMAO",466416.0,positive
-1ooj5h3,1762290171.0,2460,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  Time for Simpkins to become full time starter at guard. Happy with this trade",388680.0,positive
-1ooj5h3,1762290609.0,2706,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  I don't think there's any Saints fan upset by this move. Dude was just a bust.",427548.0,negative
-1ooj5h3,1762294460.0,2214,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  The Saints getting a 6th for a former first round pick is just a microcosm of the organization. We sure know how to **** up a draft.....",349812.0,negative
-1ooj5h3,1762290089.0,1968,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  GOODBYE",310944.0,negative
-1ooj5h3,1762291256.0,2460,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  Penning All-Pro szn incoming",388680.0,positive
-1ooj5h3,1762290127.0,1968,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  Oh good I’ll literally take anything that gave us for him even cash considerations like it’s the nba",310944.0,positive
-1ooe0c4,1762278665.0,76242,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  I’m gonna miss him, even if it makes sense :(",13598523.0,negative
-1ooe0c4,1762278865.0,20960,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  Go ball out Sheed",3738426.0,positive
-1ooe0c4,1762278710.0,47946,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  It's gonna be a dark next season and a half at least my fellow saints fans ",8551649.0,negative
-1ooe0c4,1762278703.0,9170,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  Whatd we get????",1635561.0,neutral
-1ooe0c4,1762278978.0,9956,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  God speed shaheed. You deserve to go to a playoff worthy team. This means we are locking down Olave with a new contract. Can’t really complain about this if we get something out of it",1775752.0,positive
-1ooe0c4,1762279487.0,7598,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  ![gif](giphy|6Q3M4BIK0lX44|downsized)",1355179.0,neutral
-1ooe0c4,1762278770.0,5764,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  Wish him all the best",1028067.0,positive
-1ooe0c4,1762278984.0,4192,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  He wasn't going to re-sign here so we can get our comp pick a year early I guess.",747685.0,neutral
-1ooe0c4,1762279315.0,3406,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  This sucks really was hoping olave was the one dealt",607494.0,negative
-1ooe0c4,1762278787.0,3406,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  I expected it, but it still sucks. Wish him luck",607494.0,negative
+Every day we move further away from *DA’s Dark Years*",971700.0,positive,0.0,1.0,0.0,0.0
+1ooj5h3,1762290562.0,6150,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  Watch him magically become a pro bowler in a few years.  It's our curse, I hope he does do well though.",971700.0,positive,0.093,0.773,0.133,0.128
+1ooj5h3,1762290408.0,5658,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  SoFi Stadium must be replacing a turnstile",893964.0,negative,0.0,1.0,0.0,0.0
+1ooj5h3,1762290045.0,10086,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  The bad man can’t hurt us anymore",1593588.0,positive,0.266,0.734,0.0,-0.7845
+1ooj5h3,1762290099.0,3198,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  What, did the Chargers lose a bet?",505284.0,neutral,0.124,0.876,0.0,-0.4019
+1ooj5h3,1762290652.0,2952,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  He will become all pro now LMAO",466416.0,positive,0.0,0.812,0.188,0.6841
+1ooj5h3,1762290171.0,2460,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  Time for Simpkins to become full time starter at guard. Happy with this trade",388680.0,positive,0.0,0.879,0.121,0.5719
+1ooj5h3,1762290609.0,2706,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  I don't think there's any Saints fan upset by this move. Dude was just a bust.",427548.0,negative,0.084,0.841,0.074,-0.0772
+1ooj5h3,1762294460.0,2214,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  The Saints getting a 6th for a former first round pick is just a microcosm of the organization. We sure know how to **** up a draft.....",349812.0,negative,0.0,0.94,0.06,0.3182
+1ooj5h3,1762290089.0,1968,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  GOODBYE",310944.0,negative,0.0,1.0,0.0,0.0
+1ooj5h3,1762291256.0,2460,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  Penning All-Pro szn incoming",388680.0,positive,0.0,1.0,0.0,0.0
+1ooj5h3,1762290127.0,1968,1.0,157,Roster News,"[Schefter] Deadline deal: Saints are trading OL Trevor Penning to the Chargers, per source.  Oh good I’ll literally take anything that gave us for him even cash considerations like it’s the nba",310944.0,positive,0.0,0.847,0.153,0.6597
+1ooe0c4,1762278665.0,76242,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  I’m gonna miss him, even if it makes sense :(",13598523.0,negative,0.158,0.842,0.0,-0.5423
+1ooe0c4,1762278865.0,20960,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  Go ball out Sheed",3738426.0,positive,0.0,1.0,0.0,0.0
+1ooe0c4,1762278710.0,47946,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  It's gonna be a dark next season and a half at least my fellow saints fans ",8551649.0,negative,0.0,1.0,0.0,0.0
+1ooe0c4,1762278703.0,9170,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  Whatd we get????",1635561.0,neutral,0.0,1.0,0.0,0.0
+1ooe0c4,1762278978.0,9956,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  God speed shaheed. You deserve to go to a playoff worthy team. This means we are locking down Olave with a new contract. Can’t really complain about this if we get something out of it",1775752.0,positive,0.052,0.855,0.093,0.2975
+1ooe0c4,1762279487.0,7598,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  ![gif](giphy|6Q3M4BIK0lX44|downsized)",1355179.0,neutral,0.0,1.0,0.0,0.0
+1ooe0c4,1762278770.0,5764,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  Wish him all the best",1028067.0,positive,0.0,0.734,0.266,0.7845
+1ooe0c4,1762278984.0,4192,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  He wasn't going to re-sign here so we can get our comp pick a year early I guess.",747685.0,neutral,0.0,1.0,0.0,0.0
+1ooe0c4,1762279315.0,3406,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  This sucks really was hoping olave was the one dealt",607494.0,negative,0.085,0.811,0.104,0.1477
+1ooe0c4,1762278787.0,3406,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  I expected it, but it still sucks. Wish him luck",607494.0,negative,0.099,0.671,0.23,0.6486
 1ooe0c4,1762278998.0,2882,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  🥺🫡
 
-Godspeed, Shaheed. NOLA will always love you. 🖤⚜️",514034.0,positive
-1ooe0c4,1762279366.0,2882,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  Good bye sweet flair",514034.0,negative
-1ooe0c4,1762278690.0,2096,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  Heartbroken, but happy he’s going to a decent team.",373843.0,negative
-1ooe0c4,1762278797.0,2358,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  I saw this one coming. Love him on the team, but he was not staying a Saint long term. So it's at least good to get something in return.",420573.0,neutral
-1ooe0c4,1762278905.0,1834,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  Bummer, hope he feasts over there with darnold throwing to him.",327112.0,negative
-1ooe0c4,1762278910.0,1310,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  Darnold will get him the ball for sure",233652.0,neutral
-1ooe0c4,1762279032.0,1834,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  I'll miss him but at least he's not going to a team I hate",327112.0,positive
+Godspeed, Shaheed. NOLA will always love you. 🖤⚜️",514034.0,positive,0.0,0.851,0.149,0.6369
+1ooe0c4,1762279366.0,2882,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  Good bye sweet flair",514034.0,negative,0.0,0.753,0.247,0.7096
+1ooe0c4,1762278690.0,2096,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  Heartbroken, but happy he’s going to a decent team.",373843.0,negative,0.089,0.741,0.17,0.5267
+1ooe0c4,1762278797.0,2358,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  I saw this one coming. Love him on the team, but he was not staying a Saint long term. So it's at least good to get something in return.",420573.0,neutral,0.0,0.864,0.136,0.7543
+1ooe0c4,1762278905.0,1834,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  Bummer, hope he feasts over there with darnold throwing to him.",327112.0,negative,0.085,0.82,0.095,0.0772
+1ooe0c4,1762278910.0,1310,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  Darnold will get him the ball for sure",233652.0,neutral,0.0,0.909,0.091,0.3182
+1ooe0c4,1762279032.0,1834,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  I'll miss him but at least he's not going to a team I hate",327112.0,positive,0.196,0.804,0.0,-0.7469
 1ooe0c4,1762279340.0,1572,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  Fuck it…Sheeds down there somewhere
 
-Take care of him Hawks",280382.0,positive
+Take care of him Hawks",280382.0,positive,0.114,0.782,0.104,-0.0772
 1ooe0c4,1762279654.0,1572,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  Damn. It's been fun. 
 
-Settle in for the Dark Ages.",280382.0,negative
+Settle in for the Dark Ages.",280382.0,negative,0.09,0.8,0.11,0.1531
 1ooe0c4,1762280827.0,1310,0.98,181,Roster News,"[Pelissero] The Saints are sending WR Rashid Shaheed to the Seahawks, sources tell me and @RapSheet.  T\_T
 
 F it, Shaheed down there somewhere.
 
-Go get a ring.",233652.0,positive
+Go get a ring.",233652.0,positive,0.0,1.0,0.0,0.0

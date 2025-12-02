@@ -154,6 +154,10 @@ venv.bak/
 # mkdocs documentation
 /site
 
+#data too large to track
+*_minute.csv
+*_minute.pkl
+
 # mypy
 .mypy_cache/
 .dmypy.json

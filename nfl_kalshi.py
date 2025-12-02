@@ -1,4 +1,5 @@
 from datetime import datetime
+import threading
 import pandas as pd
 import requests
 from utils.auth_utils import sign_pss_text, load_private_key
@@ -49,32 +50,60 @@ def get_historic_nfl_data(time_res='day'):
         start_time = end_time - 604800
         series = market.split('-')[0]
         volume = row['volume']
-        path = f'/trade-api/v2/series/{series}/markets/{market}/candlesticks?start_ts={start_time}&end_ts={end_time}&period_interval={interval}'
-        orderbook = get_orderbook_with_auth(private_key, path)
-        candlesticks = pd.json_normalize(orderbook['candlesticks'])
-        candlesticks['market'] = market
-        candlesticks['volume'] = volume
-        candlestick_list.append(candlesticks)
+        if interval == 1:
+            """implement paginated queries for minute data since max limit is 5000 data points"""
+            candlesticks = []
+            while start_time < end_time:
+                paged_end_time = min(start_time + 5000, end_time)
+                path = f'/trade-api/v2/series/{series}/markets/{market}/candlesticks?start_ts={start_time}&end_ts={paged_end_time}&period_interval={interval}'
+                orderbook = get_orderbook_with_auth(private_key, path)
+                if 'candlesticks' not in orderbook:
+                    print(f"No candlestick data for market {market}, skipping.")
+                    break
+                page_candlesticks = pd.json_normalize(orderbook['candlesticks'])
+                candlesticks.append(page_candlesticks)
+                start_time = paged_end_time
+            if candlesticks:
+                candlesticks_df = pd.concat(candlesticks)
+                candlesticks_df['market'] = market
+                candlesticks_df['volume'] = volume
+                candlestick_list.append(candlesticks_df)
+        else:
+            path = f'/trade-api/v2/series/{series}/markets/{market}/candlesticks?start_ts={start_time}&end_ts={end_time}&period_interval={interval}'
+            orderbook = get_orderbook_with_auth(private_key, path)
+            candlesticks = pd.json_normalize(orderbook['candlesticks'])
+            candlesticks['market'] = market
+            candlesticks['volume'] = volume
+            candlestick_list.append(candlesticks)
     print(f"Retrieved {len(candlestick_list)} markets' candlestick data.")
     return pd.concat(candlestick_list)
 
 
 if __name__ == "__main__":
-    df_day = get_historic_nfl_data()
-    df_hour = get_historic_nfl_data(time_res='hour')
+    #df_day = get_historic_nfl_data()
+    #df_hour = get_historic_nfl_data(time_res='hour')
+    df_minute = get_historic_nfl_data(time_res='minute')
 
-    with open('data/nfl_historic_candlestick_day.pkl', 'wb') as f:
-        pd.to_pickle(df_day, f)
-        print("Historic NFL data by day saved as pkl")
+    # with open('data/nfl_historic_candlestick_day.pkl', 'wb') as f:
+    #     pd.to_pickle(df_day, f)
+    #     print("Historic NFL data by day saved as pkl")
     
-    with open('data/nfl_historic_candlestick_day.csv', 'w', encoding='utf-8') as f:
-        df_day.to_csv(f, index=False)
-        print("Historic NFL data by day saved as csv")
+    # with open('data/nfl_historic_candlestick_day.csv', 'w', encoding='utf-8') as f:
+    #     df_day.to_csv(f, index=False)
+    #     print("Historic NFL data by day saved as csv")
 
-    with open('data/nfl_historic_candlestick_hour.pkl', 'wb') as f:
-        pd.to_pickle(df_hour, f)
-        print("Historic NFL data by hour saved as pkl")
+    # with open('data/nfl_historic_candlestick_hour.pkl', 'wb') as f:
+    #     pd.to_pickle(df_hour, f)
+    #     print("Historic NFL data by hour saved as pkl")
     
-    with open('data/nfl_historic_candlestick_hour.csv', 'w', encoding='utf-8') as f:
-        df_hour.to_csv(f, index=False)
-        print("Historic NFL data by hour saved as csv")
+    # with open('data/nfl_historic_candlestick_hour.csv', 'w', encoding='utf-8') as f:
+    #     df_hour.to_csv(f, index=False)
+    #     print("Historic NFL data by hour saved as csv")
+
+    with open('data/nfl_historic_candlestick_minute.pkl', 'wb') as f:
+        pd.to_pickle(df_minute, f)
+        print("Historic NFL data by minute saved as pkl")
+
+    with open('data/nfl_historic_candlestick_minute.csv', 'w', encoding='utf-8') as f:
+        df_minute.to_csv(f, index=False)
+        print("Historic NFL data by minute saved as csv")

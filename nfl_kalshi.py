@@ -42,8 +42,10 @@ def get_historic_nfl_data(time_res='day'):
     interval_map = {'day': 1440, 'hour': 60, 'minute': 1}
     interval = interval_map[time_res]
     candlestick_list = []
-    """refactor to make async """
+    market_rows = len(markets)
     for _,row in markets.iterrows():
+        if _ % 100 == 0:
+            print(f"Processing market {_+1} of {market_rows}")
         market = row['ticker']
         end_time = row['close_time_ts']
         start_time = end_time - 604800

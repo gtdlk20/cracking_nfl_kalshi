@@ -3,7 +3,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 from transformers.DateTimeTransformer import DateTimeTransformer
 from transformers.FFillImputer import FFillImputer
-from utils.constants import KALSHI_DATA_DAY, KALSHI_DATA_HOUR, KALSHI_DATETIME_COLS
+from utils.constants import KALSHI_DATA_DAY, KALSHI_DATA_HOUR, KALSHI_DATA_MINUTE, KALSHI_DATETIME_COLS
 
 class KalshiDataProcessor():
     """Processor for loading and processing Kalshi NFL candlestick data."""
@@ -13,6 +13,8 @@ class KalshiDataProcessor():
             self.data_path = KALSHI_DATA_DAY
         elif time_res == 'hour':
             self.data_path = KALSHI_DATA_HOUR
+        elif time_res == 'minute':
+            self.data_path = KALSHI_DATA_MINUTE
         else:
             raise ValueError("Unsupported time resolution. Please use 'day' or 'hour'.")
         self.datetime_cols = datetime_cols

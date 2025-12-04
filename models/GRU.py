@@ -2,16 +2,13 @@ import tensorflow as tf
 from tensorflow.keras import layers, models
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 import numpy as np
-from tensorflow.keras import layers
 from utils.constants import KALSHI_FEATURE_COLS
 import pandas as pd
-import numpy as np
-from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 class GRUModel:
     @staticmethod
     def build_model(sequence_length=None,
-                    feature_dim=2,
+                    feature_dim=len(KALSHI_FEATURE_COLS),
                     gru_units=(128, 64),
                     dropout=0.2,
                     dense_units=(64, 32),
@@ -23,7 +20,7 @@ class GRUModel:
 
         Args:
             sequence_length: optional fixed sequence length (None allows variable length).
-            feature_dim: number of features per timestep (e.g., [price_delta, vader_score]).
+            feature_dim: number of features per timestep (e.g., [prices, vader_scores]).
             gru_units: tuple for two GRU layers.
             dropout: dropout rate between recurrent layers.
             dense_units: tuple for dense head.
@@ -47,7 +44,7 @@ class GRUModel:
 
         # Temporal attention mechanism (learned weighting over timesteps)
         att_scores = layers.Dense(1, use_bias=False)(x)              # (batch, time, 1)
-        att_weights = layers.Softmax(axis=1, name="att_weights")(att_scores)  # normalize over time
+        att_weights = layers.Softmax(axis=-1, name="att_weights")(att_scores)  # normalize over time
         context = layers.Dot(axes=1)([att_weights, x])               # (batch, 1, features)
         context = layers.Flatten()(context)                          # (batch, features)
 
@@ -124,8 +121,8 @@ class GRUModel:
 
     def __init__(self, input_shape, gru_units=64, dense_units=32):
         self.model = self.build_model(
-            sequence_length=input_shape[1],
-            feature_dim=input_shape[2],
+            sequence_length=input_shape[0],
+            feature_dim=input_shape[1],
             gru_units=(gru_units, gru_units // 2),
             dense_units=(dense_units, dense_units // 2)
         )

@@ -13,5 +13,6 @@ class DateTimeTransformer(BaseEstimator, TransformerMixin):
     def transform(self, X):
         X_transformed = X.copy()
         for col in self.timestamp_columns:
-            X_transformed[col] = pd.to_datetime(X_transformed[col], unit='s')
+            X_transformed[col] = pd.to_datetime(X_transformed[col], unit='s').astype('int64') // 10**9
+
         return X_transformed

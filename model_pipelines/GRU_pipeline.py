@@ -69,9 +69,22 @@ class GRUPipeline():
         # Make predictions with the GRU model
         return self.model.predict(X_processed)
     
-    def evaluate(self, predict, X=None):
+    def evaluate(self, predict, X=None, y=None):
         """Evaluate the model on the test data."""
-        y_true = self.test_data['price_close']
-        y_pred = predict(self.test_data) if X is None else predict(X)
+        y_true = None
+        if predict.__name__ == 'predict_on_test':
+            y_true = self.test_data['price_close']
+        elif predict.__name__ == 'predict_on_val':
+            y_true = self.val_data['price_close']
+        elif predict.__name__ == 'predict' and y is not None: 
+            y_true = y
+            if y is None and X is None:
+                raise ValueError("For custom predict function, both X and y must be provided for evaluation.")
+        else:
+            raise ValueError("Unsupported predict function for evaluation.")
+        
+        
+        
+        y_pred = predict() if X is None else predict(X)
         mse = mean_squared_error(y_true, y_pred)
         return y_true, y_pred, mse

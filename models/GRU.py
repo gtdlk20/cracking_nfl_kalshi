@@ -44,9 +44,11 @@ class GRUModel:
 
         # Temporal attention mechanism (learned weighting over timesteps)
         att_scores = layers.Dense(1, use_bias=False)(x)              # (batch, time, 1)
-        att_weights = layers.Softmax(axis=-1, name="att_weights")(att_scores)  # normalize over time
-        context = layers.Dot(axes=1)([att_weights, x])               # (batch, 1, features)
-        context = layers.Flatten()(context)                          # (batch, features)
+        # normalize over the time axis (axis=1) so weights sum to 1 across timesteps
+        att_weights = layers.Softmax(axis=1, name="att_weights")(att_scores)  # (batch, time, 1)
+        # apply weights to the sequence and sum over time to get context vector (batch, features)
+        weighted = layers.Multiply()([att_weights, x])               # (batch, time, features)
+        context = layers.Lambda(lambda z: tf.reduce_sum(z, axis=1))(weighted)  # (batch, features)
 
         # Dense head with normalization and dropout
         x = layers.LayerNormalization()(context)
@@ -132,13 +134,13 @@ class GRUModel:
         self.model.fit(X_train, y_train, epochs=epochs, batch_size=batch_size)
 
     def predict(self, X):
+        X = self.prepare_inputs(X)
         return self.model.predict(X)
 
     def save(self, filepath):
         self.model.save(filepath)
 
-    @staticmethod
-    def load(filepath):
-        model = GRUModel((None, None))  # Placeholder shape
+    def load(self, filepath):
+        model = GRUModel((None, len(KALSHI_FEATURE_COLS)))
         model.model = models.load_model(filepath)
         return model

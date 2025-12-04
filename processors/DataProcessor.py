@@ -5,7 +5,7 @@ from transformers.DateTimeTransformer import DateTimeTransformer
 from transformers.FFillImputer import FFillImputer
 from utils.constants import KALSHI_DATA_DAY, KALSHI_DATA_HOUR, KALSHI_DATA_MINUTE, KALSHI_DATETIME_COLS
 
-class KalshiDataProcessor():
+class DataProcessor():
     """Processor for loading and processing Kalshi NFL candlestick data."""
 
     def __init__(self, time_res: str = 'day', datetime_cols=KALSHI_DATETIME_COLS, ffill_cols=None):

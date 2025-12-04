@@ -1,6 +1,6 @@
 """a class which takes a gru model, inherits its fit and predict methods, and wraps them in a pipeline step leveraging the kalshi_processor as a preprocessor step."""
 from sklearn.pipeline import Pipeline
-from processors.kalshi_processor import KalshiDataProcessor
+from processors.DataProcessor import DataProcessor
 from models.GRU import GRUModel
 
 class GRUPipeline():
@@ -9,7 +9,7 @@ class GRUPipeline():
     def __init__(self, time_res: str = 'day', datetime_cols=None, ffill_cols=None,
                  gru_units=64, dense_units=32):
         # Initialize the data processor
-        self.processor = KalshiDataProcessor(time_res=time_res,
+        self.processor = DataProcessor(time_res=time_res,
                                              datetime_cols=datetime_cols,
                                              ffill_cols=ffill_cols)
         

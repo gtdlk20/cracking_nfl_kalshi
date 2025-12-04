@@ -3,20 +3,13 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 from transformers.DateTimeTransformer import DateTimeTransformer
 from transformers.FFillImputer import FFillImputer
-from utils.constants import KALSHI_DATA_DAY, KALSHI_DATA_HOUR, KALSHI_DATA_MINUTE, KALSHI_DATETIME_COLS
+from utils.constants import KALSHI_DATETIME_COLS
 
-class KalshiDataProcessor():
+class DataProcessor():
     """Processor for loading and processing Kalshi NFL candlestick data."""
 
-    def __init__(self, time_res: str = 'day', datetime_cols=KALSHI_DATETIME_COLS, ffill_cols=None):
-        if time_res == 'day':
-            self.data_path = KALSHI_DATA_DAY
-        elif time_res == 'hour':
-            self.data_path = KALSHI_DATA_HOUR
-        elif time_res == 'minute':
-            self.data_path = KALSHI_DATA_MINUTE
-        else:
-            raise ValueError("Unsupported time resolution. Please use 'day' or 'hour'.")
+    def __init__(self, datetime_cols=KALSHI_DATETIME_COLS, ffill_cols=None):
+
         self.datetime_cols = datetime_cols
     
         self.pipeline = Pipeline(steps=[
@@ -27,5 +20,6 @@ class KalshiDataProcessor():
 
     def process(self, df: pd.DataFrame) -> pd.DataFrame:
         """Process the DataFrame using the defined pipeline."""
-        return self.pipeline.fit_transform(df)
+        df[df.columns] = self.pipeline.fit_transform(df)
+        return df
 

@@ -163,6 +163,7 @@ def main(time_scale='h'):
     df['price_low_next'] = df['price_low'].shift(-1)
     df.dropna(inplace=True)
     df.set_index('end_period_ts', inplace=True)
+    df[KALSHI_FEATURE_COLS] = df[KALSHI_FEATURE_COLS].astype(float)
     df.sort_index(inplace=True)
     # df.to_csv(f'data/kalshi_reddit_sentiment_combined_{time_scale}.csv', index=True)
     df.to_pickle(f'data/kalshi_reddit_sentiment_combined_{time_scale}.pkl')

@@ -3,7 +3,7 @@ import numpy as np
 import argparse
 from utils.constants import REDDIT_DATA_PATH
 from utils.constants import KALSHI_DATA_HOUR_CSV
-from utils.constants import REDDIT_SUBS
+from utils.constants import REDDIT_SUBS, KALSHI_FEATURE_COLS
 
 def process_sentiment(sub_name, time_scale='h'):
     path = f"{REDDIT_DATA_PATH}/{sub_name}_sentiment.csv"
@@ -74,6 +74,7 @@ def main(time_scale='h'):
     df = df.merge(sub_sent_df, left_on=['end_period_ts','opp'], right_on=['time','team'], how='left', suffixes=('', '_opp'))
     df.dropna(inplace=True)
     df.set_index('end_period_ts', inplace=True)
+    df[KALSHI_FEATURE_COLS] = df[KALSHI_FEATURE_COLS].astype(float)
     df.sort_index(inplace=True)
     df.to_csv('data/kalshi_reddit_sentiment_combined.csv', index=True)
 

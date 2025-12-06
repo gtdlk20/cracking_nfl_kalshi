@@ -10,7 +10,7 @@ KALSHI_DATA_HOUR = "data/nfl_hisoric_candlestick_hour.pkl"
 KALSHI_DATA_MINUTE = "data/nfl_hisoric_candlestick_minute.pkl"
 KALSHI_DATETIME_COLS = ['end_period_ts']
 KALSHI_FEATURE_COLS = [ 
-                        'price_close_prev', 'price_high_prev', 'price_low_prev',
+                        'price_close', 'price_high', 'price_low',
                         'oai_negative_mean', 'oai_negative_std', 
                         'oai_neutral_mean','oai_neutral_std',
                         'oai_positive_mean', 'oai_positive_std',

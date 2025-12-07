@@ -1,13 +1,18 @@
 import pandas as pd
 import numpy as np
-from utils.constants import KALSHI_FEATURE_COLS
+from utils.constants import KALSHI_FEATURE_COLS, KALSHI_FEATURE_COLS_OAI, KALSHI_FEATURE_COLS_VADER
 from sklearn.preprocessing import StandardScaler
 
 class DataPrepper():
-    def __init__(self, path='data/kalshi_reddit_sentiment_combined_15min.pkl', target_col='price_close_next'):
+    def __init__(self, path='data/kalshi_reddit_sentiment_combined_15min.pkl', target_col='price_close_next', oai_vader_only=None):
         self.path = path
         self.target_col = target_col
-        self.data = pd.read_pickle(path).reset_index()[KALSHI_FEATURE_COLS + ['end_period_ts','team','opp', target_col]]
+        self.feature_cols = KALSHI_FEATURE_COLS 
+        if oai_vader_only == 'oai':
+            self.feature_cols = KALSHI_FEATURE_COLS_OAI
+        elif oai_vader_only == 'vader':
+            self.feature_cols = KALSHI_FEATURE_COLS_VADER
+        self.data = pd.read_pickle(path).reset_index()[self.feature_cols + ['end_period_ts','team','opp', target_col]]
         self.train_df, self.val_df, self.test_df = self.train_test_splitter()
 
         # get unbatched data
@@ -31,7 +36,7 @@ class DataPrepper():
         return X
 
     def train_test_splitter(self):
-        data = self.data.sort_values('end_period_ts',ascending=False).reset_index(drop=True)
+        data = self.data.sort_values('end_period_ts',ascending=True).reset_index(drop=True)
         data['end_period_ts'] = data['end_period_ts'].dt.tz_localize('UTC').dt.tz_convert('US/Central')
         data['dow'] = data['end_period_ts'].dt.day_of_week
 
@@ -67,7 +72,7 @@ class DataPrepper():
         # scaling
         scaler = StandardScaler()
         # scale all feature cols except price_close, price_high, price_low
-        scale_cols = [c for c in KALSHI_FEATURE_COLS if c not in ('price_close', 'price_high', 'price_low')]
+        scale_cols = [c for c in self.feature_cols if c not in ('price_close', 'price_high', 'price_low')]
         train_df[scale_cols] = scaler.fit_transform(train_df[scale_cols])
         val_df[scale_cols] = scaler.transform(val_df[scale_cols])
         test_df[scale_cols] = scaler.transform(test_df[scale_cols])
@@ -82,7 +87,7 @@ class DataPrepper():
             data = self.val_df
         else:
             data = self.test_df
-        data = data.sort_values('end_period_ts',ascending=False).reset_index(drop=True)
+        data = data.sort_values('end_period_ts',ascending=True).reset_index(drop=True)
 
         for team in data['team'].unique():
             team_data = data[data['team']==team].copy()
@@ -91,7 +96,7 @@ class DataPrepper():
             # for each week, create 3d array and yield batches
             for weekn in weeks:
                 week_data = team_data[team_data['week'] == weekn].copy()
-                week_data = week_data[KALSHI_FEATURE_COLS+['price_close_next']]
+                week_data = week_data[self.feature_cols+['price_close_next']]
                 if len(week_data) < lookback*2:
                     continue
                 arr = self.df_to_3d(week_data, lookback=lookback)
@@ -102,7 +107,7 @@ class DataPrepper():
                 # print(len(week_data), len(final_idxs))
                 for start_idx in range(0, len(final_idxs), batch_size):
                     end_idx = start_idx + batch_size
-                    yield arr[final_idxs[start_idx:end_idx], :, :-1], arr[final_idxs[start_idx:end_idx], :, -1]
+                    yield arr[final_idxs[start_idx:end_idx], :, :-1], arr[final_idxs[start_idx:end_idx], -1, -1]
 
     def _recombine_batches(self, lookback=10, batch_size=32, ttv='train'):
         """

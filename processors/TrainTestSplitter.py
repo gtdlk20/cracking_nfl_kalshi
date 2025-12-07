@@ -64,6 +64,7 @@ class TrainTestSplitter():
             return
 
         cutoff_idx = int(n_weeks * self.threshold)
+        print(cutoff_idx, n_weeks)
         # ensure at least one week in train and one in test
         if cutoff_idx <= 0:
             cutoff_idx = 1
@@ -76,6 +77,7 @@ class TrainTestSplitter():
         n_val_weeks = min(n_test_weeks, max(0, cutoff_idx - 1))
 
         train_block = unique_weeks[:cutoff_idx]
+        print(train_block)
         val_weeks = train_block[-n_val_weeks:] if n_val_weeks > 0 else []
         train_weeks = train_block[: len(train_block) - n_val_weeks] if n_val_weeks > 0 else train_block
         test_weeks = unique_weeks[cutoff_idx:]

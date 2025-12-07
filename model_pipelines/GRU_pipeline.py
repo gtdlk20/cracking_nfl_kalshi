@@ -34,7 +34,7 @@ class GRUPipeline():
         X = self.train_data.drop(columns=['price_close'])
         X_processed = self.processor.process(X)
         print(type(X_processed))
-        y = self.train_data['price_close']  
+        y = self.train_data['price_close']
         # Update input shape for the model
         self.model.model.build(input_shape=X_processed.shape)
         

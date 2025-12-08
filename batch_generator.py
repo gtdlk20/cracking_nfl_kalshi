@@ -4,10 +4,11 @@ from utils.constants import KALSHI_FEATURE_COLS, KALSHI_FEATURE_COLS_OAI, KALSHI
 from sklearn.preprocessing import StandardScaler
 
 class DataPrepper():
-    def __init__(self, path='data/kalshi_reddit_sentiment_combined_15min.pkl', target_col='price_close_next', oai_vader_only=None):
+    def __init__(self, path='data/kalshi_reddit_sentiment_combined_15min.pkl', target_col='price_close_next', oai_vader_only=None, lookback=12):
         self.path = path
         self.target_col = target_col
         self.feature_cols = KALSHI_FEATURE_COLS 
+        self.lookback = lookback
         if oai_vader_only == 'oai':
             self.feature_cols = KALSHI_FEATURE_COLS_OAI
         elif oai_vader_only == 'vader':
@@ -20,7 +21,11 @@ class DataPrepper():
         self.X_val, self.y_val = self._recombine_batches(ttv='val')
         self.X_test, self.y_test = self._recombine_batches(ttv='test')
 
-    def df_to_3d(self, df, lookback):
+        # get data to check only elements where price changes
+        self.X_val_change, self.y_val_change = self._recombine_batches(ttv='val', change_only=True)
+        self.X_test_change, self.y_test_change = self._recombine_batches(ttv='test', change_only=True)
+
+    def df_to_3d(self, df):
         """
         df: pandas DataFrame, shape (T, F)
         lookback: int
@@ -28,7 +33,7 @@ class DataPrepper():
         """
         values = df.to_numpy()
         T, F = values.shape
-        L = lookback
+        L = self.lookback
 
         X = np.empty((T - L + 1, L, F), dtype=values.dtype)
         for i in range(T - L + 1):
@@ -80,7 +85,7 @@ class DataPrepper():
         return train_df, val_df, test_df
 
 
-    def batch_generator(self, lookback=10, batch_size=32, ttv='train'):    
+    def batch_generator(self, batch_size=32, ttv='train', change_only=False):    
         if ttv=='train':
             data = self.train_df
         elif ttv=='val':
@@ -97,28 +102,30 @@ class DataPrepper():
             for weekn in weeks:
                 week_data = team_data[team_data['week'] == weekn].copy()
                 week_data = week_data[self.feature_cols+['price_close_next']]
-                if len(week_data) < lookback*2:
+                if len(week_data) < self.lookback*2:
                     continue
-                arr = self.df_to_3d(week_data, lookback=lookback)
+                arr = self.df_to_3d(week_data)
                 week_data = week_data.iloc[-len(arr):].reset_index(drop=True)
                 flat_idxs = week_data[week_data['price_close_next'] == week_data['price_close']].sample(frac=0.2, random_state=42).index
                 change_idx = week_data[week_data['price_close_next'] != week_data['price_close']].index
                 final_idxs = list(flat_idxs.union(change_idx).sort_values())
+                if change_only:
+                    final_idxs = change_idx
                 # print(len(week_data), len(final_idxs))
                 for start_idx in range(0, len(final_idxs), batch_size):
                     end_idx = start_idx + batch_size
                     yield arr[final_idxs[start_idx:end_idx], :, :-1], arr[final_idxs[start_idx:end_idx], -1, -1]
 
-    def _recombine_batches(self, lookback=10, batch_size=32, ttv='train'):
+    def _recombine_batches(self, batch_size=32, ttv='train', change_only=False):
         """
         Collect all batches produced by batch_generator and stack them into full arrays.
         Returns: X, y where
-            X.shape == (N, lookback, n_features)
-            y.shape == (N, lookback)
+            X.shape == (N, self.lookback, n_features)
+            y.shape == (N, self.lookback)
         """
         X_batches = []
         y_batches = []
-        for Xb, yb in self.batch_generator(lookback=lookback, batch_size=batch_size, ttv=ttv):
+        for Xb, yb in self.batch_generator(batch_size=batch_size, ttv=ttv, change_only=change_only):
             X_batches.append(Xb)
             y_batches.append(yb)
 

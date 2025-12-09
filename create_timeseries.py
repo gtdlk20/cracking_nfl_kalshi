@@ -4,6 +4,8 @@ import argparse
 from utils.constants import REDDIT_DATA_PATH
 from utils.constants import KALSHI_DATA_HOUR_CSV
 from utils.constants import REDDIT_SUBS, KALSHI_FEATURE_COLS
+import reddit_extract.reddit_subs_pull as reddit_pull
+import os
 
 def process_sentiment(sub_name, time_scale='h'):
     path = f"{REDDIT_DATA_PATH}/{sub_name}_sentiment.csv"
@@ -59,16 +61,18 @@ def get_kalshi_data(time_scale='h'):
             event_df_team = event_df[event_df['team']==team]
             event_df_team = event_df_team.drop_duplicates()
             event_df_team = event_df_team.resample(time_scale).ffill().fillna(0)
-            # event_df_team['price_close_prev'] = event_df_team['price_close'].shift(1)
-            # event_df_team['price_high_prev'] = event_df_team['price_high'].shift(1)
-            # event_df_team['price_low_prev'] = event_df_team['price_low'].shift(1)
-            # event_df_team = event_df_team.fillna(0)
             df_list.append(event_df_team)
     market_df = pd.concat(df_list)
     market_df = market_df.reset_index()
     return market_df
 
 def main(time_scale='h'):
+    # ensure data/subs_sentiment exists
+    subs_sent_path = os.path.join('data', 'subs_sentiment')
+    if not os.path.exists(subs_sent_path):
+        os.makedirs(subs_sent_path, exist_ok=True)
+        reddit_pull.main()
+
     sub_sent_df = load_subreddits(time_scale=time_scale)
     market_df = get_kalshi_data(time_scale=time_scale)
 

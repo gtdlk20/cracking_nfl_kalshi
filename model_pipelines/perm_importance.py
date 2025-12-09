@@ -37,9 +37,7 @@ def compute_permutation_importance(model=None, dp=None):
 def main():
     with open("store_models/best_dp.pkl", "rb") as f:
         dp = pickle.load(f)
-    with open("store_models/best_history.pkl", "rb") as f:
-        history = pickle.load(f)
-    model = keras.models.load_model('store_models/best_model.h5')
+    model = keras.models.load_model('store_models/best_model.keras')
 
     compute_permutation_importance(model, dp)
 

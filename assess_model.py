@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import pickle
 import pandas as pd
 import numpy as np
+import model_pipelines.perm_importance as perm_importance
 
 def plot_model(model, dp, history):
     loss = model.evaluate(dp.X_test_full, dp.y_test_full, verbose=0)
@@ -115,10 +116,10 @@ def main():
         dp = pickle.load(f)
     with open("store_models/best_history.pkl", "rb") as f:
         history = pickle.load(f)
-    model = keras.models.load_model('store_models/best_model.h5')
+    model = keras.models.load_model('store_models/best_model.keras')
 
     plot_model(model, dp, history)
-
+    perm_importance.compute_permutation_importance(model, dp)
 
 if __name__ == "__main__":
     main()

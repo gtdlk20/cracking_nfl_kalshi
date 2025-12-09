@@ -5,6 +5,13 @@ load_dotenv()
 
 KALSHI_ACCESS_KEY = os.getenv("KALSHI_ACCESS_KEY")
 KALSHI_API_KEY = os.getenv("KALSHI_API_KEY")
+
+REDDIT_CLIENT_ID = os.getenv("REDDIT_CLIENT_ID")
+REDDIT_CLIENT_SECRET = os.getenv("REDDIT_CLIENT_SECRET")
+REDDIT_USERNAME = os.getenv("REDDIT_USERNAME")
+REDDIT_PASSWORD = os.getenv("REDDIT_PASSWORD")
+REDDIT_USER_AGENT = "data-collection for sentiment analysis:1.0 (by u/Mysterious-Mobile-69)"
+
 KALSHI_DATA_DAY = "data/nfl_hisoric_candlestick_day.pkl"
 KALSHI_DATA_HOUR = "data/nfl_hisoric_candlestick_hour.pkl"
 KALSHI_DATA_MINUTE = "data/nfl_hisoric_candlestick_minute.pkl"

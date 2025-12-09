@@ -1,0 +1,17 @@
+Feature,importance
+price_high,0.0286
+price_close,0.0072
+price_low,0.0052
+vader_neu_std,0.0003
+volume,0.0003
+vader_pos_std_opp,0.0002
+vader_neu_mean_opp,0.0002
+vader_pos_std,0.0002
+vader_neg_std,0.0001
+vader_neu_mean,0.0000
+vader_neu_std_opp,0.0000
+vader_pos_mean,0.0000
+vader_neg_mean,0.0000
+vader_neg_mean_opp,-0.0001
+vader_pos_mean_opp,-0.0001
+vader_neg_std_opp,-0.0003

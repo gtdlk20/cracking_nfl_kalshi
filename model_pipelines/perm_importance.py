@@ -31,7 +31,7 @@ def compute_permutation_importance(model=None, dp=None):
         perm_importance[feature] = np.mean(deltas)
 
     perm_df = pd.DataFrame(perm_importance, index=['importance']).T.sort_values(by='importance', ascending=False)
-    perm_df.to_pickle('store_models/perm_importance.pkl')
+    perm_df.to_csv('store_models/perm_importance.csv')  
     return perm_df
 
 def main():

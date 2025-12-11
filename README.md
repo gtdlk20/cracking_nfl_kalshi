@@ -92,6 +92,16 @@ python add_vader_sentiment_scores.py
 Train & assess model
 python assess_model.py
 
+To re-run model grid search:
+grid search parameters are stored in model_pipelines/nn_grid_search.py.  Adjust parameters here to try new model configurations
+run python train_model.py
+training results will be printed and stored in store_models/cv_results.pkl
+new figures will be generated automatically
+
+To recrate our figures:
+run python train_model.py -rt (this recreates files that are too large to commit to git which the figures need)
+run python assess_model.py to recreate the figures
+
 ## Authors & contact
 - Charlie Williams
 - Garrett Kaufmann

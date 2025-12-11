@@ -23,7 +23,7 @@ def GRU_generator():
 
         # 2) Build model for this set of hyperparams
         model = keras.Sequential([
-            keras.Input(shape=dp.X_train.shape[1:]),        # (timesteps, features)
+            keras.Input(shape=dp.X_train.shape[1:]),    
             layers.GRU(gru_size, return_sequences=False, dropout=dropout),
             layers.Dense(dense_units, activation='relu'),
             layers.Dense(1)
@@ -76,8 +76,8 @@ def CNN_generator():
 
 
 def model_generator():
-    # generators = [CNN_generator(),GRU_generator()]
-    generators = [GRU_generator()]
+    generators = [CNN_generator(),GRU_generator()]
+    # generators = [GRU_generator()]
     for generator in generators:
         for model, dp, progress_string, params, param_strings in generator:
             yield model, dp, progress_string, params, param_strings
